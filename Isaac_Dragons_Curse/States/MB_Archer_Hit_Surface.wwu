@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{930FA1C4-329A-471D-82E1-E1119019BACA}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="MB_Archer_Hit_Surface" ID="{930FA1C4-329A-471D-82E1-E1119019BACA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWG_Archer_Attack_Hit_Material" ID="{89B8833F-3C98-4C97-B20E-17C3E57E74B0}">
+					<ChildrenList>
+						<Switch Name="Flesh" ID="{0984B24F-E751-402B-AD0C-F70C6D38C593}"/>
+						<Switch Name="Wood" ID="{8D47766E-66D7-4A45-9BF0-02879240C1EE}"/>
+						<Switch Name="Rock" ID="{BC8D012A-D0B6-48E9-B0E9-40912EA9B50D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

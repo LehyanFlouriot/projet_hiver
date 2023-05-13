@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDA28AEF-8F38-4825-A4E7-1F9B9C8C2BA8}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CDA28AEF-8F38-4825-A4E7-1F9B9C8C2BA8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Simulation" ID="{A7186908-9187-48F9-9127-4C6C0BE8E719}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Efhoris_Menu" ID="{620EF47B-2CC2-4199-93D4-BC59C1F9BF56}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chest_Close" ID="{59DB3983-72F4-4994-AF2B-6015B00E5F76}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Assassin_Attack_Basic" ID="{8B18BDBC-F5CB-487C-8BBC-B1C17B33C29B}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_Forge_Fire" ID="{D7D44EA1-05A5-444B-AA7B-5780BD49A4C5}" WorkUnitID="{3525AD47-E45D-49AC-84D8-4D8C62600B58}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Stinger_Items_rare" ID="{C180DBCE-CEF3-40E8-A52B-F84ED80B4C55}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chest_Gargling" ID="{73E0E762-826D-4172-8138-6D2FC796C84D}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Assassin_Attack_Combo" ID="{A99BE36B-B168-4A85-8D5E-72E4AA55CC0F}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Stinger_Reanimation" ID="{A1DEF556-EE39-4FD0-8F17-78C5E753FC00}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chest_Moving_Loop" ID="{DD7C4A5E-8044-4D8F-A3F4-D3D2995A4BD3}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Assassin_Attack_ComboSpell" ID="{77B9244E-EC6A-472D-B3AD-92EE3DC483D6}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Efhoris_Menu" ID="{FEC6A0E2-6BB5-4161-9DEC-83493E31D19D}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chest_Close_End" ID="{2BED3E8C-CCA7-49BF-8A7D-BD713451B8D7}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Assassin_Attack_Dash" ID="{4C2FB921-23E5-48A8-B950-0CA34A1F8281}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chest_Moving_Tokens" ID="{8471E670-3794-4777-82D5-64BD82802F8F}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Assassin_Attack_Saut" ID="{93465763-7968-45BD-945A-9659B3D6292E}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chest_Open" ID="{DDF341EC-9907-487C-9CFF-D9D30A389AD3}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{7BDE0D88-C234-4968-B051-2143B1219F8B}"/>
+						<CurrentStateRef Name="None" ID="{D9DA78D0-9A69-4356-96C9-BF595AC726F0}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Player_FT_Dirt" ID="{E8E71DB5-9720-4980-8D7C-9B3E6D72A783}"/>
+						<CurrentSwitchRef Name="Flesh" ID="{0984B24F-E751-402B-AD0C-F70C6D38C593}"/>
+						<CurrentSwitchRef Name="Player_FT_Dirt" ID="{AC4C65B5-DD11-49E2-9DC2-736B9923C860}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7FA276A3-44FD-42F4-9956-61A6017A9F05}" SchemaVersion="103" RootDocumentID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" ParentDocumentID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}">
+	<Events>
+		<WorkUnit Name="MeleeLight" ID="{7FA276A3-44FD-42F4-9956-61A6017A9F05}" OwnerID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_MeleeLight_Attack_Basic" ID="{99587472-BA5E-4569-940B-2C2521F74112}">
+					<ChildrenList>
+						<Action Name="" ID="{88023611-9EE8-4C25-AB62-24489320DBF8}" ShortID="684681567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_MeleeLight_Attack_Basic" ID="{68297003-0E0B-492E-9B57-3FB922C409BE}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MeleeLight_Dash" ID="{C8C56F6D-29A9-4E45-B137-54BDB8F5B56D}">
+					<ChildrenList>
+						<Action Name="" ID="{FC0FED06-0C27-4957-AE27-A4A5463E6C0D}" ShortID="98383717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_MeleeLight_Dash" ID="{75A2BDD7-86BE-44B4-8E0E-AD664E2E7C46}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MeleeLight_Roulade" ID="{5F685E3E-3D54-436C-976F-6F884AB1A831}">
+					<ChildrenList>
+						<Action Name="" ID="{B2059ED7-CC4E-419D-8CFF-90928CDA5CD4}" ShortID="898968297">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_MeleeLight_Roulade" ID="{28B9FF72-A4D9-4768-8BD0-85A21C2099A0}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

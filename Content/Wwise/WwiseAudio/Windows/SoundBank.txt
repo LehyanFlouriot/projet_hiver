@@ -1,0 +1,371 @@
+Event	ID	Name			Wwise Object Path	Notes
+	40516875	Play_MenuSelect			\UI\Play_MenuSelect	
+	53780288	EV_Equip_Bow			\Equipements\EV_Equip_Bow	
+	114389895	Play_UI_Coins			\UI\Play_UI_Coins	
+	156786709	EV_Equip_LightArmor			\Equipements\EV_Equip_LightArmor	
+	211130646	Play_Ennemi_Stunned			\NPCs\NPC_Ennemi\Play_Ennemi_Stunned	
+	279637842	Play_Player_Roulade			\Envoie_Fin\Locomotion\Play_Player_Roulade	
+	329707398	Play_Tank_JumpLand			\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_JumpLand	
+	338242667	Play_Chest_Moving_Loop			\NPCs\Chest\Play_Chest_Moving_Loop	
+	354003232	Play_Dragon_Death			\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Death	
+	388588458	Play_Archer_Attack_Arrow_Released			\Attacks\Archer\Play_Archer_Attack_Arrow_Released	
+	440068038	play_Safe_Zone			\Musique\SafeZone\play_Safe_Zone	
+	513729959	EV_Equip_MidArmor			\Equipements\EV_Equip_MidArmor	
+	518954619	EV_UI_Menu_Marchant_Open			\UI\EV_UI_Menu_Marchant_Open	
+	544449386	Play_Combat_HorsCombat_Pallier1			\Musique\Combat\Play_Combat_HorsCombat_Pallier1	
+	562256996	Play_Player_Jump			\Envoie_Fin\Locomotion\Play_Player_Jump	
+	565958473	Play_Tank_BasicAttack			\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_BasicAttack	
+	598902628	Play_BossFight3			\Musique\Boss\Play_BossFight3	
+	616429677	Play_Archer_Attack_Bump			\Attacks\Archer\Play_Archer_Attack_Bump	
+	701695053	Play_Tank_BlocageHit			\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_BlocageHit	
+	725346841	Play_Player_Landing			\Envoie_Fin\Locomotion\Play_Player_Landing	
+	805714832	Play_Stingers_Character_Death			\Musique\Stingers\Play_Stingers_Character_Death	
+	825818215	Play_Assassin_Attack_Dash			\Attacks\Assassin_Attack\Play_Assassin_Attack_Dash	
+	848698739	STINGER_Dungeon_Cleared			\Musique\Stingers\STINGER_Dungeon_Cleared	
+	917861682	Play_Item_Pickup_Common			\Items\Play_Item_Pickup_Common	
+	984658199	Play_BlackHole_End			\Attacks\Mage_Attack\BlackHole\Play_BlackHole_End	
+	1004125602	Play_Equip_Chevalier			\Equipements\Play_Equip_Chevalier	
+	1006719420	Play_Stinger_Items_rare			\Musique\Stingers\Play_Stinger_Items_rare	
+	1081698960	Play_Wolf_Growl			\NPCs\Wolf\Play_Wolf_Growl	
+	1188297499	Play_BlackHole_Next			\Attacks\Mage_Attack\BlackHole\Play_BlackHole_Next	
+	1209698245	Play_Tank_Jump			\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_Jump	
+	1304993686	Play_Chevalier_Taunt			\Attacks\Knight\Play_Chevalier_Taunt	
+	1332854418	Play_UI_Parchemin			\UI\Play_UI_Parchemin	
+	1393174113	Play_CallChest			\Items\Play_CallChest	
+	1439102064	STINGER_Boss_Defeated			\Musique\Stingers\STINGER_Boss_Defeated	
+	1478198855	Play_BasicSpell_Throw			\Attacks\Mage_Attack\BasicSpell\Play_BasicSpell_Throw	
+	1485199635	Play_Chest_Moving_Tokens			\NPCs\Chest\Play_Chest_Moving_Tokens	
+	1592126684	Play_Archer_Attack_Arrow_RainHit			\Attacks\Archer\Play_Archer_Attack_Arrow_RainHit	
+	1698610353	Play_EndCombat			\Musique\Stingers\Play_EndCombat	
+	1750194078	Play_Meteor_Next			\Attacks\Mage_Attack\Meteor\Play_Meteor_Next	
+	1816189465	Play_Dragon_Tornado			\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Tornado	
+	1941593483	Play_Meteor_Start			\Attacks\Mage_Attack\Meteor\Play_Meteor_Start	
+	2033806570	Play_Fireball_Impact			\NPCs\NPC_Ennemi\Dragon\Play_Fireball_Impact	
+	2047103783	Play_Assassin_Attack_ComboSpell			\Attacks\Assassin_Attack\Play_Assassin_Attack_ComboSpell	
+	2049105162	Play_Chest_Close_End			\NPCs\Chest\Play_Chest_Close_End	
+	2071246154	Play_Archer_Attack_BowStretch			\Attacks\Archer\Play_Archer_Attack_BowStretch	
+	2093163829	Cinematique1			\Musique\Cinematic\Cinematique1	
+	2171745078	Play_Wings			\NPCs\NPC_Ennemi\Dragon\Play_Wings	
+	2175711460	Play_Player_Dash			\Envoie_Fin\Locomotion\Play_Player_Dash	
+	2212109925	Play_BasicSpellHit			\Attacks\Mage_Attack\Lazer\Play_BasicSpellHit	
+	2249065721	Play_fire_flight_end			\NPCs\NPC_Ennemi\Dragon\Play_fire_flight_end	
+	2270376495	Play_Laser			\Attacks\Mage_Attack\Lazer\Play_Laser	
+	2292531198	Play_Archer_Attack_Arrow_Hit			\Attacks\Archer\Play_Archer_Attack_Arrow_Hit	
+	2298412414	EV_Equip_HeavyArmor			\Equipements\EV_Equip_HeavyArmor	
+	2305875826	Play_MeleeLight_Attack_Basic			\NPCs\MeleeLight\Play_MeleeLight_Attack_Basic	
+	2326356109	Play_Wolf_Die			\NPCs\Wolf\Play_Wolf_Die	
+	2348663765	Play_Ennemi_StunnedEnd			\NPCs\NPC_Ennemi\Play_Ennemi_StunnedEnd	
+	2360741120	Play_Assassin_Attack_Saut			\Attacks\Assassin_Attack\Play_Assassin_Attack_Saut	
+	2423445336	Play_Dragon_Swipe			\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Swipe	
+	2448503775	BossFight_VICTORY			\Musique\Boss\BossFight_VICTORY	
+	2483539421	Play_Chest_Gargling			\NPCs\Chest\Play_Chest_Gargling	
+	2500328524	Play_BasicSpell_Hit			\Attacks\Mage_Attack\BasicSpell\Play_BasicSpell_Hit	
+	2507877674	Play_Stingers_Item_Rare			\Musique\Stingers\Play_Stingers_Item_Rare	
+	2517273705	Play_Chevalier_BasicAttack1			\Attacks\Knight\Play_Chevalier_BasicAttack1	
+	2517273706	Play_Chevalier_BasicAttack2			\Attacks\Knight\Play_Chevalier_BasicAttack2	
+	2533468255	Play_Assassin_Attack_Basic			\Attacks\Assassin_Attack\Play_Assassin_Attack_Basic	
+	2560700912	Play_Chest_Open			\NPCs\Chest\Play_Chest_Open	
+	2591243923	Play_Stinger_GameStart			\Musique\Stingers\Play_Stinger_GameStart	
+	2620431640	Play_MenuScroll			\UI\Play_MenuScroll	
+	2663980466	Play_Foot			\NPCs\NPC_Ennemi\Dragon\Play_Foot	
+	2684675406	Play_Item_Pickup_MidArmor			\Items\Play_Item_Pickup_MidArmor	
+	2732911073	Play_Dragon_Idle_Breath			\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Idle_Breath	
+	2751701252	Play_BlackHole_Start			\Attacks\Mage_Attack\BlackHole\Play_BlackHole_Start	
+	2858266821	UI_Confirmation			\UI\UI_Confirmation	
+	2881357147	Play_Wolf_Bark			\NPCs\Wolf\Play_Wolf_Bark	
+	3011266385	Play_MeleeLight_Roulade			\NPCs\MeleeLight\Play_MeleeLight_Roulade	
+	3018616930	Play_EndLaser			\Attacks\Mage_Attack\Lazer\Play_EndLaser	
+	3048315967	BossFight_1erRencontre			\Musique\Boss\BossFight_1erRencontre	
+	3062209091	Play_Item_Pickup_HeavyArmor			\Items\Play_Item_Pickup_HeavyArmor	
+	3065555120	Play_Efhoris_Menu			\Musique\Menu\Play_Efhoris_Menu	
+	3069062162	EV_UI_Menu_MainTitle_Start			\UI\EV_UI_Menu_MainTitle_Start	
+	3183505697	Play_Ambiance_Forge_Fire			\Ambiance\Play_Ambiance_Forge_Fire	
+	3189272198	Play_Stinger_Reanimation			\Musique\Stingers\Play_Stinger_Reanimation	
+	3232399478	Play_Chevalier_BlocageHit			\Attacks\Knight\Play_Chevalier_BlocageHit	
+	3307629843	Play_Potion			\Items\Play_Potion	
+	3323263385	Play_MeleeLight_Dash			\NPCs\MeleeLight\Play_MeleeLight_Dash	
+	3335799005	BossFight_START			\Musique\Boss\BossFight_START	
+	3400874010	Play_Fire_Flight_Start			\NPCs\NPC_Ennemi\Dragon\Play_Fire_Flight_Start	
+	3534418672	Play_EnterCombat			\Musique\Stingers\Play_EnterCombat	
+	3627276834	Play_Archer_Attack_Arrow_MultipleHit			\Attacks\Archer\Play_Archer_Attack_Arrow_MultipleHit	
+	3686573818	Play_BasicSpellThrow			\Attacks\Mage_Attack\Lazer\Play_BasicSpellThrow	
+	3701633166	EV_UI_Menu_Marchant_Purchase			\UI\EV_UI_Menu_Marchant_Purchase	
+	3767495960	EV_Ambiance_Dungeon			\Ambiance\EV_Ambiance_Dungeon	
+	3771590507	Play_Assassin_Attack_Combo			\Attacks\Assassin_Attack\Play_Assassin_Attack_Combo	
+	3807523501	Play_Dragon_Fireball			\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Fireball	
+	3852004955	Play_Dragon_Idle_Roar			\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Idle_Roar	
+	3907910527	Play_Chevalier_Blocage			\Attacks\Knight\Play_Chevalier_Blocage	
+	3967693624	UI_Selection			\UI\UI_Selection	
+	3979007828	Play_Chest_Close			\NPCs\Chest\Play_Chest_Close	
+	4033782256	Play_Meteor_End			\Attacks\Mage_Attack\Meteor\Play_Meteor_End	
+	4067007264	Play_Item_Pickup_LightArmor			\Items\Play_Item_Pickup_LightArmor	
+	4078825894	Play_Player_FT			\Envoie_Fin\Locomotion\Play_Player_FT	
+	4108717446	Stop_Efhoris_Menu			\Musique\Menu\Stop_Efhoris_Menu	
+	4121414351	Play_Chevalier_SwirlAttack			\Attacks\Knight\Play_Chevalier_SwirlAttack	
+	4203347085	Play_PalierX			\Musique\Combat\Play_PalierX	
+	4237383421	Play_Efhoris_Menu_Fast			\Musique\Menu\Play_Efhoris_Menu_Fast	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2889334948	SWG_Player_Locomotion_01			\Default Work Unit\SWG_Player_Locomotion_01	
+	3552239958	SWG_Player_Locomotion			\AHSW_Player_Locomotion\SWG_Player_Locomotion	
+	4249273531	SWG_Archer_Attack_Hit_Material				
+
+Switch	ID	Name	Switch Group			Notes
+	1617257345	Player_FT_Wood	SWG_Player_Locomotion_01			
+	2984325045	Player_FT_Dirt	SWG_Player_Locomotion_01			
+	4218450728	Player_FT_Grass	SWG_Player_Locomotion_01			
+	1617257345	Player_FT_Wood	SWG_Player_Locomotion			
+	2984325045	Player_FT_Dirt	SWG_Player_Locomotion			
+	4218450728	Player_FT_Grass	SWG_Player_Locomotion			
+	1153642577	Flesh	SWG_Archer_Attack_Hit_Material			
+	2058049674	Wood	SWG_Archer_Attack_Hit_Material			
+	2144363834	Rock	SWG_Archer_Attack_Hit_Material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	482090021	Pallier1			\AHMusic\Pallier1	
+	580146960	Bossfight			\AHMusic\Bossfight	
+	655140553	SG_BossFight			\MBMusic_BossFight\SG_BossFight	
+	783488552	PalierX			\JD_States\PalierX	
+	2139426307	BossFight3			\JD_States\BossFight3	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Pallier1			
+	2764240573	Combat	Pallier1			
+	4145362107	HorsCombat	Pallier1			
+	748895195	None	Bossfight			
+	3630028968	Phase2	Bossfight			
+	3630028969	Phase3	Bossfight			
+	3630028971	Phase1	Bossfight			
+	748895195	None	SG_BossFight			
+	2002117580	Phase_01	SG_BossFight			
+	2002117582	Phase_03	SG_BossFight			
+	2002117583	Phase_02	SG_BossFight			
+	748895195	None	PalierX			
+	3050905843	En_Combat	PalierX			
+	3476902982	Hors_Combat	PalierX			
+	748895195	None	BossFight3			
+	3630028968	Phase2	BossFight3			
+	3630028969	Phase3	BossFight3			
+	3630028971	Phase1	BossFight3			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	16108061	Hors_Combat	PalierX	\Interactive Music Hierarchy\JD_Music\PalierX\PalierX_Loop\PalierX_EnCombat_60bpm_6-8_L32m_P2b		
+	41700556	Phase2	Bossfight	\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss1erPhase_180Bpm_4-4_L93m		
+	48359784	Phase1	Bossfight	\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss3ePhase_180Bpm_4-4_L93m		
+	49843445	Phase_01	SG_BossFight	\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m		
+	199643521	Phase_03	SG_BossFight	\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m		
+	219573139	Phase1	BossFight3	\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_High_80bpm_6-8_L40m_P4b		
+	278386990	Phase1	BossFight3	\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_Med_80bpm_6-8_L40m_P4b		
+	338451761	Phase_03	SG_BossFight	\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m		
+	382755363	Phase_02	SG_BossFight	\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m		
+	393899622	Phase3	Bossfight	\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss2ePhase_180Bpm_4-4_L93m		
+	492795951	Phase1	Bossfight	\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss2ePhase_180Bpm_4-4_L93m		
+	506924646	Phase3	BossFight3	\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_Med_80bpm_6-8_L40m_P4b		
+	599589443	HorsCombat	Pallier1	\Interactive Music Hierarchy\AHMusic\Pallier1\Pallier1\combat_180Bpm_4-4_L89m_P2m		
+	625311155	Phase3	Bossfight	\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss1erPhase_180Bpm_4-4_L93m		
+	737444021	En_Combat	PalierX	\Interactive Music Hierarchy\JD_Music\PalierX\PalierX_Loop\PalierX_HorsCombat_60bpm_6-8_L32m_P2b		
+	750905009	Phase2	Bossfight	\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss3ePhase_180Bpm_4-4_L93m		
+	804254435	Phase2	BossFight3	\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_Low_80bpm_6-8_L40m_P4b		
+	805129604	Combat	Pallier1	\Interactive Music Hierarchy\AHMusic\Pallier1\Pallier1\hors combat_180Bpm_4-4_L89m_P2m		
+	826127886	Phase_02	SG_BossFight	\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m		
+	852270727	Phase3	BossFight3	\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_Low_80bpm_6-8_L40m_P4b		
+	921411822	Phase_01	SG_BossFight	\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m		
+	953362212	Phase2	BossFight3	\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_High_80bpm_6-8_L40m_P4b		
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	33297372	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Wolf\Silence\Wwise Silence	
+	95874675	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Idle\Dragon_Breath\SQ_Dragon_Breath_Growl\Silence\Wwise Silence	
+	424071251	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Crows\Silence\Wwise Silence	
+	466680809	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_DistantWind\Silence\Wwise Silence	
+	499452319	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Howl\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2763498	SFX_Equip_HeavyArmor_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_HeavyArmor_01_10C4C929.wem		\Actor-Mixer Hierarchy\Objects\Mixer_Equipments\RDM_Equipements_Pickup_HeavyArmor\SFX_Equip_HeavyArmor_01		144144
+	4259411	SFX_Arrow_MultipleHit	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_MultipleHit_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SFX_Arrow_MultipleHit		120744
+	6023316	SFX_Ambiance_Forge_Fire	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Ambiance_Forge_Fire_89D90D4D.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Safe_zone\SQ_Ambiance_Forge_Fire\SFX_Ambiance_Forge_Fire		6956396
+	9815746	SFX_fire_flight_end	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_fire\growl_fire_end_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\Mixer_fire_flight\SQ_fire_flight_end\SFX_fire_flight_end		176544
+	10602925	SFX_Equip_LightArmor_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_LightArmor_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\RDM_Equip_LightArmor\SFX_Equip_LightArmor_01		72144
+	11482370	Météor explose 2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Météor explose 2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_Meteor\SQ_Mage_Attack_Meteor_End\RDM_Mage_Attack_Meteor_End\Météor explose 2		1223848
+	23353793	SFX_UI_OpenPurchaseMenu	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_UI_OpenPurchaseMenu_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Marchant\SFX_UI_OpenPurchaseMenu		160144
+	29391920	SFX_Shield_Hit2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Shield_Hit2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\Mixer_Knight_Attack_Blocks\SQ_Player_Block_Hit\RDM_Player_Blocks\SFX_Shield_Hit2		226128
+	33091344	SFX_growl_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_04_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Tornado\SQ_Dragon_Breath_Growl\RDM_Dragon_Breath_Growl\SFX_growl_04		630588
+	34931800	SFX_Die	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\wolf_die_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\Wolf\SFX_Die		62272
+	40063884	SFX_Foot_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Foot_02_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Locomotion\RDM_foot\SFX_Foot_02		384144
+	44387928	Boss_Fight_03_VICTORY_180bpm_3-4_P3b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\VICTORY\Boss_Fight_03_VICTORY_180bpm_3-4_P3b_D79FB2B7.wem		\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Victory\Boss_Fight_03_VICTORY_180bpm_3-4_P3b		3840224
+	47904609	SFX_Player_Jump_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Jump Sound by D-Ryro Id-674341_49882907.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Jump\RDM_Player_Jump\SFX_Player_Jump_04		79294
+	49007233	SFX_Arrow_RainHit	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_RainHit_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SFX_Arrow_RainHit		624144
+	51789691	SFX_Tank_BasicAttack1	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_BasicAttack1_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\SQ_NPC_MeleeTank_Attack_Basic\RDM_NPC_MeleeTank_Attack_Basic\SFX_Tank_BasicAttack1		152476
+	56548434	SFX_Chevalier_BasicAttack1	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chevalier_BasicAttack1_4F4299AC.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\SQ_Knight_Attack_BasicHit\RDM_Knight_Attack_BasicHit\SFX_Chevalier_BasicAttack1		195140
+	56921512	SFX_Arrow_Hit_Wood_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Wood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Wood\SFX_Arrow_Hit_Wood_02		99984
+	67537724	Boss_Fight_03_Phase3_180bpm_3-4_P1m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m_D79FB2B7.wem		\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m		31680256
+	86690362	SFX_Player_Jump_Dirt_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_A47E437A.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Dirt\RDM_Player_Jump_Dirt\SFX_Player_Jump_Dirt_01		75782
+	88513637	SFX_Player_FT_Dirt_05	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_C04E3639.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_FT\SQ_Player_FT_Dirt\RDM_Player_FT_Dirt\SFX_Player_FT_Dirt_05		50956
+	92265441	Boss_Fight_03_Phase1_180bpm_3-4_P1m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m_D79FB2B7.wem		\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m		31680256
+	100379725	UI Confirmation	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\UI Confirmation_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Mixer_UI\UI Confirmation		39744
+	103401035	STINGER_Dungeon_Cleared	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\STINGER_Dungeon_Cleared_D79FB2B7.wem		\Interactive Music Hierarchy\MBStingers\STINGER_Dungeon_Cleared\STINGER_Dungeon_Cleared		1792192
+	109403787	combat_180Bpm_4-4_L89m_P2m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Pallier1\combat_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Pallier1\Pallier1\combat_180Bpm_4-4_L89m_P2m		23040064
+	112793645	SFX_Player_Locomotion_Roulade_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Vs Short Whoosh 8 by Vilkas_Sound Id-460473_7DB42E4C.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Roulade\RDM_Player_Roulade\SFX_Player_Locomotion_Roulade_03		155264
+	117325862	Lancement de sort	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Lancement de sort_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BasicSpell\SQ_Mage_Attack_BasicSpell_Throw\Lancement de sort		1180192
+	125046832	boss_180Bpm_4-4_L8m_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\boss intro master mlt_1_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\boss intro master mlt_1\boss_180Bpm_4-4_L8m_P2b		3328064
+	134127617	SFX_UI_parchemin	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\UI_parchemin_10C4C929.wem		\Actor-Mixer Hierarchy\UI\VM_Mixer_UI\SQ_UI_parchemin\SFX_UI_parchemin		242692
+	145803855	SFX_Ambiance_Howl_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Howl_02_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Howl\RDM_Ambiance_Donjon_Howl\SFX_Ambiance_Howl_02		672144
+	148164599	SFX_Player_Dash_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_A6198A0F.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Dash\RDM_Player_Dash\SFX_Player_Dash_01		115828
+	155051694	Safe_Zone_Intro_60bpm_4-4_L5m_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Safe_Zone_Intro_60bpm_4-4_L5m_P2b_D79FB2B7.wem		\Interactive Music Hierarchy\VMMusic\Safe_Zone\Safe_Zone_Intro_60bpm_4-4_L5m_P2b\Safe_Zone_Intro_60bpm_4-4_L5m_P2b		2822624
+	161863342	SFX_breath	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\breath_MIX_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Idle\Dragon_Breath\SQ_Dragon_Breath_Loop\SFX_breath		2260268
+	177049501	SFX_Arrow_Hit_Wood_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Wood\SFX_Arrow_Hit_Wood_03		114056
+	177827216	SFX_MeleeLight_BasicAttack_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_MeleeLight_BasicAttack_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeLight\SQ_MeleeLight_Attack_Basic\SFX_MeleeLight_BasicAttack_01		146620
+	183415415	Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Efhoris_Menu\Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b\Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b		42788640
+	189739556	Hit 1	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Hit 1_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BasicSpell\SQ_Mage_Attack_BasicSpell_Hit\BassicSpellHit\Hit 1		824192
+	200864741	SFX_Equip_LightArmor_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_LightArmor_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\RDM_Equip_LightArmor\SFX_Equip_LightArmor_02		95844
+	218380706	SFX_Foot_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Foot_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Locomotion\RDM_foot\SFX_Foot_01		245144
+	220813998	SFX_Player_Jump_Dirt_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_E58F8A4D.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Dirt\RDM_Player_Jump_Dirt\SFX_Player_Jump_Dirt_04		89760
+	224642287	SFX_growl_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Tornado\SQ_Dragon_Breath_Growl\RDM_Dragon_Breath_Growl\SFX_growl_01		286792
+	229941993	SFX_Potion	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Potion_10C4C929.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SFX_Potion		144960
+	230300779	SFX_CallChest	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Whistle_10C4C929.wem		\Actor-Mixer Hierarchy\Objects\Mixer_Equipments\SFX_CallChest		207424
+	231843068	SFX_Growl	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\wolf_growl_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\Wolf\SFX_Growl		423424
+	236293957	SFX_Item_Purchase_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Item_Purchase_03_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Marchant\UI_Menu_Marchant_Purchase\SFX_Item_Purchase_03		160144
+	248129248	Tomber	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Tomber_145E448F.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_Meteor\SQ_Mage_Attack_Meteor_Fall\RDM_Mage_Attack_Meteor_Fall\Tomber		1289316
+	251770872	SFX_Equip_MidArmor_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_MidArmor_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\RDM_Equip_MidArmor\SFX_Equip_MidArmor_02		192144
+	255832515	item_rare_100bpm_3-4_L6m_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\item_rare_100bpm_3-4_L6m_P2b_D79FB2B7.wem		\Interactive Music Hierarchy\VMMusic\item_rare\item_rare_100bpm_3-4_L6m_P2b		1905264
+	261143305	SFX_ChestMovingLoop_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_ChestMovingLoop_01_96171C67.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Moving_Loop\SFX_ChestMovingLoop_01		911800
+	269545587	Zoom	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Zoom_F8CB2E48.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_Meteor\SQ_Mage_Attack_Meteor_Zoom\RDM_Mage_Attack_Meteor_Zoom\Zoom		1156264
+	283936304	SFX_Shield_Hit3	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Shield_Hit3_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\Mixer_Knight_Attack_Blocks\SQ_Player_Block_Hit\RDM_Player_Blocks\SFX_Shield_Hit3		205728
+	287902415	SFX_Player_Locomotion_Roulade_05	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Vs Short Whoosh 7 by Vilkas_Sound Id-460474_94913BE6.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Roulade\RDM_Player_Roulade\SFX_Player_Locomotion_Roulade_05		158716
+	289316355	SFX_Player_Locomotion_Roulade_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Vs Short Whoosh 6 by Vilkas_Sound Id-460475_C770D416.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Roulade\RDM_Player_Roulade\SFX_Player_Locomotion_Roulade_02		154012
+	292221875	SFX_Arrow_Released_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Released_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\RDM_ARDMher_Attack_Released\SFX_Arrow_Released_03		96144
+	299920748	Trou noir	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Trou noir_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BlackHole\SQ_Mage_Attack_BlackHole_Next\Trou noir		1776144
+	306681644	Hit 2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Hit 2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BasicSpell\SQ_Mage_Attack_BasicSpell_Hit\BassicSpellHit\Hit 2		824192
+	327281818	BossFight3_Low_80bpm_6-8_L40m_P4b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\BossFight3_Low_80bpm_6-8_L40m_P4b_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_Low_80bpm_6-8_L40m_P4b		18864064
+	327298396	SFX_growl_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_02_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Tornado\SQ_Dragon_Breath_Growl\RDM_Dragon_Breath_Growl\SFX_growl_02		330892
+	327346513	SFX_Equip_Bow	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_Bow_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\SFX_Equip_Bow		116144
+	328612463	SFX_Chest-Open_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chest-Open_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Open\SFX_Chest-Open_01		74680
+	335862184	Boss_Fight_03_INTRO_120bpm_4-4_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\INTRO\Boss_Fight_03_INTRO_120bpm_4-4_P2b_D79FB2B7.wem		\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_INTRO\Boss_Fight_03_INTRO_120bpm_4-4_P2b		4800176
+	346718746	SFX_Arrow_Bump(10sec)	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Bump(10sec)_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SFX_Arrow_Bump(10sec)		1944144
+	364671268	SFX_Foot_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Foot-03_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Locomotion\RDM_foot\SFX_Foot_03		245144
+	368017258	Boom	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Boom_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BlackHole\SQ_Mage_Attack_BlackHole_End\Boom		840144
+	369212898	SFX_Ambiance_Howl_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Howl_03_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Howl\RDM_Ambiance_Donjon_Howl\SFX_Ambiance_Howl_03		456144
+	374884546	SFX_Player_Dash_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_8AEB9269.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Dash\RDM_Player_Dash\SFX_Player_Dash_03		144768
+	383234521	Efhoris_Stinger_Reanimation	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Efhoris_Stinger_Reanimation_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Efhoris_Stinger_Reanimation\Efhoris_Stinger_Reanimation		822920
+	408430300	SFX_Item_Purchase_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Item_Purchase_02_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Marchant\UI_Menu_Marchant_Purchase\SFX_Item_Purchase_02		160144
+	413348318	SFX_fire_flight_Loop	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_fire\growl_fire_loop_76142B90.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\Mixer_fire_flight\SQ_fire_flight_Loop\SFX_fire_flight_Loop		397108
+	417638323	SFX_Player_Jump_Dirt_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_003C0CBE.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Dirt\RDM_Player_Jump_Dirt\SFX_Player_Jump_Dirt_02		75782
+	418643340	Efhoris_Stinger_Items-rare	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Efhoris_Stinger_Items-rare_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Efhoris_Stinger_Items-rare\Efhoris_Stinger_Items-rare		822920
+	419756390	SFX_ComboSpell_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\ComboSpell_01_27574A9E.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\Mixer_Assassin_Attacks\SQ_Assassin_Attack_ComboSpell\SFX_ComboSpell_01		239752
+	421231841	SFX_Dragon_Death_Scream	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\deathh_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Death\SQ_Dragon_Death_Scream\SFX_Dragon_Death_Scream		485244
+	421382802	SFX_Dragon_Death_FallGround	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\death_fallground_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Death\SQ_Dragon_Death_FallGround\SFX_Dragon_Death_FallGround		384192
+	432313066	Boss_Fight_03_Phase2_180bpm_3-4_P1m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m_D79FB2B7.wem		\Interactive Music Hierarchy\MBMusic\MPC_BossFight\MBMusic_BossFight_Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m		31680256
+	435014191	fireball_impact_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\fireball_impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\RDM_Fireball_Impact\fireball_impact_01		529344
+	457323496	hors combat_180Bpm_4-4_L89m_P2m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Pallier1\hors combat_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Pallier1\Pallier1\hors combat_180Bpm_4-4_L89m_P2m		23040064
+	458931281	SFX_Arrow_Hit_Flesh_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Flesh_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Flesh\SFX_Arrow_Hit_Flesh_03		79744
+	460480064	Boss2ePhase_180Bpm_4-4_L93m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Boss 1e rencontre\2e phase master mlt_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss2ePhase_180Bpm_4-4_L93m		24064064
+	463862884	SFX_Chevalier_BasicAttack2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chevalier_BasicAttack2_50BBE128.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\SQ_Knight_Attack_BasicHit\RDM_Knight_Attack_BasicHit\SFX_Chevalier_BasicAttack2		158808
+	467115090	SFX_Player_Jump_Dirt_05	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_2CAA0983.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Dirt\RDM_Player_Jump_Dirt\SFX_Player_Jump_Dirt_05		68792
+	468400268	SFX_Player_Jump_Grass_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_1FEA1149.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Grass\RDM_Player_Jump_Grass_01\SFX_Player_Jump_Grass_03		86532
+	472788793	SFX_UI_StartGame	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_UI_StartGame_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_MainTitle\SFX_UI_StartGame		504144
+	475617709	SFX_MenuScroll	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_MenuScroll_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Mixer_UI\SFX_MenuScroll		76744
+	480739447	SFX_Ambiance_Crows_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Crows_02_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Crows\RDM_Ambiance_Donjon_Crows\SFX_Ambiance_Crows_02		552144
+	489870192	SFX_Arrow_Hit_Rock_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Rock\SFX_Arrow_Hit_Rock_03		96144
+	495405681	SFX_Arrow_Hit_Wood_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Wood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Wood\SFX_Arrow_Hit_Wood_01		77900
+	501035616	SFX_Player_Locomotion_Roulade_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Whoosh Short 4 by Mellau Id-530444_60F41376.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Roulade\RDM_Player_Roulade\SFX_Player_Locomotion_Roulade_01		163568
+	503671137	Boss3ePhase_180Bpm_4-4_L93m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Boss 1e rencontre\3e phase master mlt_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss3ePhase_180Bpm_4-4_L93m		24064064
+	507028820	SFX_Item_Purchase_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Item_Purchase_01_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Marchant\UI_Menu_Marchant_Purchase\SFX_Item_Purchase_01		160144
+	510612928	BossFight3_High_80bpm_6-8_L40m_P4b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\BossFight3_High_80bpm_6-8_L40m_P4b_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_High_80bpm_6-8_L40m_P4b		18840064
+	525166548	PalierX_HorsCombat_60bpm_6-8_L32m_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\PalierX_HorsCombat_60bpm_6-8_L32m_P2b_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\PalierX\PalierX_Loop\PalierX_HorsCombat_60bpm_6-8_L32m_P2b		19776068
+	531210525	SFX_Player_FT_Dirt_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_6B71E345.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_FT\SQ_Player_FT_Dirt\RDM_Player_FT_Dirt\SFX_Player_FT_Dirt_03		46592
+	531723863	SFX_Player_Jump_Grass_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_52C81716.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Grass\RDM_Player_Jump_Grass_01\SFX_Player_Jump_Grass_01		97106
+	541999452	SFX_Player_Jump_Dirt_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_2DCEC344.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Dirt\RDM_Player_Jump_Dirt\SFX_Player_Jump_Dirt_03		81606
+	546035076	SFX_Tank_AttackLanding2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_AttackLanding2_3F2411AB.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\Mixer_NPC_MeleeTank_Attack_Jump\SQ_NPC_MeleeTank_Attack_JumpLand\SFX_Tank_AttackLand\SFX_Tank_AttackLanding2		232736
+	551783925	SFX_tornado	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\tornado_MIX_646382B6.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Tornado\SFX_tornado		1411344
+	564823756	SFX_Ennemi_Stuned_Loop	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ennemi_Stuned_Loop_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\Mixer_Ennemies_Stunned\SQ_Ennemies_Stunned_Loop\SFX_Ennemi_Stuned_Loop		1905240
+	566530263	Mouvement de bras magique	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Mouvement de bras magique_51A4CD04.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BlackHole\SQ_Mage_Attack_BlackHole_Start\Mouvement de bras magique		763552
+	567854672	SFX_Wing_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\Wing_04_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Locomotion\RDM_Dragon_Wings\SFX_Wing_04		705744
+	576714091	SFX_Player_Dash_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_335E0164.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Dash\RDM_Player_Dash\SFX_Player_Dash_04		124096
+	577068860	SFX_Arrow_Released_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Released_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\RDM_ARDMher_Attack_Released\SFX_Arrow_Released_01		72144
+	580331884	SFX_Wing_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\Wing_03_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Locomotion\RDM_Dragon_Wings\SFX_Wing_03		705744
+	584027166	SFX_Chest_Moving_TokenM_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chest_Moving_TokenM_02_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Moving_Tokens\RDM_Chestmoving_Tokens\SFX_Chest_Moving_TokenM_02		107068
+	587634813	STINGER_Dragon_Death	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\STINGER_Dragon_Death_D79FB2B7.wem		\Interactive Music Hierarchy\MBStingers\STINGER_Boss_Defeated_Common\STINGER_Dragon_Death		1728176
+	595408644	SFX_Player_Jump_Grass_05	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_37606069.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Grass\RDM_Player_Jump_Grass_01\SFX_Player_Jump_Grass_05		53564
+	599132453	character_death_100bpm_3-4_L5m_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\character_death_100bpm_3-4_L5m_P2b_F0FE0487.wem		\Interactive Music Hierarchy\VMMusic\character_death\character_death_100bpm_3-4_L5m_P2b		2116944
+	608969313	SFX_Player_Jump_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Jump Sound by D-Ryro Id-674341_AF823976.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Jump\RDM_Player_Jump\SFX_Player_Jump_03		99962
+	613754946	SFX_Arrow_Hit_Rock_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Rock\SFX_Arrow_Hit_Rock_02		66556
+	614192705	SFX_SautAttack_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SautAttack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\Mixer_Assassin_Attacks\SQ_Assassin_Attack_Saut\SFX_SautAttack_01		310356
+	614914779	SFX_Tank_AttackJump2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_AttackJump2_EA21CE16.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\Mixer_NPC_MeleeTank_Attack_Jump\SQ_NPC_MeleeTank_Attack_JumpHit\SFX_Tank_AttackJump\SFX_Tank_AttackJump2		247944
+	615242071	end combat_120Bpm_4-4_L5m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Stinger\end combat_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Stinger\end combat\end combat_120Bpm_4-4_L5m		1024064
+	620514979	SFX_Player_FT_Dirt_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_43165780.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_FT\SQ_Player_FT_Dirt\RDM_Player_FT_Dirt\SFX_Player_FT_Dirt_01		53864
+	626235721	SFX_Bark	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\wolf_bark_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\Wolf\SFX_Bark		255020
+	632036096	SFX_Player_Jump_Wood_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794_10E9C2E8.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Wood\RDM_Player_Jump_Wood_01\SFX_Player_Jump_Wood_02		72028
+	633285840	PalierX_EnCombat_60bpm_6-8_L32m_P2b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\PalierX_EnCombat_60bpm_6-8_L32m_P2b_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\PalierX\PalierX_Loop\PalierX_EnCombat_60bpm_6-8_L32m_P2b		19776068
+	635209948	SFX_Shield_Hit	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Shield_Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\Mixer_Knight_Attack_Blocks\SQ_Player_Block_Hit\RDM_Player_Blocks\SFX_Shield_Hit		264572
+	641994761	SFX_Arrow_Released_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Released_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\RDM_ARDMher_Attack_Released\SFX_Arrow_Released_02		120144
+	644111015	fireball_impact_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\fireball_impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\RDM_Fireball_Impact\fireball_impact_02		529344
+	646378452	Lazer	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Lazer_92163E82.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_Lazer\SQ_Mage_Attack_Lazer_Start\Lazer		1188192
+	649215632	SFX_roar	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\roar_MIX_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Idle\Dragon_Idle_Roar\SQ_Dragon_Idle_Roar\SFX_roar		705744
+	656755848	SFX_Ambiance_Wolf_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Wolf_01_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Wolf\RDM_Ambiance_Donjon_Wolf\SFX_Ambiance_Wolf_01		1344144
+	668448270	SFX_Ennemi_Stuned_Start	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ennemi_Stuned_Start_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\Mixer_Ennemies_Stunned\SQ_Ennemies_Stunned_Start\SFX_Ennemi_Stuned_Start		348752
+	669139650	fireball_impact_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\fireball_impact_04_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\RDM_Fireball_Impact\fireball_impact_04		529344
+	669800244	Safe_Zone_Loop_60bpm_4-4_L54m_P1b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Safe_Zone_Loop_60bpm_4-4_L54m_P1b_D79FB2B7.wem		\Interactive Music Hierarchy\VMMusic\Safe_Zone\Safe_Zone_Loop_60bpm_4-4_L54m_P1b\Safe_Zone_Loop_60bpm_4-4_L54m_P1b		38824436
+	683601309	SFX_DashAttack_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\DashAttack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\Mixer_Assassin_Attacks\SQ_Assassin_Attack_Dash\SFX_DashAttack_01		303828
+	696207107	SFX_Arrow_Hit_Flesh_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Flesh_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Flesh\SFX_Arrow_Hit_Flesh_02		95580
+	697219843	Boss1erPhase_180Bpm_4-4_L93m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Boss 1e rencontre\1erre phase master mlt_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Boss1erRencontre\Boss 1e rencontre\Boss1erPhase_180Bpm_4-4_L93m		24064064
+	705914848	SFX_Player_FT_Dirt_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_8D8D1AAE.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_FT\SQ_Player_FT_Dirt\RDM_Player_FT_Dirt\SFX_Player_FT_Dirt_04		52410
+	706148257	SFX_Arrow_Hit_Rock_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Rock\SFX_Arrow_Hit_Rock_01		69692
+	716427011	SFX_Equip_MidArmor_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_MidArmor_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\RDM_Equip_MidArmor\SFX_Equip_MidArmor_01		132144
+	718868573	SFX_Player_Jump_05	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Jump Sound by D-Ryro Id-674341_AA7D3AB3.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Jump\RDM_Player_Jump\SFX_Player_Jump_05		68960
+	735475531	SFX_Chevalier_Blocage	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chevalier_Blocage_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\Mixer_Knight_Attack_Blocks\SQ_Player_Block\SFX_Chevalier_Blocage		234816
+	736523668	SFX_Equip_HeavyArmor_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_HeavyArmor_03_10C4C929.wem		\Actor-Mixer Hierarchy\Objects\Mixer_Equipments\RDM_Equipements_Pickup_HeavyArmor\SFX_Equip_HeavyArmor_03		192144
+	745955780	SFX_ComboAttack_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\ComboAttack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\Mixer_Assassin_Attacks\SQ_Assassin_Attack_Combo\SFX_ComboAttack_01		242844
+	758584481	SFX_Player_Jump_Wood_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794_B4BFCAE9.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Wood\RDM_Player_Jump_Wood_01\SFX_Player_Jump_Wood_03		72896
+	764058558	SFX_Player_Jump_Grass_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_9DABA680.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Grass\RDM_Player_Jump_Grass_01\SFX_Player_Jump_Grass_02		85910
+	776622706	SFX_Player_FT_Dirt_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_96677610.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_FT\SQ_Player_FT_Dirt\RDM_Player_FT_Dirt\SFX_Player_FT_Dirt_02		56774
+	783186476	SFX_Tank_AttackJump1	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_AttackJump1_22FD19C3.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\Mixer_NPC_MeleeTank_Attack_Jump\SQ_NPC_MeleeTank_Attack_JumpHit\SFX_Tank_AttackJump\SFX_Tank_AttackJump1		236440
+	786785181	SFX_BasicAttack_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\BasicAttack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\Mixer_Assassin_Attacks\SQ_Assassin_Attack_Basic\SFX_BasicAttack_01		146620
+	792533524	SFX_Chest-Close_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chest-Close_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Close\SFX_Chest-Close_01		75936
+	802773422	SFX_Tank_BasicAttack2	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_BasicAttack2_25821782.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\SQ_NPC_MeleeTank_Attack_Basic\RDM_NPC_MeleeTank_Attack_Basic\SFX_Tank_BasicAttack2		171072
+	808239150	entrer de combat_120Bpm_4-4_L7m	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Stinger\entrer de combat_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Stinger\entrer de combat\entrer de combat_120Bpm_4-4_L7m		2304064
+	825201278	SFX_Player_Jump_Grass_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_0BCA2EC4.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Grass\RDM_Player_Jump_Grass_01\SFX_Player_Jump_Grass_04		89642
+	835808505	SFX_growl_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_03_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Tornado\SQ_Dragon_Breath_Growl\RDM_Dragon_Breath_Growl\SFX_growl_03		374992
+	843756894	UI selection	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\UI selection_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Mixer_UI\UI selection		44144
+	844445854	SFX_Equip_LightArmor_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_LightArmor_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\RDM_Equip_LightArmor\SFX_Equip_LightArmor_03		113844
+	854881892	SFX_Ambiance_DistantWind	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_DistantWind_A19FB2AD.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_DistantWind\SFX_Ambiance_DistantWind		5376144
+	865876842	fireball_impact_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\fireball_impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\RDM_Fireball_Impact\fireball_impact_03		529344
+	867619221	SFX_fireball_01_MIX	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\fireball_01_MIX_79DE8621.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Fireball\SFX_Dragon_Attacks_Fireball\RDM_Dragon_Attacks_Fireball\SFX_fireball_01_MIX		441144
+	868094417	SFX_Chevalier_Taunt	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chevalier_Taunt_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\SQ_Knight_Attack_Taunt\SFX_Chevalier_Taunt		556772
+	875091084	SFX_Ambiance_FirefliesCrickets	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_FirefliesCrickets_4DDC98ED.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SFX_Ambiance_FirefliesCrickets		5760208
+	876611882	Stinger_GameStart	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Stinger_GameStart_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\Stingers\Stinger_GameStart\Stinger_GameStart		2400064
+	880078717	SFX_Chest_Moving_TokenM_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chest_Moving_TokenM_01_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Moving_Tokens\RDM_Chestmoving_Tokens\SFX_Chest_Moving_TokenM_01		107068
+	880201260	SFX_UI_coins	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\UI_coins_10C4C929.wem		\Actor-Mixer Hierarchy\UI\VM_Mixer_UI\SQ_UI_coins\SFX_UI_coins		264744
+	883196822	Météore explose	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Météore explose_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_Meteor\SQ_Mage_Attack_Meteor_End\RDM_Mage_Attack_Meteor_End\Météore explose		1234992
+	899646254	SFX_Equip_HeavyArmor_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_HeavyArmor_02_10C4C929.wem		\Actor-Mixer Hierarchy\Objects\Mixer_Equipments\RDM_Equipements_Pickup_HeavyArmor\SFX_Equip_HeavyArmor_02		192144
+	901594582	BossFight3_Med_80bpm_6-8_L40m_P4b	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\BossFight3_Med_80bpm_6-8_L40m_P4b_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\BossFight3\BossFight3_Loop\BossFight3_Med_80bpm_6-8_L40m_P4b		18864064
+	911183212	Hit 3	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Hit 3_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_BasicSpell\SQ_Mage_Attack_BasicSpell_Hit\BassicSpellHit\Hit 3		824192
+	917576729	SFX_Ambiance_Howl_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Howl_01_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Howl\RDM_Ambiance_Donjon_Howl\SFX_Ambiance_Howl_01		432144
+	918169900	SFX_Tank_BasicAttack3	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_BasicAttack3_2AEC8286.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\SQ_NPC_MeleeTank_Attack_Basic\RDM_NPC_MeleeTank_Attack_Basic\SFX_Tank_BasicAttack3		181688
+	919893879	SFX_Player_Locomotion_Roulade_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Vs Short Whoosh 5 by Vilkas_Sound Id-460476_B8F2EAC1.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Roulade\RDM_Player_Roulade\SFX_Player_Locomotion_Roulade_04		153384
+	920100180	SFX_Player_Jump_Wood_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794_6D982629.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_Landing\SQ_Player_Jump_Wood\RDM_Player_Jump_Wood_01\SFX_Player_Jump_Wood_01		63796
+	920851754	SFX_Tank_AttackJump3	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_AttackJump3_4D548091.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\Mixer_NPC_MeleeTank_Attack_Jump\SQ_NPC_MeleeTank_Attack_JumpHit\SFX_Tank_AttackJump\SFX_Tank_AttackJump3		209928
+	921415187	SFX_Chest_Moving_TokenM_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chest_Moving_TokenM_03_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Moving_Tokens\RDM_Chestmoving_Tokens\SFX_Chest_Moving_TokenM_03		107068
+	921749889	SFX_Ambiance_Wolf_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Wolf_03_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Wolf\RDM_Ambiance_Donjon_Wolf\SFX_Ambiance_Wolf_03		1176144
+	923136806	SFX_Arrow_Hit_Flesh_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Hit_Flesh_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SWC_Archer_Attack_Arrow_Hit\RC_Archer_Attack_Arrow_Hit_Flesh\SFX_Arrow_Hit_Flesh_01		119508
+	925186303	SFX_Ambiance_Wolf_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Wolf_02_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Wolf\RDM_Ambiance_Donjon_Wolf\SFX_Ambiance_Wolf_02		1368144
+	925282647	SFX_Equip_MidArmor_03	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Equip_MidArmor_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\RDM_Equip_MidArmor\SFX_Equip_MidArmor_03		152144
+	945504488	SFX_Chest_Gargling_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chest_Gargling_01_72AE912A.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Compagnon\NPC_Following_Chest\SQ_Chest_Gargling\SFX_Chest_Gargling_01		4013172
+	959169172	SFX_Player_FT_Dirt_06	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_AB510BC0.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SW_Player_FT\SQ_Player_FT_Dirt\RDM_Player_FT_Dirt\SFX_Player_FT_Dirt_06		58226
+	961944750	Stinger_DrumRoll	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Stinger_CombatOn_D79FB2B7.wem		\Interactive Music Hierarchy\JD_Music\Stingers\Stinger_DrumRoll\Stinger_DrumRoll\Stinger_DrumRoll		768064
+	965319064	SFX_fire_flight_Start	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\growl_fire\growl_fire_start_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\Mixer_fire_flight\SFX_fire_flight_Start\SFX_fire_flight_Start		290468
+	966584507	SFX_Player_Jump_06	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Jump Sound by D-Ryro Id-674341_7ECF79E3.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Jump\RDM_Player_Jump\SFX_Player_Jump_06		75850
+	969950720	SFX_Player_Jump_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Jump Sound by D-Ryro Id-674341_17F7030D.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Jump\RDM_Player_Jump\SFX_Player_Jump_02		96518
+	979271916	SFX_Tank_AttackLanding1	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Tank_AttackLanding1_580C732B.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_MeleeTank\Mixer_MeleeTank_Attacks\Mixer_NPC_MeleeTank_Attack_Jump\SQ_NPC_MeleeTank_Attack_JumpLand\SFX_Tank_AttackLand\SFX_Tank_AttackLanding1		300936
+	981124361	SFX_Ennemi_Stuned_Tail	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ennemi_Stuned_Tail_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\Mixer_Ennemies_Stunned\SQ_Ennemies_Stunned_Tail\SFX_Ennemi_Stuned_Tail		216808
+	992499075	SFX_Item_Common_Pickup	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Item_Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Objects\Mixer_Equipments\SFX_Item_Common_Pickup		792144
+	992736454	Fin de sort	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Fin de sort_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\AHMixer_Mage_Attacks\Mixer_Mage_Attack_Lazer\SQ_Mage_Attack_Lazer_End\Fin de sort		938180
+	994384343	SFX_MenuSelect	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_MenuSelect_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Mixer_UI\SFX_MenuSelect		123256
+	1004629945	SFX_Chevalier_SwirlAttack	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Chevalier_SwirlAttack_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\JDMixer_Knight_Attacks\SQ_Knight_Attack_SwirlAttack\SFX_Chevalier_SwirlAttack		307392
+	1011365405	SFX_Player_Dash_02	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_4634AB40.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Dash\RDM_Player_Dash\SFX_Player_Dash_02		159240
+	1026089759	SFX_fireball_02_MIX	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX\fireball_02_MIX_A7A8FAA2.wem		\Actor-Mixer Hierarchy\NPC\Mixer_NPC\NPC_Ennemies\NPC_Dragon\Dragon_Attacks\SQ_Dragon_Attacks_Fireball\SFX_Dragon_Attacks_Fireball\RDM_Dragon_Attacks_Fireball\SFX_fireball_02_MIX		441144
+	1036562959	SFX_Player_Equip_Chevalier	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Player_Equip_Chevalier_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Equipment\SQ_Player_Equip_Chevalier\SFX_Player_Equip_Chevalier		297660
+	1039762151	cinematique	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\cinematique_D79FB2B7.wem		\Interactive Music Hierarchy\AHMusic\Cinematique1\cinematique\cinematique		3328064
+	1039871522	SFX_Player_Jump_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\Jump Sound by D-Ryro Id-674341_35F9D367.wem		\Actor-Mixer Hierarchy\Envoie\Mixer_Player_Locomotion\SQ_Player_Jump\RDM_Player_Jump\SFX_Player_Jump_01		58626
+	1041857666	SFX_Arrow_BowStretch	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_BowStretch_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\SFX_Arrow_BowStretch		120744
+	1054574318	SFX_Arrow_Released_04	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Arrow_Released_04_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Mixer_Player_Fight\Mixer_Player_Attacks\MBMixer_Archer_Attacks\RDM_ARDMher_Attack_Released\SFX_Arrow_Released_04		84144
+	1063228526	SFX_Ambiance_Crows_01	D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\SFX\SFX_Ambiance_Crows_01_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\Mixer_Ambiance_Donjon\BL_Ambiance_Donjon\SQ_Ambiance_Donjon_Crows\RDM_Ambiance_Donjon_Crows\SFX_Ambiance_Crows_01		1920144
+

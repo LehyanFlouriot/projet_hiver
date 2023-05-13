@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="NPCs" ID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Chest" ID="{07DA5367-B42E-43B6-9996-76A564DA674F}" PersistMode="Reference"/>
+				<WorkUnit Name="MeleeLight" ID="{7FA276A3-44FD-42F4-9956-61A6017A9F05}" PersistMode="Reference"/>
+				<Folder Name="NPC_Ennemi" ID="{9AA70442-58B5-44AC-A798-072808F5FE4A}" ShortID="160929569">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Ennemi_Stunned" ID="{984F5DD6-C121-4395-97E2-541EA963AFE0}">
+							<ChildrenList>
+								<Action Name="" ID="{00129AD6-A019-487D-AA15-8A69AC7E9D4E}" ShortID="430274603">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Ennemies_Stunned_Start" ID="{2B8B9EA5-F9B3-4BD9-A91C-9B930A8A32EB}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5A8584F3-0FF2-4E47-9B42-A8D0EA15F7BB}" ShortID="481457718">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Ennemies_Stunned_Loop" ID="{65F6A027-98D7-4E62-B722-14A39166DF70}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ennemi_StunnedEnd" ID="{66177E14-5D19-4814-8A3A-DE3BDAB3CF1F}">
+							<ChildrenList>
+								<Action Name="" ID="{1ECCD2FA-8157-449F-A205-2BC275A1C3E9}" ShortID="710231528">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Ennemies_Stunned_Loop" ID="{65F6A027-98D7-4E62-B722-14A39166DF70}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{601A4E5D-BCE7-47C6-8348-FAEDC26D9023}" ShortID="280864280">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Ennemies_Stunned_Start" ID="{2B8B9EA5-F9B3-4BD9-A91C-9B930A8A32EB}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A9F62A41-70DD-48CC-BB53-21171E1BBB66}" ShortID="181288987">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Ennemies_Stunned_Tail" ID="{9BC5652B-40E6-46AB-8E3D-A1719E641BCA}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Melee_Tank" ID="{48DAFC21-7229-4999-AE27-A9AD35EF6F10}" ShortID="19014235">
+							<ChildrenList>
+								<Event Name="Play_Tank_BasicAttack" ID="{AC8BA958-A09E-4A53-AD3B-94F27907A369}">
+									<ChildrenList>
+										<Action Name="" ID="{081CA617-5567-4307-A601-753CF24A57F7}" ShortID="840960064">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RDM_NPC_MeleeTank_Attack_Basic" ID="{74B25E02-7EF6-4E71-A02B-1A82223930B3}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Tank_Jump" ID="{A2838C62-C6C3-4186-854E-09328105E2D1}">
+									<ChildrenList>
+										<Action Name="" ID="{270FF18C-DF1D-4E6F-8526-4D6361774752}" ShortID="216791154">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Tank_AttackJump" ID="{FCF56C38-4E00-457C-A069-B2F00E1EED63}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Tank_BlocageHit" ID="{292FDB0E-17CD-4000-9E6A-A423754614A1}">
+									<ChildrenList>
+										<Action Name="" ID="{C8A1F3A0-11D1-467E-811F-7BBEC582B1BF}" ShortID="761645372">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RDM_NPC_MeleeTank_Block" ID="{545356BD-5E1E-42CC-A938-5917E801CD0E}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Tank_JumpLand" ID="{13A7B3B6-00B0-46F9-BB83-348A279D6C16}">
+									<ChildrenList>
+										<Action Name="" ID="{908E4BF6-8D8B-4621-90E2-4A1F942642A6}" ShortID="895392695">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_NPC_MeleeTank_Attack_JumpLand" ID="{B5D8BA9E-74C1-4019-BC1D-B4FD5E5D4323}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dragon" ID="{FD6263C9-332D-4993-ABD5-7998FA244980}" ShortID="348272754">
+							<ChildrenList>
+								<Event Name="Play_Dragon_Death" ID="{304D46DC-0A50-4233-B4EF-73A383686E44}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{E9936AF5-062A-4749-9D80-D41F9536F64F}" ShortID="542594765">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Death_FallGround" ID="{BCB3E3D8-26A6-441B-86B1-18DECB519676}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{CC7B51DF-74F0-49F8-8013-B06CF096291A}" ShortID="636088626">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Death_Scream" ID="{BDEFC3D1-015B-45DB-A74E-487484426B7D}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_fire_flight_end" ID="{8B9A45BB-54A3-4C40-8195-070B43F27C28}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{6E953607-676C-4F67-81ED-EBCB0F6BFD63}" ShortID="253375510">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_fire_flight_Loop" ID="{E276D4B5-A144-441C-B662-23784E8FF8C4}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{8B98B29B-61BA-4E10-A96C-19345E3870C7}" ShortID="982500559">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_fire_flight_end" ID="{2B94E8E6-BB57-4562-80D0-4EF372B794F0}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fire_Flight_Start" ID="{8D06EBEE-3BF0-4389-AFBA-D614D95CACA8}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{D26E8BE0-12CB-4995-99EA-D1358B4949C8}" ShortID="609173491">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_fire_flight_Start" ID="{BA5BBA8E-ED0E-4EDA-ADE8-99A48B8B2740}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3A1D6F90-440B-4E32-84B6-718BA22A1DC0}" ShortID="798831753">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_fire_flight_Loop" ID="{E276D4B5-A144-441C-B662-23784E8FF8C4}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Foot" ID="{EF53463C-6947-4818-8190-248A4013378D}">
+									<ChildrenList>
+										<Action Name="" ID="{254DE2DF-97D6-4706-8E28-37AFA5530FA8}" ShortID="190259236">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RDM_foot" ID="{305748B1-001E-4CEC-8D0D-A9558DFDA934}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Wings" ID="{58515FF5-C956-4937-948F-61FB5CC7C135}">
+									<ChildrenList>
+										<Action Name="" ID="{ADA417CE-D6E1-41D9-B1B1-28D2DB281A1C}" ShortID="770528216">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RDM_Dragon_Wings" ID="{6C56E4D3-CBDB-4D2D-986B-20C937DB2A06}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Dragon_Idle_Roar" ID="{E0E19A72-7214-41AB-8C7A-3CBE9AD21E65}">
+									<ChildrenList>
+										<Action Name="" ID="{A235E6E6-67F1-4B83-A747-7CD7B9DB3D85}" ShortID="231905812">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Idle_Roar" ID="{3145BE0A-67B2-413C-8EC7-A7C76C2DBFBD}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Dragon_Fireball" ID="{0AB8F274-EB32-41CC-ABBA-9BAC0EDFA846}">
+									<ChildrenList>
+										<Action Name="" ID="{189064AF-EBDC-4D46-A1EB-AA5BC0E8E04C}" ShortID="431686027">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Attacks_Fireball" ID="{A8DDAE40-C79D-4562-A5B1-1D59F35BC55E}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Dragon_Tornado" ID="{AF486C16-9B86-43FC-A0CA-4C411451C08E}">
+									<ChildrenList>
+										<Action Name="" ID="{C7D89835-DD7C-4874-8618-72B7161C4040}" ShortID="933326183">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Attacks_Tornado" ID="{4B648C06-F1B2-43A9-A0B1-49CFD240B522}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Dragon_Swipe" ID="{1B5A0706-86F2-412C-BBDA-0011E15AA044}">
+									<ChildrenList>
+										<Action Name="" ID="{CEF97219-5415-464F-BF28-1AF426FD23A7}" ShortID="192605099">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Swipe" ID="{50F86BAC-290F-46A6-880B-806868190AB6}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Dragon_Idle_Breath" ID="{C5DBCA76-85AC-4060-B3A8-B1BBAA34E749}">
+									<ChildrenList>
+										<Action Name="" ID="{DDAA22B5-ED97-40BB-890F-54CF8C0C579B}" ShortID="1048445499">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Dragon_Breath" ID="{ADC4C6BB-86A8-40E8-BE63-D1101EA661FC}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3D5922AB-759A-4C24-AC9C-57A8B017A8D8}" ShortID="419481322">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Dragon_Breath_Loop" ID="{06F1789C-9AE1-42A4-9EEC-4C13C55DBEEC}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fireball_Impact" ID="{E0F4E8D4-B1DA-45E1-9A0F-AACC327FCF33}">
+									<ChildrenList>
+										<Action Name="" ID="{10DEF057-3A79-4373-A5A9-2D4D1263A78B}" ShortID="813671766">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RDM_Fireball_Impact" ID="{5B1A5A4E-8297-486A-AE0C-355E90033ADF}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<WorkUnit Name="Wolf" ID="{A4EBEF83-7923-4824-A93C-0F1A6D0922CB}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

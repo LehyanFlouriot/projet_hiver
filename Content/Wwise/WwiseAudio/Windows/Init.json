@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\rodj2705\\Documents\\Cours\\hiver\\projet session\\vrai projet\\projet_hiver\\Isaac_Dragons_Curse\\",
+   "SourceFilesRoot": "D:\\rodj2705\\Documents\\Cours\\hiver\\projet session\\vrai projet\\projet_hiver\\Isaac_Dragons_Curse\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\rodj2705\\Documents\\Cours\\hiver\\projet session\\vrai projet\\projet_hiver\\Content\\Wwise\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\rodj2705\\Documents\\Cours\\hiver\\projet session\\vrai projet\\projet_hiver\\Isaac_Dragons_Curse\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "705428088",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79CC3A4D-F33B-4D15-B288-5DE8CB3E4AE2}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Items" ID="{79CC3A4D-F33B-4D15-B288-5DE8CB3E4AE2}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Item_Pickup_Common" ID="{DB486426-5748-462D-B590-FC8C2CB0E63D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D75B2903-602F-4BE2-B801-7A032F339B04}" ShortID="456292869">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Item_Common_Pickup" ID="{88985C64-274E-49ED-B6A6-58F9767532E2}" WorkUnitID="{17A1A180-6C31-4F0E-909E-CF24CFC952A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Item_Pickup_LightArmor" ID="{9EC7DF06-2961-444F-B140-9D78FF7C726A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B7644437-ACA2-4F6C-BC06-E5077614309F}" ShortID="229971539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RDM_Equipements_Pickup_LightArmor" ID="{9BC63151-7C62-426F-8D21-5F1CFA69C942}" WorkUnitID="{17A1A180-6C31-4F0E-909E-CF24CFC952A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Item_Pickup_HeavyArmor" ID="{412F0F5D-CEB7-40B6-BD82-BA91089C033D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{ECEAB3E8-F3B8-4CA9-8313-20D4FD9EE715}" ShortID="153405543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RDM_Equipements_Pickup_HeavyArmor" ID="{A1E94981-5AAA-469F-8429-9017E754CF61}" WorkUnitID="{17A1A180-6C31-4F0E-909E-CF24CFC952A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Item_Pickup_MidArmor" ID="{A0DE8BC1-D757-4A47-8187-906DE61A0D8B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{67A285A8-A90B-4C32-9061-086D52672334}" ShortID="593513846">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RDM_Equipements_Pickup_MidArmor" ID="{94199A4C-78B8-4B81-ABE4-087A37DC544C}" WorkUnitID="{17A1A180-6C31-4F0E-909E-CF24CFC952A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Potion" ID="{A2956168-F25C-48A5-9A99-A0DF08D97215}">
+					<ChildrenList>
+						<Action Name="" ID="{5F7E0690-8D9D-4D69-ABC8-53D4FD645AE3}" ShortID="1016044706">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Potion" ID="{2918B501-62BF-405D-86DB-FF1B74B58625}" WorkUnitID="{2FEFA1EC-DBCD-40A7-AC30-4CC3ED8DFD18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CallChest" ID="{89559AE2-0638-479A-839A-C2CAD0BB2516}">
+					<ChildrenList>
+						<Action Name="" ID="{9C537583-6E0F-4BEB-9BB5-FD241D978617}" ShortID="1028890648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_CallChest" ID="{5D339AED-DE1D-4113-9003-E91B4CB8A239}" WorkUnitID="{17A1A180-6C31-4F0E-909E-CF24CFC952A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

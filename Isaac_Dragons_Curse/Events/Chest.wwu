@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07DA5367-B42E-43B6-9996-76A564DA674F}" SchemaVersion="103" RootDocumentID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" ParentDocumentID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}">
+	<Events>
+		<WorkUnit Name="Chest" ID="{07DA5367-B42E-43B6-9996-76A564DA674F}" OwnerID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Chest_Moving_Loop" ID="{DD7C4A5E-8044-4D8F-A3F4-D3D2995A4BD3}">
+					<ChildrenList>
+						<Action Name="" ID="{7E291B88-44E4-48C6-9565-423B8430AA97}" ShortID="944785144">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Moving_Loop" ID="{FA155587-61C2-42C1-BA17-1C932CE9E7C9}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chest_Moving_Tokens" ID="{8471E670-3794-4777-82D5-64BD82802F8F}">
+					<ChildrenList>
+						<Action Name="" ID="{1A6E334E-8C16-48BA-BE5E-4ED20AE59BC5}" ShortID="266936293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Moving_Tokens" ID="{D3559C0D-0ADB-492A-9ADA-DF3E97670CC4}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chest_Gargling" ID="{73E0E762-826D-4172-8138-6D2FC796C84D}">
+					<ChildrenList>
+						<Action Name="" ID="{BDA0920D-7C98-4969-B1CD-F2E6B964C29A}" ShortID="814478326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Gargling" ID="{4AC57874-A8A8-42A1-8FDF-228A82C06AB3}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chest_Open" ID="{DDF341EC-9907-487C-9CFF-D9D30A389AD3}">
+					<ChildrenList>
+						<Action Name="" ID="{7FABD371-FA0C-4D58-9F22-061B1D0AC1CE}" ShortID="316048731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Open" ID="{3064B69D-0208-4327-8390-BCCCD410B99D}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chest_Close" ID="{59DB3983-72F4-4994-AF2B-6015B00E5F76}">
+					<ChildrenList>
+						<Action Name="" ID="{57E6CFB5-B17B-435A-8AB5-CB4A945D2003}" ShortID="696882942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Close" ID="{5B92CF06-0071-4A5D-9869-C7E5CAC7BA71}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chest_Close_End" ID="{2BED3E8C-CCA7-49BF-8A7D-BD713451B8D7}">
+					<ChildrenList>
+						<Action Name="" ID="{1D24D5FE-313E-4D7F-BBD8-73F837948716}" ShortID="738384435">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Moving_Loop" ID="{FA155587-61C2-42C1-BA17-1C932CE9E7C9}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1EB79693-DEE1-4D17-BFBF-26EA3E104559}" ShortID="444459762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Chest_Close_End" ID="{DED1DDFA-51CA-414D-8E03-A9874FC2EF30}" WorkUnitID="{70D2CDAB-9A8E-470E-A08A-FE87F3340DCF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

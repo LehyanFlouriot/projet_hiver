@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6DF56C6F-D9F3-4B53-88E8-4B714BA6FE4E}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="AHMusic" ID="{6DF56C6F-D9F3-4B53-88E8-4B714BA6FE4E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Bossfight" ID="{51CD15E1-C5F9-422C-BDC0-F97F4A62EDA4}">
+					<ChildrenList>
+						<State Name="None" ID="{7BDE0D88-C234-4968-B051-2143B1219F8B}"/>
+						<State Name="Phase1" ID="{C475C803-67AE-476E-BA56-B410AC8B04F5}"/>
+						<State Name="Phase2" ID="{BBB408C7-9BD5-4F4B-A715-C26C3107A1CD}"/>
+						<State Name="Phase3" ID="{9E7889AE-BA88-464F-8A74-11D06273A322}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Pallier1" ID="{FFBA8C7D-20D2-43C3-B8EE-CD5F5ED1907E}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4.7"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{D9DA78D0-9A69-4356-96C9-BF595AC726F0}"/>
+						<State Name="Combat" ID="{0F5B485B-0F59-444B-8CDB-1ADDD69D5A61}"/>
+						<State Name="HorsCombat" ID="{7C3F6F94-7620-46B1-B9C4-EA43CB851B85}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Combat" ID="{0F5B485B-0F59-444B-8CDB-1ADDD69D5A61}"/>
+							<EndState Name="HorsCombat" ID="{7C3F6F94-7620-46B1-B9C4-EA43CB851B85}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

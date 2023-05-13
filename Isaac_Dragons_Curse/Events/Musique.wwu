@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{35140029-BF28-4083-8D6A-3DE50F354556}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Musique" ID="{35140029-BF28-4083-8D6A-3DE50F354556}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Menu" ID="{21AA413C-484B-41CD-A26C-3D7493F3A1AA}" ShortID="986802012">
+					<ChildrenList>
+						<Event Name="Play_Efhoris_Menu" ID="{620EF47B-2CC2-4199-93D4-BC59C1F9BF56}">
+							<ChildrenList>
+								<Action Name="" ID="{FF1148BC-3ED4-48BA-A98C-7FD4501BEFDD}" ShortID="989433391">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Menu" ID="{3B62A0FD-B68B-4EB7-BF1E-663DA55453CB}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Efhoris_Menu" ID="{FEC6A0E2-6BB5-4161-9DEC-83493E31D19D}">
+							<ChildrenList>
+								<Action Name="" ID="{F7D16463-15DB-4DB7-B073-E8CBC01C013E}" ShortID="687646866">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Menu" ID="{3B62A0FD-B68B-4EB7-BF1E-663DA55453CB}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Efhoris_Menu_Fast" ID="{9CA92A43-368D-454C-AA23-B0C1FA4E811C}">
+							<ChildrenList>
+								<Action Name="" ID="{065C2C57-C9DE-4B34-AFBA-39FBF3CBBB42}" ShortID="979550352">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{78D99748-1F7B-44D3-AC9E-0B4FA33B0966}" ShortID="415171687">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Menu" ID="{3B62A0FD-B68B-4EB7-BF1E-663DA55453CB}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stingers" ID="{259C8616-2A33-4198-9F18-8FB148A185AA}" ShortID="1047682013">
+					<ChildrenList>
+						<Event Name="Play_Stinger_Items_rare" ID="{C180DBCE-CEF3-40E8-A52B-F84ED80B4C55}">
+							<ChildrenList>
+								<Action Name="" ID="{99FDEC5F-47DE-4C71-A00E-569CEEEACCF3}" ShortID="118600964">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Stinger_Items-rare" ID="{C2F111EF-45D5-4AFC-BADF-993E145B81DE}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stinger_Reanimation" ID="{A1DEF556-EE39-4FD0-8F17-78C5E753FC00}">
+							<ChildrenList>
+								<Action Name="" ID="{8DDF5F33-782D-466B-B71B-326745470FB3}" ShortID="817216766">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Stinger_Reanimation" ID="{C4C89719-1430-426B-A121-F3C3DC84F899}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_EnterCombat" ID="{91B04073-B098-4CC4-A13D-D19F28801CCE}">
+							<ChildrenList>
+								<Action Name="" ID="{DA03C355-8914-4FC8-B2E1-9DD5ADCC259B}" ShortID="834168462">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{413AF04B-B917-40E2-8235-E8529E3326E0}" ShortID="1040965768">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="entrer de combat" ID="{6365562C-A5DC-4998-8E90-F9AF8A2138FC}" WorkUnitID="{4C4B7F5B-71AA-4D71-AE88-D2615D4BD997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B35228B1-E84A-4A6B-999A-231924B8DEFD}" ShortID="697338339">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="10"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_EndCombat" ID="{B8BA65DB-F8BC-4C1E-8B04-CCDD47517110}">
+							<ChildrenList>
+								<Action Name="" ID="{1737DED4-BE2C-47E6-A496-00DCA6E3C669}" ShortID="840435152">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{796B6097-AB87-448D-8B77-9A3F32B94308}" ShortID="438451812">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="end combat" ID="{4E5A19F1-F0A2-43E6-AB0D-5F7E04651F3C}" WorkUnitID="{4C4B7F5B-71AA-4D71-AE88-D2615D4BD997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{25359E5C-2974-4765-AEAB-C90A9351164A}" ShortID="664334095">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stinger_GameStart" ID="{A2E1022D-0970-461A-9B81-3B58F06D0CE7}">
+							<ChildrenList>
+								<Action Name="" ID="{46A0EA9B-A200-43C3-9487-91E88CACE70E}" ShortID="131019669">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stinger_GameStart" ID="{7A44D6F4-F994-4BA8-B380-FB494712EB1F}" WorkUnitID="{EAA1C5D2-9205-42B2-A2CA-E3A09A4044C7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stingers_Character_Death" ID="{135A09F8-7F98-4AD3-94A1-730DD644E64A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4382EA03-8BF2-4D33-9FF8-2BEB79F1036C}" ShortID="445597512">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="character_death" ID="{3C3704A4-800B-47FF-9276-56B83D5EEB08}" WorkUnitID="{6C99BC34-06B1-4243-9C56-26B4E48E2732}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stingers_Item_Rare" ID="{5854FB4B-DBE6-4C19-ADD2-E28B4D5FABA4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{02EB448E-3D72-43D8-828E-2895FB403059}" ShortID="815145173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="item_rare" ID="{5E9B9761-7FB4-49D8-A6BE-2D37C20AB289}" WorkUnitID="{6C99BC34-06B1-4243-9C56-26B4E48E2732}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="STINGER_Boss_Defeated" ID="{E8C81020-5254-41F1-9FC9-0B0293B1C1C6}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B83515C5-F1B8-4D19-8346-1083BE54DDEF}" ShortID="437922875">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STINGER_Boss_Defeated_Common" ID="{5DFB7BDF-E059-4E4F-994B-D6F5FC0951B1}" WorkUnitID="{03FB02E5-ED1A-432E-A51A-B459E0359C4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E1B20976-2A68-42DE-962C-50DFC69980E3}" ShortID="636661390">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E8EE728-F0EB-4521-B860-DCC791A763B7}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MPC_BossFight" ID="{1BA4B61C-4835-4224-839B-888137F350AD}" WorkUnitID="{383B2AE2-F6D0-47EB-9E7D-AD1066313E1E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="STINGER_Dungeon_Cleared" ID="{EE3B95A2-3CE3-4E32-AC47-61191AA93279}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D23AC966-5493-4588-8F2F-15257BE44659}" ShortID="745697200">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STINGER_Dungeon_Cleared" ID="{C34D88B2-1FBB-4383-9826-7399262932DB}" WorkUnitID="{03FB02E5-ED1A-432E-A51A-B459E0359C4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{57F1B200-3D75-4356-A42D-6CB30B59CBD6}" ShortID="378969327">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="16"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mixer_Ambiance_Donjon" ID="{4FFADAB5-C917-4015-9D48-A140574F6A94}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Boss" ID="{1358A52B-DFEB-4AE3-B4DF-D69F6D2B39AA}" ShortID="1067022144">
+					<ChildrenList>
+						<Event Name="BossFight_1erRencontre" ID="{81B30E6B-7A1C-4323-8134-3783DEE2DA44}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1BD432AA-06B2-428D-80A2-F1BEEC592914}" ShortID="473675972">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss1erRencontre" ID="{EA78D247-F885-407B-A16D-E8BAD0C5DAE8}" WorkUnitID="{4C4B7F5B-71AA-4D71-AE88-D2615D4BD997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_BossFight3" ID="{4C95BC99-7B20-4C59-90E7-C99E6A989968}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{49FEB8D9-9103-4143-BD29-5869F71EEB38}" ShortID="834165903">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.7"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{F4C6180D-2268-4FAF-87EF-8C6FCB4184C5}" ShortID="229313727">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BossFight3" ID="{ABB7307E-BF5C-42B2-94EB-99AF34B7F07E}" WorkUnitID="{EAA1C5D2-9205-42B2-A2CA-E3A09A4044C7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossFight_VICTORY" ID="{9EA53566-DB8E-49D3-8A8E-12BFFD2EC9F4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{84E51C42-0194-493C-96DC-D60684465AA4}" ShortID="168402520">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MPC_BossFight" ID="{1BA4B61C-4835-4224-839B-888137F350AD}" WorkUnitID="{383B2AE2-F6D0-47EB-9E7D-AD1066313E1E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C5FC1622-9630-44E9-99F1-A6D527C90ECA}" ShortID="1044043798">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{371CC44F-2566-4941-9A96-76B2319E4915}" ShortID="1013849249">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MBMusic_BossFight_Victory" ID="{9D81EB1B-D246-4F7F-BD6B-6E5E83D62C6B}" WorkUnitID="{383B2AE2-F6D0-47EB-9E7D-AD1066313E1E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossFight_START" ID="{99D22866-0B1E-4F68-B3A3-3EA8814DA918}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7CDFB0B0-D9D7-46A6-B20B-F4A17E39E3AE}" ShortID="930078638">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{45D252A7-8CC6-401F-A042-0BED0E50929C}" ShortID="477100406">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MPC_BossFight" ID="{1BA4B61C-4835-4224-839B-888137F350AD}" WorkUnitID="{383B2AE2-F6D0-47EB-9E7D-AD1066313E1E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{412ECAE9-8237-4DA4-BF92-8D9E89C705F9}" ShortID="508923379">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cinematic" ID="{F41D928B-A6AB-4544-A326-2792069E6E6C}" ShortID="431527440">
+					<ChildrenList>
+						<Event Name="Cinematique1" ID="{3E4B27C1-4216-4F39-AFEC-00D6007E1F38}">
+							<ChildrenList>
+								<Action Name="" ID="{029DE591-1A1D-4C37-BD6F-B30C01108387}" ShortID="962316956">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematique1" ID="{79F2CADA-C7E7-4BBB-801C-7ED0CB49A03F}" WorkUnitID="{4C4B7F5B-71AA-4D71-AE88-D2615D4BD997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Combat" ID="{A6861623-DE2F-4605-8224-752AF895FDF8}" ShortID="778642209">
+					<ChildrenList>
+						<Event Name="Play_Combat_HorsCombat_Pallier1" ID="{86A55E9C-3ECE-4B9B-9C01-4EF251CE7067}">
+							<ChildrenList>
+								<Action Name="" ID="{6C2706CD-ABAE-4E13-8655-B39E0CD64905}" ShortID="926863588">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pallier1" ID="{AE7C187D-5A71-458E-97EC-0DD4B5C86889}" WorkUnitID="{4C4B7F5B-71AA-4D71-AE88-D2615D4BD997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PalierX" ID="{CD326427-BC73-49B0-9C49-74FEDB19B5C1}">
+							<ChildrenList>
+								<Action Name="" ID="{9A2EBCAD-F5C7-49B5-8BAB-8EB553B2244B}" ShortID="792703622">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Safe_Zone" ID="{F6F70DE4-95DC-4D5A-A945-A8A73E0910DF}" WorkUnitID="{6C99BC34-06B1-4243-9C56-26B4E48E2732}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F08256FB-9FDE-4657-BC32-47B9ED999AA2}" ShortID="878592705">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Menu" ID="{3B62A0FD-B68B-4EB7-BF1E-663DA55453CB}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C2BB46C0-0C37-4678-AA32-403838C5E68D}" ShortID="22547929">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D2A266DC-9ACD-436F-BABF-8DB9434694F8}" ShortID="1045743212">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PalierX" ID="{E43AE878-75FC-41EF-B7BB-AB94CD8D5E9A}" WorkUnitID="{EAA1C5D2-9205-42B2-A2CA-E3A09A4044C7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FD1A682C-0750-4387-8810-CEA00B0484FA}" ShortID="803700976">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stinger_DrumRoll" ID="{380B14CE-5E1A-4A6E-B3B6-8AFF3B3F8D1E}" WorkUnitID="{EAA1C5D2-9205-42B2-A2CA-E3A09A4044C7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FF54D658-82EA-4052-8DD1-18A7089A6482}" ShortID="537617514">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SafeZone" ID="{193886F5-4BC5-4D3F-8DCA-9E6FCA3C3163}" ShortID="144686387">
+					<ChildrenList>
+						<Event Name="play_Safe_Zone" ID="{0DBE2768-0A4B-4108-AA07-9E51FBA6CF54}">
+							<ChildrenList>
+								<Action Name="" ID="{9E896C36-C593-43FF-A2E4-F8798BC0EFBD}" ShortID="660197811">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Efhoris_Menu" ID="{3B62A0FD-B68B-4EB7-BF1E-663DA55453CB}" WorkUnitID="{3D7B9B04-8AF1-4DEB-8419-04C61B583FA6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ADB3519F-B382-414B-AE5E-996D086AB416}" ShortID="1011206655">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PalierX" ID="{E43AE878-75FC-41EF-B7BB-AB94CD8D5E9A}" WorkUnitID="{EAA1C5D2-9205-42B2-A2CA-E3A09A4044C7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{41735A9A-468F-4DFE-A2A9-784E6518A534}" ShortID="574437522">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ECFDA498-1126-4CDB-9A09-9360A26615E5}" ShortID="717702204">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Safe_Zone" ID="{F6F70DE4-95DC-4D5A-A945-A8A73E0910DF}" WorkUnitID="{6C99BC34-06B1-4243-9C56-26B4E48E2732}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A16F1E1A-B4DD-4651-90F8-4490D3CE73CD}" ShortID="519794635">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

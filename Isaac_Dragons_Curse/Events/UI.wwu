@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{540E7624-B627-40A2-97ED-9F5811C5D186}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="UI" ID="{540E7624-B627-40A2-97ED-9F5811C5D186}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Selection" ID="{0D6CC0A4-2232-4D28-8258-7341A21F3BBD}">
+					<ChildrenList>
+						<Action Name="" ID="{25F7DB57-815C-45F8-998F-5D9DF9D16517}" ShortID="123763470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI selection" ID="{F22EEBCD-97E1-4836-A472-2011500FFA87}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Confirmation" ID="{659B168E-64B9-436D-B439-953CC1535A4B}">
+					<ChildrenList>
+						<Action Name="" ID="{003E7C3E-0A92-405F-BDBA-EE764519F2C1}" ShortID="555058738">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Confirmation" ID="{70205E1A-27D2-4887-A7EF-52B355DFD9F3}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuScroll" ID="{6B8F33AE-C5A0-4E40-9D43-4507FD744851}">
+					<ChildrenList>
+						<Action Name="" ID="{8CDA3EBF-43D2-49A7-A007-D7EA90488846}" ShortID="347043301">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MenuScroll" ID="{0C5F74D1-CA02-4801-A430-BD70096AE315}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuSelect" ID="{19F8F53F-5E2C-4569-924B-5AA2C39E73E5}">
+					<ChildrenList>
+						<Action Name="" ID="{E036A4B5-B3C8-4EEB-B8ED-A4FEC18A8B15}" ShortID="653599052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MenuSelect" ID="{B79D3EC3-86DF-4194-BEB2-499D23C3AE90}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Parchemin" ID="{C9DFE9B0-6F72-40EA-BFE2-77C6C82F438F}">
+					<ChildrenList>
+						<Action Name="" ID="{440800C0-F316-4D3F-AD82-B510C646C75E}" ShortID="181878067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_UI_parchemin" ID="{9E5B6EAC-BEE3-454F-8D47-5353F94A1FCD}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Coins" ID="{6EBC8122-B340-4F4F-BA92-7C33AF4382E1}">
+					<ChildrenList>
+						<Action Name="" ID="{E87F4582-A655-4762-B7C5-C862DC0FCE9D}" ShortID="877214601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_UI_coins" ID="{F8AF4F43-77FE-4FFD-8C8B-CB803153A57D}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_UI_Menu_Marchant_Open" ID="{FA2869CC-8CF5-458C-89BB-5814C7749E1E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{1505007B-8681-4BB4-8221-32A4E8CF6CD7}" ShortID="2218933">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_UI_OpenPurchaseMenu" ID="{FC9EE653-F300-4FCB-9968-4E065EF81DB0}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_UI_Menu_MainTitle_Start" ID="{75AE8CBB-EE11-4B87-9C4D-A7DEC41AACE0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3F73B93A-A314-4C06-B5BC-C3B79E62602E}" ShortID="1038650114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_UI_StartGame" ID="{EA52F199-FDB5-490D-A82F-7460E6064ABE}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_UI_Menu_Marchant_Purchase" ID="{D8E7A2D7-AD4C-4759-8502-2EA066FB8025}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{71F51C8A-EDCC-4014-A74E-AB0FED3C7B6A}" ShortID="171326106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Marchant_Purchase" ID="{D92332AB-6583-4675-A954-5D88229C7ACC}" WorkUnitID="{5641D072-D9DB-4137-9F1A-49DE58BC70EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

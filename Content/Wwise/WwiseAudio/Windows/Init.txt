@@ -1,0 +1,41 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	482090021	Pallier1			\AHMusic\Pallier1	
+	580146960	Bossfight			\AHMusic\Bossfight	
+	655140553	SG_BossFight			\MBMusic_BossFight\SG_BossFight	
+	783488552	PalierX			\JD_States\PalierX	
+	2139426307	BossFight3			\JD_States\BossFight3	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Pallier1			
+	2764240573	Combat	Pallier1			
+	4145362107	HorsCombat	Pallier1			
+	748895195	None	Bossfight			
+	3630028968	Phase2	Bossfight			
+	3630028969	Phase3	Bossfight			
+	3630028971	Phase1	Bossfight			
+	748895195	None	SG_BossFight			
+	2002117580	Phase_01	SG_BossFight			
+	2002117582	Phase_03	SG_BossFight			
+	2002117583	Phase_02	SG_BossFight			
+	748895195	None	PalierX			
+	3050905843	En_Combat	PalierX			
+	3476902982	Hors_Combat	PalierX			
+	748895195	None	BossFight3			
+	3630028968	Phase2	BossFight3			
+	3630028969	Phase3	BossFight3			
+	3630028971	Phase1	BossFight3			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	258110631	Game_Music			\Default Work Unit\Master Audio Bus\Music\Game_Music	
+	662417162	NPC			\Default Work Unit\Master Audio Bus\NPC	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
+	1695690031	Objects			\Default Work Unit\Master Audio Bus\Objects	
+	2940432316	Stingers			\Default Work Unit\Master Audio Bus\Music\Stingers	
+	2981377429	Ambiance			\Default Work Unit\Master Audio Bus\Ambiance	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

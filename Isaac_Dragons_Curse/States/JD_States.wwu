@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B14EB63-E526-4FF7-9AEE-EA91BAAB1A33}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="JD_States" ID="{2B14EB63-E526-4FF7-9AEE-EA91BAAB1A33}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="BossFight3" ID="{DBF719DD-0364-4739-BB2D-05B3BC2A788E}">
+					<PropertyList>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{3CE26336-5376-4331-872F-9FBFA39B6E6A}"/>
+						<State Name="Phase1" ID="{4ED420D7-45A3-42FA-A905-834CE496A314}"/>
+						<State Name="Phase2" ID="{81920D94-D9AA-4763-9665-0A7D61AD1529}"/>
+						<State Name="Phase3" ID="{BA5EB06B-D867-48C9-93CD-C4E6A480B070}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PalierX" ID="{7CF98A18-2250-441D-B57A-1CAF0F149272}">
+					<ChildrenList>
+						<State Name="None" ID="{E3B5DFF9-DE7F-48E3-84EB-5A6DB4BCE0EF}"/>
+						<State Name="En_Combat" ID="{162B43C7-C3B6-4FFA-A61C-1EA0E2594086}"/>
+						<State Name="Hors_Combat" ID="{68EBC4B4-DD89-46DD-B757-2260EF12D030}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Hors_Combat" ID="{68EBC4B4-DD89-46DD-B757-2260EF12D030}"/>
+							<EndState Name="En_Combat" ID="{162B43C7-C3B6-4FFA-A61C-1EA0E2594086}"/>
+							<Time>1.7</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="En_Combat" ID="{162B43C7-C3B6-4FFA-A61C-1EA0E2594086}"/>
+							<EndState Name="Hors_Combat" ID="{68EBC4B4-DD89-46DD-B757-2260EF12D030}"/>
+							<Time>3.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

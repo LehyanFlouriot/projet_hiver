@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74D714E5-3675-4E18-A39F-60505F45C105}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Equipements" ID="{74D714E5-3675-4E18-A39F-60505F45C105}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Equip_Chevalier" ID="{A9EC6E48-8809-4BAE-B057-9B7472AC308C}">
+					<ChildrenList>
+						<Action Name="" ID="{88180F3A-3897-4D55-B90C-2C53F41F25E6}" ShortID="1025043313">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Player_Equip_Chevalier" ID="{713AAFC7-369B-4119-983A-33A5424931FB}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Equip_LightArmor" ID="{67C400E4-3AF9-49D6-9AAC-76AB1449838F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B824E1AB-3404-4F61-87DA-CEFA97751178}" ShortID="78533047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RDM_Equip_LightArmor" ID="{757C2097-55A6-446D-AA1E-868C6182AE1D}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Equip_MidArmor" ID="{2F72B053-7C89-4A6B-8E17-1A8B021212C3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{125486BD-FE33-4AF3-A411-6D9DBEA5D398}" ShortID="572667036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RDM_Equip_MidArmor" ID="{9A3F7911-7221-46FF-B71E-27E1A11784E1}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Equip_HeavyArmor" ID="{5EBA6956-05D5-4CF6-AA01-598B79B502E1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4735618B-C6CC-4585-8998-E81349A76DCF}" ShortID="556260922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RDM_Equip_HeavyArmor" ID="{B5D01551-EC8C-41FD-AA66-9D696215443A}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Equip_Bow" ID="{0D9CEC8F-C10F-4D81-B0F9-C9A66775EDC8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{96CD8194-E061-4400-9178-C3A79F7CA789}" ShortID="476172244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Equip_Bow" ID="{B40D3BBD-5C19-445A-8821-79CE9FB8FA89}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

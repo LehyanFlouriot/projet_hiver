@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Attacks" ID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Assassin_Attack" ID="{B4AEA8A9-E054-481C-9274-8A9B8A393B8E}" ShortID="424762167">
+					<ChildrenList>
+						<Event Name="Play_Assassin_Attack_Basic" ID="{8B18BDBC-F5CB-487C-8BBC-B1C17B33C29B}">
+							<ChildrenList>
+								<Action Name="" ID="{B492F2C9-5781-41A7-A7AF-826C7EEB6CD5}" ShortID="854807197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Assassin_Attack_Basic" ID="{3747F72B-A8D9-4ADB-AC61-FE4C41C1FD34}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Assassin_Attack_ComboSpell" ID="{77B9244E-EC6A-472D-B3AD-92EE3DC483D6}">
+							<ChildrenList>
+								<Action Name="" ID="{41D86BF9-469C-4763-B669-A15D816B8094}" ShortID="978755668">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Assassin_Attack_ComboSpell" ID="{14AE8BA1-9F61-4EC1-8DA6-6E622AE5BCF5}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Assassin_Attack_Combo" ID="{A99BE36B-B168-4A85-8D5E-72E4AA55CC0F}">
+							<ChildrenList>
+								<Action Name="" ID="{A7B6427E-8653-42D1-9B38-CC1A9357C97A}" ShortID="343313025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Assassin_Attack_Combo" ID="{23592474-500C-49BC-B098-58C333C2FB1A}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Assassin_Attack_Dash" ID="{4C2FB921-23E5-48A8-B950-0CA34A1F8281}">
+							<ChildrenList>
+								<Action Name="" ID="{C335EC6E-A01A-4B77-B50D-D5D4BE179546}" ShortID="985676684">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Assassin_Attack_Dash" ID="{AB6107EF-A3F4-4B9A-AE65-8CDFF125089D}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Assassin_Attack_Saut" ID="{93465763-7968-45BD-945A-9659B3D6292E}">
+							<ChildrenList>
+								<Action Name="" ID="{86896F19-5823-4AD7-A565-E365C3D91762}" ShortID="258714189">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Assassin_Attack_Saut" ID="{B50A296B-CF9D-49B2-9C9A-580CA3008C2E}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Mage_Attack" ID="{B618537A-3FA7-4A03-926A-7EB1CC1F38B1}" ShortID="977572936">
+					<ChildrenList>
+						<Folder Name="BlackHole" ID="{2B57AC49-E921-41FE-B451-9B89E59B445E}" ShortID="608611166">
+							<ChildrenList>
+								<Event Name="Play_BlackHole_Start" ID="{673CCF78-9317-4D14-9AC8-189C1A6805F4}">
+									<ChildrenList>
+										<Action Name="" ID="{3CF28E85-6FAF-4BFA-A133-2D9853CA8838}" ShortID="896969144">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mouvement de bras magique" ID="{B24AB472-F785-4735-AE31-34CD0581A75C}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BlackHole_Next" ID="{B3F4BEC1-1E43-493D-B319-69121428707D}">
+									<ChildrenList>
+										<Action Name="" ID="{3D783EBF-F1FA-4F7E-9E4C-EE57BB2232D7}" ShortID="314458789">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_BlackHole_Next" ID="{F34E5A83-7FD4-47BB-87AA-9E2FA0FEA618}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BlackHole_End" ID="{811ABA38-57B4-4646-80AB-68868859288E}">
+									<ChildrenList>
+										<Action Name="" ID="{10ABB1E6-1F59-4837-9838-05AC7FF60022}" ShortID="706479639">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_BlackHole_End" ID="{E35773BD-5E32-4DBF-988D-316EAAC00326}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Lazer" ID="{B3BE31DD-67A1-40EC-88C6-7F6315AE7743}" ShortID="619746522">
+							<ChildrenList>
+								<Event Name="Play_Laser" ID="{28BEC49C-07D3-457A-AE1D-46B938732510}">
+									<ChildrenList>
+										<Action Name="" ID="{A32C8392-D58F-44E7-B70A-A9C30724BF66}" ShortID="807096454">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_Lazer_Start" ID="{69EF7DFE-BB06-4B8A-BE96-4389C1417ECF}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_EndLaser" ID="{63EEFAB7-08B2-4A52-95CB-B97601554DB0}">
+									<ChildrenList>
+										<Action Name="" ID="{5ADA5238-0CA7-4473-8A08-FEAEC35C66A0}" ShortID="92025948">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_Lazer_End" ID="{E8A7245F-D709-4056-9A55-6522D458365C}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B819C230-88D6-45EA-8B20-29ED4A0344DB}" ShortID="1068085738">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_Lazer_End" ID="{E8A7245F-D709-4056-9A55-6522D458365C}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BasicSpellHit" ID="{C69D59B5-A2EC-47D8-A074-506139013C35}">
+									<ChildrenList>
+										<Action Name="" ID="{24E0385B-75F1-4442-9F96-4050F990A379}" ShortID="488747029">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BassicSpellHit" ID="{F5E256C3-7AC5-409F-8274-0F10335A9A3F}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BasicSpellThrow" ID="{D8F06454-65FD-442A-A0C8-B043E5AC8219}">
+									<ChildrenList>
+										<Action Name="" ID="{8B1C75BE-4664-4379-AD03-8A6FB5525D8D}" ShortID="294333459">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_BasicSpell_Throw" ID="{6BBE640C-CDA3-4FF1-896C-1AD9026E4671}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BasicSpell" ID="{52D13E48-565C-4CD9-9F2A-1A415A5374CB}" ShortID="100378204">
+							<ChildrenList>
+								<Event Name="Play_BasicSpell_Throw" ID="{2EDB3E60-A181-4108-8E46-B2AB4D544DAF}">
+									<ChildrenList>
+										<Action Name="" ID="{B8CC9BC9-E930-4153-AB42-949C4E7AE602}" ShortID="103607902">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_BasicSpell_Throw" ID="{6BBE640C-CDA3-4FF1-896C-1AD9026E4671}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BasicSpell_Hit" ID="{D77B6A5A-2B80-418B-9E5F-8B110A38B13F}">
+									<ChildrenList>
+										<Action Name="" ID="{35264930-5B28-4525-B8C3-19DBE5A03967}" ShortID="978775583">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_BasicSpell_Hit" ID="{E523588F-E7AF-4CD6-9FB8-FE45DC1F54B1}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Meteor" ID="{8D021CF9-A493-49DF-95EF-9BC1DB567CE1}" ShortID="509294412">
+							<ChildrenList>
+								<Event Name="Play_Meteor_Start" ID="{FFB53568-17E6-4B88-AFAB-89B9EC46267A}">
+									<ChildrenList>
+										<Action Name="" ID="{4996DC22-1ABA-4B92-9C50-B32315CA12C7}" ShortID="402958318">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_Meteor_Zoom" ID="{60AC9AF1-A0E2-4CB8-9980-FBCDF87EB349}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Meteor_Next" ID="{8EB504F4-C38D-4038-872C-C5A7B25CF494}">
+									<ChildrenList>
+										<Action Name="" ID="{874FAACD-BD97-4C1B-B5D4-97FC3BE2956B}" ShortID="777366650">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_Meteor_Fall" ID="{594B31E1-CC17-4FFD-833A-408160AD60E5}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Meteor_End" ID="{581C2B23-006D-4481-BCC6-8E2524830F38}">
+									<ChildrenList>
+										<Action Name="" ID="{E431F131-7A72-40EA-BA65-6B43574ECD14}" ShortID="565127314">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SQ_Mage_Attack_Meteor_End" ID="{08C102C4-4605-41D9-AD38-19F8F6361B99}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Knight" ID="{D203B6D3-F48A-4A9E-823F-9DDD9AD2CE45}" ShortID="930381447">
+					<ChildrenList>
+						<Event Name="Play_Chevalier_BasicAttack1" ID="{6543D530-7353-4E73-9424-D8242EEBDC8D}">
+							<ChildrenList>
+								<Action Name="" ID="{11C4AF9B-8F4C-431A-97EF-26F976B8AA0E}" ShortID="97586375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chevalier_BasicAttack1" ID="{D776B585-6582-48F5-A62A-9D893F7756F5}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chevalier_BasicAttack2" ID="{48EE8FBF-911C-416A-BD9F-CD375E9A43BF}">
+							<ChildrenList>
+								<Action Name="" ID="{366DD9C4-183F-4DE8-B95D-E0776BB8186A}" ShortID="991342700">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chevalier_BasicAttack2" ID="{5E94771E-38E3-41FE-A79F-9BC65242E44A}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chevalier_Blocage" ID="{6F44D2A2-1D49-4E9E-BE17-5FDD2ACFDCB9}">
+							<ChildrenList>
+								<Action Name="" ID="{7016E5D8-CD10-4245-99E4-695E1DE13FC8}" ShortID="182756254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chevalier_Blocage" ID="{9AFF5D45-A3F7-4866-B271-2F98A5F3D04D}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chevalier_BlocageHit" ID="{3F68D7B2-089E-4E40-920E-8E1C79F5E057}">
+							<ChildrenList>
+								<Action Name="" ID="{EC80C784-B349-4765-9E6F-DCE29613682D}" ShortID="569759681">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RDM_Player_Blocks" ID="{F3E1812B-0AC3-437D-82D5-7677F7861217}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chevalier_SwirlAttack" ID="{7837956C-6542-4A59-9FB8-8270D3C4EB5D}">
+							<ChildrenList>
+								<Action Name="" ID="{9E4A787A-52E1-4761-9EF0-83D3261CB80D}" ShortID="179380480">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chevalier_SwirlAttack" ID="{D0B2BC1A-6883-4706-B520-BEB8CC0798F0}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chevalier_Taunt" ID="{54C9C130-B0A6-48A2-8CA5-DA00E673DDCD}">
+							<ChildrenList>
+								<Action Name="" ID="{3BA5292F-990A-4B33-AEB8-BE4A5E134739}" ShortID="231005805">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chevalier_Taunt" ID="{AE82946A-64FB-41B3-94B7-C5B55BDE022E}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Archer" ID="{DE0306C4-78F4-45E3-AB5D-D76CDF8747CC}" ShortID="185729334">
+					<ChildrenList>
+						<Event Name="Play_Archer_Attack_Arrow_Hit" ID="{ADE56103-E351-4901-B3CF-22B95F9E2F90}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{312E743B-2165-46D2-888D-0DBB07C33731}" ShortID="792637183">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SWC_Archer_Attack_Arrow_Hit" ID="{6941C040-9F8E-453E-862D-40A57B2CA474}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Archer_Attack_Arrow_Released" ID="{DBB1B661-11A4-445C-909A-473A6ABFDE30}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2C9D089B-AEDD-4105-BA7F-073F6B1EBC42}" ShortID="847455808">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RDM_ARDMher_Attack_Released" ID="{A975B711-329E-4408-9CF0-441895754DB8}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Archer_Attack_BowStretch" ID="{0069179A-273D-4203-A945-8A3C38F9AC9D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{3E53D421-50F3-4124-B339-4160FD503B2B}" ShortID="904667533">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Arrow_BowStretch" ID="{368C9C13-AE39-4F72-87BA-99AB4DDF3BCA}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Archer_Attack_Bump" ID="{138422FD-26D2-418D-9B92-A13D5A6DE3F0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{88F104BF-0855-44D4-85B8-40C416C2D1DC}" ShortID="313899323">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Arrow_Bump(10sec)" ID="{D99420F2-AF2C-4B21-B72D-FE49C238E785}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Archer_Attack_Arrow_MultipleHit" ID="{667AEDE5-D8C6-4502-944E-B148F883D404}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{222B3AA5-4B62-4C9F-A7D4-A9AA73CABD01}" ShortID="90602257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Arrow_MultipleHit" ID="{A8332D7D-B1C8-4FC9-8093-769FD3880A51}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Archer_Attack_Arrow_RainHit" ID="{88743891-B3E9-4DC5-B33D-E6B16C3CFAF9}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{10E90096-B9A0-4CB7-9CF7-97337E8CC112}" ShortID="562952520">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Arrow_RainHit" ID="{DE6C2E29-DFF4-4849-B76D-B854EE5F33AE}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DCF466BA-7819-4163-B37E-82DE5F63CCB3}" ShortID="577230084">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Arrow_MultipleHit" ID="{A8332D7D-B1C8-4FC9-8093-769FD3880A51}" WorkUnitID="{E26E7FC7-53A2-4E6E-A877-18798E63C6BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

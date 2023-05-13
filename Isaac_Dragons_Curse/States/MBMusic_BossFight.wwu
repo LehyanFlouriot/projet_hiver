@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D537AF00-C227-4F51-8C74-A160468CDC60}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="MBMusic_BossFight" ID="{D537AF00-C227-4F51-8C74-A160468CDC60}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="SG_BossFight" ID="{99F1CB69-87AC-4C2B-A436-A1135A1E797A}">
+					<ChildrenList>
+						<State Name="None" ID="{C1084D2C-5FC5-45B9-8D46-A22991A4EF46}"/>
+						<State Name="Phase_01" ID="{6C8370C5-6617-4C22-8DBB-E6994EBD1517}"/>
+						<State Name="Phase_02" ID="{601FE287-E558-4A49-8C70-2FEAA43E0C0F}"/>
+						<State Name="Phase_03" ID="{229EFD0D-B5C9-42BE-B910-6EF52568098C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D9FE064-77F0-4799-A35B-9EC8C1733B78}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="AHSW_Player_Locomotion" ID="{4D9FE064-77F0-4799-A35B-9EC8C1733B78}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWG_Player_Locomotion" ID="{D2CF3FB5-0549-40C7-A961-D19854A057A8}">
+					<ChildrenList>
+						<Switch Name="Player_FT_Dirt" ID="{E8E71DB5-9720-4980-8D7C-9B3E6D72A783}"/>
+						<Switch Name="Player_FT_Grass" ID="{2BBB8B2C-DDDA-4722-979B-202046209EA0}"/>
+						<Switch Name="Player_FT_Wood" ID="{9A17F58B-D06E-4764-BB9B-AD48EDE779D7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

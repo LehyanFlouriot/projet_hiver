@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A4EBEF83-7923-4824-A93C-0F1A6D0922CB}" SchemaVersion="103" RootDocumentID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" ParentDocumentID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}">
+	<Events>
+		<WorkUnit Name="Wolf" ID="{A4EBEF83-7923-4824-A93C-0F1A6D0922CB}" OwnerID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Wolf_Bark" ID="{54699A42-2F12-45FD-AD57-08DD97E2E4C6}">
+					<ChildrenList>
+						<Action Name="" ID="{35AB4647-A939-46B4-B061-A29396A70404}" ShortID="854166757">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Bark" ID="{1347312C-BE15-407D-BD09-B428FC5619AD}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wolf_Growl" ID="{1F7F1CC1-15D2-4106-8B4C-FD119B05748A}">
+					<ChildrenList>
+						<Action Name="" ID="{914D249A-8392-453D-83C6-E99ADEE54471}" ShortID="44869953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Growl" ID="{5710CEF4-0544-467B-925D-163FE820919C}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wolf_Die" ID="{B7CE6BA9-1458-46FD-805C-9D87A6330A18}">
+					<ChildrenList>
+						<Action Name="" ID="{68C23494-DDD1-40C0-BA58-64143FC52985}" ShortID="1019780369">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Die" ID="{353A41E4-E353-4B83-B447-E9BCCA715723}" WorkUnitID="{FF63E845-6D33-4FCE-8C77-43F3DFA0CF09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

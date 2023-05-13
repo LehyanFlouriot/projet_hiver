@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\</ProjectRoot>
+		<SourceFilesRoot>D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Content\Wwise\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\rodj2705\Documents\Cours\hiver\projet session\vrai projet\projet_hiver\Isaac_Dragons_Curse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1661994096" GUID="{6538416F-8014-4ED2-96C7-ABFA7454CA40}" Language="SFX" Hash="4267249236">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3048315967" Name="BossFight_1erRencontre" ObjectPath="\Events\Musique\Boss\BossFight_1erRencontre" GUID="{81B30E6B-7A1C-4323-8134-3783DEE2DA44}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="125046832" Language="SFX">
+							<ShortName>boss intro master mlt_1.wav</ShortName>
+							<Path>SFX\boss intro master mlt_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="460480064" Language="SFX">
+							<ShortName>Boss 1e rencontre\2e phase master mlt.wav</ShortName>
+							<Path>SFX\Boss 1e rencontre\2e phase master mlt_D79FB2B7.wem</Path>
+						</File>
+						<File Id="503671137" Language="SFX">
+							<ShortName>Boss 1e rencontre\3e phase master mlt.wav</ShortName>
+							<Path>SFX\Boss 1e rencontre\3e phase master mlt_D79FB2B7.wem</Path>
+						</File>
+						<File Id="697219843" Language="SFX">
+							<ShortName>Boss 1e rencontre\1erre phase master mlt.wav</ShortName>
+							<Path>SFX\Boss 1e rencontre\1erre phase master mlt_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3335799005" Name="BossFight_START" ObjectPath="\Events\Musique\Boss\BossFight_START" GUID="{99D22866-0B1E-4F68-B3A3-3EA8814DA918}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="44387928" Language="SFX">
+							<ShortName>VICTORY\Boss_Fight_03_VICTORY_180bpm_3-4_P3b.wav</ShortName>
+							<Path>SFX\VICTORY\Boss_Fight_03_VICTORY_180bpm_3-4_P3b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="67537724" Language="SFX">
+							<ShortName>Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m.wav</ShortName>
+							<Path>SFX\Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="92265441" Language="SFX">
+							<ShortName>Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m.wav</ShortName>
+							<Path>SFX\Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m_D79FB2B7.wem</Path>
+						</File>
+						<File Id="335862184" Language="SFX">
+							<ShortName>INTRO\Boss_Fight_03_INTRO_120bpm_4-4_P2b.wav</ShortName>
+							<Path>SFX\INTRO\Boss_Fight_03_INTRO_120bpm_4-4_P2b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="432313066" Language="SFX">
+							<ShortName>Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m.wav</ShortName>
+							<Path>SFX\Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2448503775" Name="BossFight_VICTORY" ObjectPath="\Events\Musique\Boss\BossFight_VICTORY" GUID="{9EA53566-DB8E-49D3-8A8E-12BFFD2EC9F4}" DurationType="OneShot" DurationMin="20." DurationMax="20.">
+					<IncludedMemoryFiles>
+						<File Id="44387928" Language="SFX">
+							<ShortName>VICTORY\Boss_Fight_03_VICTORY_180bpm_3-4_P3b.wav</ShortName>
+							<Path>SFX\VICTORY\Boss_Fight_03_VICTORY_180bpm_3-4_P3b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2093163829" Name="Cinematique1" ObjectPath="\Events\Musique\Cinematic\Cinematique1" GUID="{3E4B27C1-4216-4F39-AFEC-00D6007E1F38}" DurationType="OneShot" DurationMin="17.333334" DurationMax="17.333334">
+					<IncludedMemoryFiles>
+						<File Id="1039762151" Language="SFX">
+							<ShortName>cinematique.wav</ShortName>
+							<Path>SFX\cinematique_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3767495960" Name="EV_Ambiance_Dungeon" ObjectPath="\Events\Ambiance\EV_Ambiance_Dungeon" GUID="{FFE7E47B-13AB-46B6-8146-EFD81A4442E2}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="145803855" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="369212898" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_03_10C4C929.wem</Path>
+						</File>
+						<File Id="480739447" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_02_10C4C929.wem</Path>
+						</File>
+						<File Id="656755848" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_01_10C4C929.wem</Path>
+						</File>
+						<File Id="854881892" Language="SFX">
+							<ShortName>SFX_Ambiance_DistantWind.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_DistantWind_A19FB2AD.wem</Path>
+						</File>
+						<File Id="875091084" Language="SFX">
+							<ShortName>SFX_Ambiance_FirefliesCrickets.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_FirefliesCrickets_4DDC98ED.wem</Path>
+						</File>
+						<File Id="917576729" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="921749889" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_03_10C4C929.wem</Path>
+						</File>
+						<File Id="925186303" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063228526" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="53780288" Name="EV_Equip_Bow" ObjectPath="\Events\Equipements\EV_Equip_Bow" GUID="{0D9CEC8F-C10F-4D81-B0F9-C9A66775EDC8}" DurationType="OneShot" DurationMin="0.538251" DurationMax="0.678154">
+					<IncludedMemoryFiles>
+						<File Id="327346513" Language="SFX">
+							<ShortName>SFX_Equip_Bow.wav</ShortName>
+							<Path>SFX\SFX_Equip_Bow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2298412414" Name="EV_Equip_HeavyArmor" ObjectPath="\Events\Equipements\EV_Equip_HeavyArmor" GUID="{5EBA6956-05D5-4CF6-AA01-598B79B502E1}" DurationType="OneShot" DurationMin="0.75" DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="2763498" Language="SFX">
+							<ShortName>SFX_Equip_HeavyArmor_01.wav</ShortName>
+							<Path>SFX\SFX_Equip_HeavyArmor_01_10C4C929.wem</Path>
+						</File>
+						<File Id="736523668" Language="SFX">
+							<ShortName>SFX_Equip_HeavyArmor_03.wav</ShortName>
+							<Path>SFX\SFX_Equip_HeavyArmor_03_10C4C929.wem</Path>
+						</File>
+						<File Id="899646254" Language="SFX">
+							<ShortName>SFX_Equip_HeavyArmor_02.wav</ShortName>
+							<Path>SFX\SFX_Equip_HeavyArmor_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="156786709" Name="EV_Equip_LightArmor" ObjectPath="\Events\Equipements\EV_Equip_LightArmor" GUID="{67C400E4-3AF9-49D6-9AAC-76AB1449838F}" DurationType="OneShot" DurationMin="0.375" DurationMax="0.592188">
+					<IncludedMemoryFiles>
+						<File Id="10602925" Language="SFX">
+							<ShortName>SFX_Equip_LightArmor_01.wav</ShortName>
+							<Path>SFX\SFX_Equip_LightArmor_01_10C4C929.wem</Path>
+						</File>
+						<File Id="200864741" Language="SFX">
+							<ShortName>SFX_Equip_LightArmor_02.wav</ShortName>
+							<Path>SFX\SFX_Equip_LightArmor_02_10C4C929.wem</Path>
+						</File>
+						<File Id="844445854" Language="SFX">
+							<ShortName>SFX_Equip_LightArmor_03.wav</ShortName>
+							<Path>SFX\SFX_Equip_LightArmor_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="513729959" Name="EV_Equip_MidArmor" ObjectPath="\Events\Equipements\EV_Equip_MidArmor" GUID="{2F72B053-7C89-4A6B-8E17-1A8B021212C3}" DurationType="OneShot" DurationMin="0.6875" DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="251770872" Language="SFX">
+							<ShortName>SFX_Equip_MidArmor_02.wav</ShortName>
+							<Path>SFX\SFX_Equip_MidArmor_02_10C4C929.wem</Path>
+						</File>
+						<File Id="716427011" Language="SFX">
+							<ShortName>SFX_Equip_MidArmor_01.wav</ShortName>
+							<Path>SFX\SFX_Equip_MidArmor_01_10C4C929.wem</Path>
+						</File>
+						<File Id="925282647" Language="SFX">
+							<ShortName>SFX_Equip_MidArmor_03.wav</ShortName>
+							<Path>SFX\SFX_Equip_MidArmor_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3069062162" Name="EV_UI_Menu_MainTitle_Start" ObjectPath="\Events\UI\EV_UI_Menu_MainTitle_Start" GUID="{75AE8CBB-EE11-4B87-9C4D-A7DEC41AACE0}" DurationType="OneShot" DurationMin="2.625" DurationMax="2.625">
+					<IncludedMemoryFiles>
+						<File Id="472788793" Language="SFX">
+							<ShortName>SFX_UI_StartGame.wav</ShortName>
+							<Path>SFX\SFX_UI_StartGame_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="518954619" Name="EV_UI_Menu_Marchant_Open" ObjectPath="\Events\UI\EV_UI_Menu_Marchant_Open" GUID="{FA2869CC-8CF5-458C-89BB-5814C7749E1E}" DurationType="OneShot" DurationMin="0.742416" DurationMax="0.935385">
+					<IncludedMemoryFiles>
+						<File Id="23353793" Language="SFX">
+							<ShortName>SFX_UI_OpenPurchaseMenu.wav</ShortName>
+							<Path>SFX\SFX_UI_OpenPurchaseMenu_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3701633166" Name="EV_UI_Menu_Marchant_Purchase" ObjectPath="\Events\UI\EV_UI_Menu_Marchant_Purchase" GUID="{D8E7A2D7-AD4C-4759-8502-2EA066FB8025}" DurationType="OneShot" DurationMin="0.76417" DurationMax="0.908756">
+					<IncludedMemoryFiles>
+						<File Id="236293957" Language="SFX">
+							<ShortName>SFX_Item_Purchase_03.wav</ShortName>
+							<Path>SFX\SFX_Item_Purchase_03_10C4C929.wem</Path>
+						</File>
+						<File Id="408430300" Language="SFX">
+							<ShortName>SFX_Item_Purchase_02.wav</ShortName>
+							<Path>SFX\SFX_Item_Purchase_02_10C4C929.wem</Path>
+						</File>
+						<File Id="507028820" Language="SFX">
+							<ShortName>SFX_Item_Purchase_01.wav</ShortName>
+							<Path>SFX\SFX_Item_Purchase_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3183505697" Name="Play_Ambiance_Forge_Fire" ObjectPath="\Events\Ambiance\Play_Ambiance_Forge_Fire" GUID="{D7D44EA1-05A5-444B-AA7B-5780BD49A4C5}" MaxAttenuation="2500." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="6023316" Language="SFX">
+							<ShortName>Ambiance_Forge_Fire.wav</ShortName>
+							<Path>SFX\Ambiance_Forge_Fire_89D90D4D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2292531198" Name="Play_Archer_Attack_Arrow_Hit" ObjectPath="\Events\Attacks\Archer\Play_Archer_Attack_Arrow_Hit" GUID="{ADE56103-E351-4901-B3CF-22B95F9E2F90}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.326482" DurationMax="0.658655">
+					<IncludedMemoryFiles>
+						<File Id="56921512" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Wood_02.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Wood_02_10C4C929.wem</Path>
+						</File>
+						<File Id="177049501" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Wood_03.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Wood_03_10C4C929.wem</Path>
+						</File>
+						<File Id="458931281" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Flesh_03.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Flesh_03_10C4C929.wem</Path>
+						</File>
+						<File Id="489870192" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Rock_03.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Rock_03_10C4C929.wem</Path>
+						</File>
+						<File Id="495405681" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Wood_01.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Wood_01_10C4C929.wem</Path>
+						</File>
+						<File Id="613754946" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Rock_02.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Rock_02_10C4C929.wem</Path>
+						</File>
+						<File Id="696207107" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Flesh_02.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Flesh_02_10C4C929.wem</Path>
+						</File>
+						<File Id="706148257" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Rock_01.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Rock_01_10C4C929.wem</Path>
+						</File>
+						<File Id="923136806" Language="SFX">
+							<ShortName>SFX_Arrow_Hit_Flesh_01.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Hit_Flesh_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{0984B24F-E751-402B-AD0C-F70C6D38C593}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{BC8D012A-D0B6-48E9-B0E9-40912EA9B50D}">
+							<Media>
+								<File Id="489870192"/>
+								<File Id="613754946"/>
+								<File Id="706148257"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0984B24F-E751-402B-AD0C-F70C6D38C593}">
+							<Media>
+								<File Id="458931281"/>
+								<File Id="696207107"/>
+								<File Id="923136806"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8D47766E-66D7-4A45-9BF0-02879240C1EE}">
+							<Media>
+								<File Id="56921512"/>
+								<File Id="177049501"/>
+								<File Id="495405681"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3627276834" Name="Play_Archer_Attack_Arrow_MultipleHit" ObjectPath="\Events\Attacks\Archer\Play_Archer_Attack_Arrow_MultipleHit" GUID="{667AEDE5-D8C6-4502-944E-B148F883D404}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.575993" DurationMax="0.684975">
+					<IncludedMemoryFiles>
+						<File Id="4259411" Language="SFX">
+							<ShortName>SFX_Arrow_MultipleHit.wav</ShortName>
+							<Path>SFX\SFX_Arrow_MultipleHit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1592126684" Name="Play_Archer_Attack_Arrow_RainHit" ObjectPath="\Events\Attacks\Archer\Play_Archer_Attack_Arrow_RainHit" GUID="{88743891-B3E9-4DC5-B33D-E6B16C3CFAF9}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="3.067591" DurationMax="3.443255">
+					<IncludedMemoryFiles>
+						<File Id="4259411" Language="SFX">
+							<ShortName>SFX_Arrow_MultipleHit.wav</ShortName>
+							<Path>SFX\SFX_Arrow_MultipleHit_10C4C929.wem</Path>
+						</File>
+						<File Id="49007233" Language="SFX">
+							<ShortName>SFX_Arrow_RainHit.wav</ShortName>
+							<Path>SFX\SFX_Arrow_RainHit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="388588458" Name="Play_Archer_Attack_Arrow_Released" ObjectPath="\Events\Attacks\Archer\Play_Archer_Attack_Arrow_Released" GUID="{DBB1B661-11A4-445C-909A-473A6ABFDE30}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.353953" DurationMax="0.662164">
+					<IncludedMemoryFiles>
+						<File Id="292221875" Language="SFX">
+							<ShortName>SFX_Arrow_Released_03.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Released_03_10C4C929.wem</Path>
+						</File>
+						<File Id="577068860" Language="SFX">
+							<ShortName>SFX_Arrow_Released_01.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Released_01_10C4C929.wem</Path>
+						</File>
+						<File Id="641994761" Language="SFX">
+							<ShortName>SFX_Arrow_Released_02.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Released_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1054574318" Language="SFX">
+							<ShortName>SFX_Arrow_Released_04.wav</ShortName>
+							<Path>SFX\SFX_Arrow_Released_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2071246154" Name="Play_Archer_Attack_BowStretch" ObjectPath="\Events\Attacks\Archer\Play_Archer_Attack_BowStretch" GUID="{0069179A-273D-4203-A945-8A3C38F9AC9D}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.592871" DurationMax="0.665475">
+					<IncludedMemoryFiles>
+						<File Id="1041857666" Language="SFX">
+							<ShortName>SFX_Arrow_BowStretch.wav</ShortName>
+							<Path>SFX\SFX_Arrow_BowStretch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="616429677" Name="Play_Archer_Attack_Bump" ObjectPath="\Events\Attacks\Archer\Play_Archer_Attack_Bump" GUID="{138422FD-26D2-418D-9B92-A13D5A6DE3F0}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="10.125" DurationMax="10.125">
+					<IncludedMemoryFiles>
+						<File Id="346718746" Language="SFX">
+							<ShortName>SFX_Arrow_Bump(10sec).wav</ShortName>
+							<Path>SFX\SFX_Arrow_Bump(10sec)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2533468255" Name="Play_Assassin_Attack_Basic" ObjectPath="\Events\Attacks\Assassin_Attack\Play_Assassin_Attack_Basic" GUID="{8B18BDBC-F5CB-487C-8BBC-B1C17B33C29B}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.763313" DurationMax="0.763313">
+					<IncludedMemoryFiles>
+						<File Id="786785181" Language="SFX">
+							<ShortName>BasicAttack_01.wav</ShortName>
+							<Path>SFX\BasicAttack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3771590507" Name="Play_Assassin_Attack_Combo" ObjectPath="\Events\Attacks\Assassin_Attack\Play_Assassin_Attack_Combo" GUID="{A99BE36B-B168-4A85-8D5E-72E4AA55CC0F}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.264479" DurationMax="1.264479">
+					<IncludedMemoryFiles>
+						<File Id="745955780" Language="SFX">
+							<ShortName>ComboAttack_01.wav</ShortName>
+							<Path>SFX\ComboAttack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2047103783" Name="Play_Assassin_Attack_ComboSpell" ObjectPath="\Events\Attacks\Assassin_Attack\Play_Assassin_Attack_ComboSpell" GUID="{77B9244E-EC6A-472D-B3AD-92EE3DC483D6}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.248381" DurationMax="1.248381">
+					<IncludedMemoryFiles>
+						<File Id="419756390" Language="SFX">
+							<ShortName>ComboSpell_01.wav</ShortName>
+							<Path>SFX\ComboSpell_01_27574A9E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="825818215" Name="Play_Assassin_Attack_Dash" ObjectPath="\Events\Attacks\Assassin_Attack\Play_Assassin_Attack_Dash" GUID="{4C2FB921-23E5-48A8-B950-0CA34A1F8281}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.582104" DurationMax="1.582104">
+					<IncludedMemoryFiles>
+						<File Id="683601309" Language="SFX">
+							<ShortName>DashAttack_01.wav</ShortName>
+							<Path>SFX\DashAttack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2360741120" Name="Play_Assassin_Attack_Saut" ObjectPath="\Events\Attacks\Assassin_Attack\Play_Assassin_Attack_Saut" GUID="{93465763-7968-45BD-945A-9659B3D6292E}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.616104" DurationMax="1.616104">
+					<IncludedMemoryFiles>
+						<File Id="614192705" Language="SFX">
+							<ShortName>SautAttack_01.wav</ShortName>
+							<Path>SFX\SautAttack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2500328524" Name="Play_BasicSpell_Hit" ObjectPath="\Events\Attacks\Mage_Attack\BasicSpell\Play_BasicSpell_Hit" GUID="{D77B6A5A-2B80-418B-9E5F-8B110A38B13F}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="3.930932" DurationMax="4.685505">
+					<IncludedMemoryFiles>
+						<File Id="189739556" Language="SFX">
+							<ShortName>Hit 1.wav</ShortName>
+							<Path>SFX\Hit 1_10C4C929.wem</Path>
+						</File>
+						<File Id="306681644" Language="SFX">
+							<ShortName>Hit 2.wav</ShortName>
+							<Path>SFX\Hit 2_10C4C929.wem</Path>
+						</File>
+						<File Id="911183212" Language="SFX">
+							<ShortName>Hit 3.wav</ShortName>
+							<Path>SFX\Hit 3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1478198855" Name="Play_BasicSpell_Throw" ObjectPath="\Events\Attacks\Mage_Attack\BasicSpell\Play_BasicSpell_Throw" GUID="{2EDB3E60-A181-4108-8E46-B2AB4D544DAF}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="6.145833" DurationMax="6.145833">
+					<IncludedMemoryFiles>
+						<File Id="117325862" Language="SFX">
+							<ShortName>Lancement de sort.wav</ShortName>
+							<Path>SFX\Lancement de sort_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2212109925" Name="Play_BasicSpellHit" ObjectPath="\Events\Attacks\Mage_Attack\Lazer\Play_BasicSpellHit" GUID="{C69D59B5-A2EC-47D8-A074-506139013C35}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="3.930932" DurationMax="4.685505">
+					<IncludedMemoryFiles>
+						<File Id="189739556" Language="SFX">
+							<ShortName>Hit 1.wav</ShortName>
+							<Path>SFX\Hit 1_10C4C929.wem</Path>
+						</File>
+						<File Id="306681644" Language="SFX">
+							<ShortName>Hit 2.wav</ShortName>
+							<Path>SFX\Hit 2_10C4C929.wem</Path>
+						</File>
+						<File Id="911183212" Language="SFX">
+							<ShortName>Hit 3.wav</ShortName>
+							<Path>SFX\Hit 3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3686573818" Name="Play_BasicSpellThrow" ObjectPath="\Events\Attacks\Mage_Attack\Lazer\Play_BasicSpellThrow" GUID="{D8F06454-65FD-442A-A0C8-B043E5AC8219}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="6.145833" DurationMax="6.145833">
+					<IncludedMemoryFiles>
+						<File Id="117325862" Language="SFX">
+							<ShortName>Lancement de sort.wav</ShortName>
+							<Path>SFX\Lancement de sort_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="984658199" Name="Play_BlackHole_End" ObjectPath="\Events\Attacks\Mage_Attack\BlackHole\Play_BlackHole_End" GUID="{811ABA38-57B4-4646-80AB-68868859288E}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="4.375" DurationMax="4.375">
+					<IncludedMemoryFiles>
+						<File Id="368017258" Language="SFX">
+							<ShortName>Boom.wav</ShortName>
+							<Path>SFX\Boom_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1188297499" Name="Play_BlackHole_Next" ObjectPath="\Events\Attacks\Mage_Attack\BlackHole\Play_BlackHole_Next" GUID="{B3F4BEC1-1E43-493D-B319-69121428707D}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="9.25" DurationMax="9.25">
+					<IncludedMemoryFiles>
+						<File Id="299920748" Language="SFX">
+							<ShortName>Trou noir.wav</ShortName>
+							<Path>SFX\Trou noir_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2751701252" Name="Play_BlackHole_Start" ObjectPath="\Events\Attacks\Mage_Attack\BlackHole\Play_BlackHole_Start" GUID="{673CCF78-9317-4D14-9AC8-189C1A6805F4}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="3.976501" DurationMax="3.976501">
+					<IncludedMemoryFiles>
+						<File Id="566530263" Language="SFX">
+							<ShortName>Mouvement de bras magique.wav</ShortName>
+							<Path>SFX\Mouvement de bras magique_51A4CD04.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="598902628" Name="Play_BossFight3" ObjectPath="\Events\Musique\Boss\Play_BossFight3" GUID="{4C95BC99-7B20-4C59-90E7-C99E6A989968}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="327281818" Language="SFX">
+							<ShortName>BossFight3_Low_80bpm_6-8_L40m_P4b.wav</ShortName>
+							<Path>SFX\BossFight3_Low_80bpm_6-8_L40m_P4b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="510612928" Language="SFX">
+							<ShortName>BossFight3_High_80bpm_6-8_L40m_P4b.wav</ShortName>
+							<Path>SFX\BossFight3_High_80bpm_6-8_L40m_P4b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="901594582" Language="SFX">
+							<ShortName>BossFight3_Med_80bpm_6-8_L40m_P4b.wav</ShortName>
+							<Path>SFX\BossFight3_Med_80bpm_6-8_L40m_P4b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1393174113" Name="Play_CallChest" ObjectPath="\Events\Items\Play_CallChest" GUID="{89559AE2-0638-479A-839A-C2CAD0BB2516}" DurationType="OneShot" DurationMin="1.17551" DurationMax="1.17551">
+					<IncludedMemoryFiles>
+						<File Id="230300779" Language="SFX">
+							<ShortName>Whistle.WAV</ShortName>
+							<Path>SFX\Whistle_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3979007828" Name="Play_Chest_Close" ObjectPath="\Events\NPCs\Chest\Play_Chest_Close" GUID="{59DB3983-72F4-4994-AF2B-6015B00E5F76}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.395167" DurationMax="0.395167">
+					<IncludedMemoryFiles>
+						<File Id="792533524" Language="SFX">
+							<ShortName>SFX_Chest-Close_01.wav</ShortName>
+							<Path>SFX\SFX_Chest-Close_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2049105162" Name="Play_Chest_Close_End" ObjectPath="\Events\NPCs\Chest\Play_Chest_Close_End" GUID="{2BED3E8C-CCA7-49BF-8A7D-BD713451B8D7}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.395167" DurationMax="0.395167">
+					<IncludedMemoryFiles>
+						<File Id="792533524" Language="SFX">
+							<ShortName>SFX_Chest-Close_01.wav</ShortName>
+							<Path>SFX\SFX_Chest-Close_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2483539421" Name="Play_Chest_Gargling" ObjectPath="\Events\NPCs\Chest\Play_Chest_Gargling" GUID="{73E0E762-826D-4172-8138-6D2FC796C84D}" MaxAttenuation="5000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="945504488" Language="SFX">
+							<ShortName>SFX_Chest_Gargling_01.wav</ShortName>
+							<Path>SFX\SFX_Chest_Gargling_01_72AE912A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="338242667" Name="Play_Chest_Moving_Loop" ObjectPath="\Events\NPCs\Chest\Play_Chest_Moving_Loop" GUID="{DD7C4A5E-8044-4D8F-A3F4-D3D2995A4BD3}" MaxAttenuation="5000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="261143305" Language="SFX">
+							<ShortName>SFX_ChestMovingLoop_01.wav</ShortName>
+							<Path>SFX\SFX_ChestMovingLoop_01_96171C67.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1485199635" Name="Play_Chest_Moving_Tokens" ObjectPath="\Events\NPCs\Chest\Play_Chest_Moving_Tokens" GUID="{8471E670-3794-4777-82D5-64BD82802F8F}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.557312" DurationMax="0.557312">
+					<IncludedMemoryFiles>
+						<File Id="584027166" Language="SFX">
+							<ShortName>SFX_Chest_Moving_TokenM_02.wav</ShortName>
+							<Path>SFX\SFX_Chest_Moving_TokenM_02_10C4C929.wem</Path>
+						</File>
+						<File Id="880078717" Language="SFX">
+							<ShortName>SFX_Chest_Moving_TokenM_01.wav</ShortName>
+							<Path>SFX\SFX_Chest_Moving_TokenM_01_10C4C929.wem</Path>
+						</File>
+						<File Id="921415187" Language="SFX">
+							<ShortName>SFX_Chest_Moving_TokenM_03.wav</ShortName>
+							<Path>SFX\SFX_Chest_Moving_TokenM_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2560700912" Name="Play_Chest_Open" ObjectPath="\Events\NPCs\Chest\Play_Chest_Open" GUID="{DDF341EC-9907-487C-9CFF-D9D30A389AD3}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.388625" DurationMax="0.388625">
+					<IncludedMemoryFiles>
+						<File Id="328612463" Language="SFX">
+							<ShortName>SFX_Chest-Open_01.wav</ShortName>
+							<Path>SFX\SFX_Chest-Open_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2517273705" Name="Play_Chevalier_BasicAttack1" ObjectPath="\Events\Attacks\Knight\Play_Chevalier_BasicAttack1" GUID="{6543D530-7353-4E73-9424-D8242EEBDC8D}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.944701" DurationMax="1.092725">
+					<IncludedMemoryFiles>
+						<File Id="56548434" Language="SFX">
+							<ShortName>SFX_Chevalier_BasicAttack1.wav</ShortName>
+							<Path>SFX\SFX_Chevalier_BasicAttack1_4F4299AC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2517273706" Name="Play_Chevalier_BasicAttack2" ObjectPath="\Events\Attacks\Knight\Play_Chevalier_BasicAttack2" GUID="{48EE8FBF-911C-416A-BD9F-CD375E9A43BF}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.768753" DurationMax="0.863894">
+					<IncludedMemoryFiles>
+						<File Id="463862884" Language="SFX">
+							<ShortName>SFX_Chevalier_BasicAttack2.wav</ShortName>
+							<Path>SFX\SFX_Chevalier_BasicAttack2_50BBE128.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3907910527" Name="Play_Chevalier_Blocage" ObjectPath="\Events\Attacks\Knight\Play_Chevalier_Blocage" GUID="{6F44D2A2-1D49-4E9E-BE17-5FDD2ACFDCB9}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.315731" DurationMax="1.840415">
+					<IncludedMemoryFiles>
+						<File Id="735475531" Language="SFX">
+							<ShortName>SFX_Chevalier_Blocage.wav</ShortName>
+							<Path>SFX\SFX_Chevalier_Blocage_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3232399478" Name="Play_Chevalier_BlocageHit" ObjectPath="\Events\Attacks\Knight\Play_Chevalier_BlocageHit" GUID="{3F68D7B2-089E-4E40-920E-8E1C79F5E057}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.516444" DurationMax="0.863861">
+					<IncludedMemoryFiles>
+						<File Id="29391920" Language="SFX">
+							<ShortName>SFX_Shield_Hit2.wav</ShortName>
+							<Path>SFX\SFX_Shield_Hit2_10C4C929.wem</Path>
+						</File>
+						<File Id="283936304" Language="SFX">
+							<ShortName>SFX_Shield_Hit3.wav</ShortName>
+							<Path>SFX\SFX_Shield_Hit3_10C4C929.wem</Path>
+						</File>
+						<File Id="635209948" Language="SFX">
+							<ShortName>SFX_Shield_Hit.wav</ShortName>
+							<Path>SFX\SFX_Shield_Hit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4121414351" Name="Play_Chevalier_SwirlAttack" ObjectPath="\Events\Attacks\Knight\Play_Chevalier_SwirlAttack" GUID="{7837956C-6542-4A59-9FB8-8270D3C4EB5D}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.466123" DurationMax="1.696827">
+					<IncludedMemoryFiles>
+						<File Id="1004629945" Language="SFX">
+							<ShortName>SFX_Chevalier_SwirlAttack.wav</ShortName>
+							<Path>SFX\SFX_Chevalier_SwirlAttack_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1304993686" Name="Play_Chevalier_Taunt" ObjectPath="\Events\Attacks\Knight\Play_Chevalier_Taunt" GUID="{54C9C130-B0A6-48A2-8CA5-DA00E673DDCD}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="2.899521" DurationMax="2.899521">
+					<IncludedMemoryFiles>
+						<File Id="868094417" Language="SFX">
+							<ShortName>SFX_Chevalier_Taunt.wav</ShortName>
+							<Path>SFX\SFX_Chevalier_Taunt_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="544449386" Name="Play_Combat_HorsCombat_Pallier1" ObjectPath="\Events\Musique\Combat\Play_Combat_HorsCombat_Pallier1" GUID="{86A55E9C-3ECE-4B9B-9C01-4EF251CE7067}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="109403787" Language="SFX">
+							<ShortName>Pallier1\combat.wav</ShortName>
+							<Path>SFX\Pallier1\combat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="457323496" Language="SFX">
+							<ShortName>Pallier1\hors combat.wav</ShortName>
+							<Path>SFX\Pallier1\hors combat_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="354003232" Name="Play_Dragon_Death" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Death" GUID="{304D46DC-0A50-4233-B4EF-73A383686E44}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="4." DurationMax="4.">
+					<IncludedMemoryFiles>
+						<File Id="421231841" Language="SFX">
+							<ShortName>SFX\deathh.wav</ShortName>
+							<Path>SFX\SFX\deathh_10C4C929.wem</Path>
+						</File>
+						<File Id="421382802" Language="SFX">
+							<ShortName>SFX\death_fallground.wav</ShortName>
+							<Path>SFX\SFX\death_fallground_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3807523501" Name="Play_Dragon_Fireball" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Fireball" GUID="{0AB8F274-EB32-41CC-ABBA-9BAC0EDFA846}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="3." DurationMax="3.">
+					<IncludedMemoryFiles>
+						<File Id="224642287" Language="SFX">
+							<ShortName>SFX\growl_01.wav</ShortName>
+							<Path>SFX\SFX\growl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="327298396" Language="SFX">
+							<ShortName>SFX\growl_02.wav</ShortName>
+							<Path>SFX\SFX\growl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="835808505" Language="SFX">
+							<ShortName>SFX\growl_03.wav</ShortName>
+							<Path>SFX\SFX\growl_03_10C4C929.wem</Path>
+						</File>
+						<File Id="867619221" Language="SFX">
+							<ShortName>SFX\fireball_01_MIX.wav</ShortName>
+							<Path>SFX\SFX\fireball_01_MIX_79DE8621.wem</Path>
+						</File>
+						<File Id="1026089759" Language="SFX">
+							<ShortName>SFX\fireball_02_MIX.wav</ShortName>
+							<Path>SFX\SFX\fireball_02_MIX_A7A8FAA2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2732911073" Name="Play_Dragon_Idle_Breath" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Idle_Breath" GUID="{C5DBCA76-85AC-4060-B3A8-B1BBAA34E749}" MaxAttenuation="5000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="161863342" Language="SFX">
+							<ShortName>SFX\breath_MIX.wav</ShortName>
+							<Path>SFX\SFX\breath_MIX_10C4C929.wem</Path>
+						</File>
+						<File Id="224642287" Language="SFX">
+							<ShortName>SFX\growl_01.wav</ShortName>
+							<Path>SFX\SFX\growl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="327298396" Language="SFX">
+							<ShortName>SFX\growl_02.wav</ShortName>
+							<Path>SFX\SFX\growl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="835808505" Language="SFX">
+							<ShortName>SFX\growl_03.wav</ShortName>
+							<Path>SFX\SFX\growl_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3852004955" Name="Play_Dragon_Idle_Roar" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Idle_Roar" GUID="{E0E19A72-7214-41AB-8C7A-3CBE9AD21E65}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="4." DurationMax="4.">
+					<IncludedMemoryFiles>
+						<File Id="649215632" Language="SFX">
+							<ShortName>SFX\roar_MIX.wav</ShortName>
+							<Path>SFX\SFX\roar_MIX_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2423445336" Name="Play_Dragon_Swipe" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Swipe" GUID="{1B5A0706-86F2-412C-BBDA-0011E15AA044}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1816189465" Name="Play_Dragon_Tornado" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Dragon_Tornado" GUID="{AF486C16-9B86-43FC-A0CA-4C411451C08E}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="8.5" DurationMax="8.5">
+					<IncludedMemoryFiles>
+						<File Id="33091344" Language="SFX">
+							<ShortName>SFX\growl_04.wav</ShortName>
+							<Path>SFX\SFX\growl_04_10C4C929.wem</Path>
+						</File>
+						<File Id="224642287" Language="SFX">
+							<ShortName>SFX\growl_01.wav</ShortName>
+							<Path>SFX\SFX\growl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="327298396" Language="SFX">
+							<ShortName>SFX\growl_02.wav</ShortName>
+							<Path>SFX\SFX\growl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="551783925" Language="SFX">
+							<ShortName>SFX\tornado_MIX.wav</ShortName>
+							<Path>SFX\SFX\tornado_MIX_646382B6.wem</Path>
+						</File>
+						<File Id="835808505" Language="SFX">
+							<ShortName>SFX\growl_03.wav</ShortName>
+							<Path>SFX\SFX\growl_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3065555120" Name="Play_Efhoris_Menu" ObjectPath="\Events\Musique\Menu\Play_Efhoris_Menu" GUID="{620EF47B-2CC2-4199-93D4-BC59C1F9BF56}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="183415415" Language="SFX">
+							<ShortName>Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b.wav</ShortName>
+							<Path>SFX\Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4237383421" Name="Play_Efhoris_Menu_Fast" ObjectPath="\Events\Musique\Menu\Play_Efhoris_Menu_Fast" GUID="{9CA92A43-368D-454C-AA23-B0C1FA4E811C}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="183415415" Language="SFX">
+							<ShortName>Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b.wav</ShortName>
+							<Path>SFX\Efhoris_Theme-menu_Loop_70bpm_4-4_L64m_P0b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1698610353" Name="Play_EndCombat" ObjectPath="\Events\Musique\Stingers\Play_EndCombat" GUID="{B8BA65DB-F8BC-4C1E-8B04-CCDD47517110}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="145803855" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="369212898" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_03_10C4C929.wem</Path>
+						</File>
+						<File Id="480739447" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_02_10C4C929.wem</Path>
+						</File>
+						<File Id="615242071" Language="SFX">
+							<ShortName>Stinger\end combat.wav</ShortName>
+							<Path>SFX\Stinger\end combat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="656755848" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_01_10C4C929.wem</Path>
+						</File>
+						<File Id="854881892" Language="SFX">
+							<ShortName>SFX_Ambiance_DistantWind.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_DistantWind_A19FB2AD.wem</Path>
+						</File>
+						<File Id="875091084" Language="SFX">
+							<ShortName>SFX_Ambiance_FirefliesCrickets.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_FirefliesCrickets_4DDC98ED.wem</Path>
+						</File>
+						<File Id="917576729" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="921749889" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_03_10C4C929.wem</Path>
+						</File>
+						<File Id="925186303" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063228526" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3018616930" Name="Play_EndLaser" ObjectPath="\Events\Attacks\Mage_Attack\Lazer\Play_EndLaser" GUID="{63EEFAB7-08B2-4A52-95CB-B97601554DB0}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="4.885604" DurationMax="4.885604">
+					<IncludedMemoryFiles>
+						<File Id="992736454" Language="SFX">
+							<ShortName>Fin de sort.wav</ShortName>
+							<Path>SFX\Fin de sort_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="211130646" Name="Play_Ennemi_Stunned" ObjectPath="\Events\NPCs\NPC_Ennemi\Play_Ennemi_Stunned" GUID="{984F5DD6-C121-4395-97E2-541EA963AFE0}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="9.922791" DurationMax="9.922791">
+					<IncludedMemoryFiles>
+						<File Id="564823756" Language="SFX">
+							<ShortName>SFX_Ennemi_Stuned_Loop.wav</ShortName>
+							<Path>SFX\SFX_Ennemi_Stuned_Loop_10C4C929.wem</Path>
+						</File>
+						<File Id="668448270" Language="SFX">
+							<ShortName>SFX_Ennemi_Stuned_Start.wav</ShortName>
+							<Path>SFX\SFX_Ennemi_Stuned_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2348663765" Name="Play_Ennemi_StunnedEnd" ObjectPath="\Events\NPCs\NPC_Ennemi\Play_Ennemi_StunnedEnd" GUID="{66177E14-5D19-4814-8A3A-DE3BDAB3CF1F}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.128875" DurationMax="1.128875">
+					<IncludedMemoryFiles>
+						<File Id="981124361" Language="SFX">
+							<ShortName>SFX_Ennemi_Stuned_Tail.wav</ShortName>
+							<Path>SFX\SFX_Ennemi_Stuned_Tail_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3534418672" Name="Play_EnterCombat" ObjectPath="\Events\Musique\Stingers\Play_EnterCombat" GUID="{91B04073-B098-4CC4-A13D-D19F28801CCE}" DurationType="OneShot" DurationMin="12." DurationMax="12.">
+					<IncludedMemoryFiles>
+						<File Id="808239150" Language="SFX">
+							<ShortName>Stinger\entrer de combat.wav</ShortName>
+							<Path>SFX\Stinger\entrer de combat_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1004125602" Name="Play_Equip_Chevalier" ObjectPath="\Events\Equipements\Play_Equip_Chevalier" GUID="{A9EC6E48-8809-4BAE-B057-9B7472AC308C}" DurationType="OneShot" DurationMin="1.549979" DurationMax="1.549979">
+					<IncludedMemoryFiles>
+						<File Id="1036562959" Language="SFX">
+							<ShortName>SFX_Player_Equip_Chevalier.wav</ShortName>
+							<Path>SFX\SFX_Player_Equip_Chevalier_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2249065721" Name="Play_fire_flight_end" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_fire_flight_end" GUID="{8B9A45BB-54A3-4C40-8195-070B43F27C28}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="9815746" Language="SFX">
+							<ShortName>SFX\growl_fire\growl_fire_end.wav</ShortName>
+							<Path>SFX\SFX\growl_fire\growl_fire_end_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3400874010" Name="Play_Fire_Flight_Start" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Fire_Flight_Start" GUID="{8D06EBEE-3BF0-4389-AFBA-D614D95CACA8}" MaxAttenuation="5000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="413348318" Language="SFX">
+							<ShortName>SFX\growl_fire\growl_fire_loop.wav</ShortName>
+							<Path>SFX\SFX\growl_fire\growl_fire_loop_76142B90.wem</Path>
+						</File>
+						<File Id="965319064" Language="SFX">
+							<ShortName>SFX\growl_fire\growl_fire_start.wav</ShortName>
+							<Path>SFX\SFX\growl_fire\growl_fire_start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2033806570" Name="Play_Fireball_Impact" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Fireball_Impact" GUID="{E0F4E8D4-B1DA-45E1-9A0F-AACC327FCF33}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="3." DurationMax="3.">
+					<IncludedMemoryFiles>
+						<File Id="435014191" Language="SFX">
+							<ShortName>SFX\fireball_impact_01.wav</ShortName>
+							<Path>SFX\SFX\fireball_impact_01_10C4C929.wem</Path>
+						</File>
+						<File Id="644111015" Language="SFX">
+							<ShortName>SFX\fireball_impact_02.wav</ShortName>
+							<Path>SFX\SFX\fireball_impact_02_10C4C929.wem</Path>
+						</File>
+						<File Id="669139650" Language="SFX">
+							<ShortName>SFX\fireball_impact_04.wav</ShortName>
+							<Path>SFX\SFX\fireball_impact_04_10C4C929.wem</Path>
+						</File>
+						<File Id="865876842" Language="SFX">
+							<ShortName>SFX\fireball_impact_03.wav</ShortName>
+							<Path>SFX\SFX\fireball_impact_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2663980466" Name="Play_Foot" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Foot" GUID="{EF53463C-6947-4818-8190-248A4013378D}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.276042" DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="40063884" Language="SFX">
+							<ShortName>Foot_02.wav</ShortName>
+							<Path>SFX\Foot_02_10C4C929.wem</Path>
+						</File>
+						<File Id="218380706" Language="SFX">
+							<ShortName>Foot_01.wav</ShortName>
+							<Path>SFX\Foot_01_10C4C929.wem</Path>
+						</File>
+						<File Id="364671268" Language="SFX">
+							<ShortName>Foot-03.wav</ShortName>
+							<Path>SFX\Foot-03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="917861682" Name="Play_Item_Pickup_Common" ObjectPath="\Events\Items\Play_Item_Pickup_Common" GUID="{DB486426-5748-462D-B590-FC8C2CB0E63D}" DurationType="OneShot" DurationMin="3.782642" DurationMax="4.498344">
+					<IncludedMemoryFiles>
+						<File Id="992499075" Language="SFX">
+							<ShortName>SFX_Item_Pickup.wav</ShortName>
+							<Path>SFX\SFX_Item_Pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3062209091" Name="Play_Item_Pickup_HeavyArmor" ObjectPath="\Events\Items\Play_Item_Pickup_HeavyArmor" GUID="{412F0F5D-CEB7-40B6-BD82-BA91089C033D}" DurationType="OneShot" DurationMin="0.75" DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="2763498" Language="SFX">
+							<ShortName>SFX_Equip_HeavyArmor_01.wav</ShortName>
+							<Path>SFX\SFX_Equip_HeavyArmor_01_10C4C929.wem</Path>
+						</File>
+						<File Id="736523668" Language="SFX">
+							<ShortName>SFX_Equip_HeavyArmor_03.wav</ShortName>
+							<Path>SFX\SFX_Equip_HeavyArmor_03_10C4C929.wem</Path>
+						</File>
+						<File Id="899646254" Language="SFX">
+							<ShortName>SFX_Equip_HeavyArmor_02.wav</ShortName>
+							<Path>SFX\SFX_Equip_HeavyArmor_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4067007264" Name="Play_Item_Pickup_LightArmor" ObjectPath="\Events\Items\Play_Item_Pickup_LightArmor" GUID="{9EC7DF06-2961-444F-B140-9D78FF7C726A}" DurationType="OneShot" DurationMin="0.375" DurationMax="0.592188">
+					<IncludedMemoryFiles>
+						<File Id="10602925" Language="SFX">
+							<ShortName>SFX_Equip_LightArmor_01.wav</ShortName>
+							<Path>SFX\SFX_Equip_LightArmor_01_10C4C929.wem</Path>
+						</File>
+						<File Id="200864741" Language="SFX">
+							<ShortName>SFX_Equip_LightArmor_02.wav</ShortName>
+							<Path>SFX\SFX_Equip_LightArmor_02_10C4C929.wem</Path>
+						</File>
+						<File Id="844445854" Language="SFX">
+							<ShortName>SFX_Equip_LightArmor_03.wav</ShortName>
+							<Path>SFX\SFX_Equip_LightArmor_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2684675406" Name="Play_Item_Pickup_MidArmor" ObjectPath="\Events\Items\Play_Item_Pickup_MidArmor" GUID="{A0DE8BC1-D757-4A47-8187-906DE61A0D8B}" DurationType="OneShot" DurationMin="0.6875" DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="251770872" Language="SFX">
+							<ShortName>SFX_Equip_MidArmor_02.wav</ShortName>
+							<Path>SFX\SFX_Equip_MidArmor_02_10C4C929.wem</Path>
+						</File>
+						<File Id="716427011" Language="SFX">
+							<ShortName>SFX_Equip_MidArmor_01.wav</ShortName>
+							<Path>SFX\SFX_Equip_MidArmor_01_10C4C929.wem</Path>
+						</File>
+						<File Id="925282647" Language="SFX">
+							<ShortName>SFX_Equip_MidArmor_03.wav</ShortName>
+							<Path>SFX\SFX_Equip_MidArmor_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2270376495" Name="Play_Laser" ObjectPath="\Events\Attacks\Mage_Attack\Lazer\Play_Laser" GUID="{28BEC49C-07D3-457A-AE1D-46B938732510}" MaxAttenuation="5000." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="646378452" Language="SFX">
+							<ShortName>Lazer.wav</ShortName>
+							<Path>SFX\Lazer_92163E82.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2305875826" Name="Play_MeleeLight_Attack_Basic" ObjectPath="\Events\NPCs\MeleeLight\Play_MeleeLight_Attack_Basic" GUID="{99587472-BA5E-4569-940B-2C2521F74112}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.763313" DurationMax="0.763313">
+					<IncludedMemoryFiles>
+						<File Id="177827216" Language="SFX">
+							<ShortName>SFX_MeleeLight_BasicAttack_01.wav</ShortName>
+							<Path>SFX\SFX_MeleeLight_BasicAttack_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3323263385" Name="Play_MeleeLight_Dash" ObjectPath="\Events\NPCs\MeleeLight\Play_MeleeLight_Dash" GUID="{C8C56F6D-29A9-4E45-B137-54BDB8F5B56D}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3011266385" Name="Play_MeleeLight_Roulade" ObjectPath="\Events\NPCs\MeleeLight\Play_MeleeLight_Roulade" GUID="{5F685E3E-3D54-436C-976F-6F884AB1A831}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2620431640" Name="Play_MenuScroll" ObjectPath="\Events\UI\Play_MenuScroll" GUID="{6B8F33AE-C5A0-4E40-9D43-4507FD744851}" DurationType="OneShot" DurationMin="0.399375" DurationMax="0.399375">
+					<IncludedMemoryFiles>
+						<File Id="475617709" Language="SFX">
+							<ShortName>SFX_MenuScroll.wav</ShortName>
+							<Path>SFX\SFX_MenuScroll_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="40516875" Name="Play_MenuSelect" ObjectPath="\Events\UI\Play_MenuSelect" GUID="{19F8F53F-5E2C-4569-924B-5AA2C39E73E5}" DurationType="OneShot" DurationMin="0.641625" DurationMax="0.641625">
+					<IncludedMemoryFiles>
+						<File Id="994384343" Language="SFX">
+							<ShortName>SFX_MenuSelect.wav</ShortName>
+							<Path>SFX\SFX_MenuSelect_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4033782256" Name="Play_Meteor_End" ObjectPath="\Events\Attacks\Mage_Attack\Meteor\Play_Meteor_End" GUID="{581C2B23-006D-4481-BCC6-8E2524830F38}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<IncludedMemoryFiles>
+						<File Id="11482370" Language="SFX">
+							<ShortName>Météor explose 2.wav</ShortName>
+							<Path>SFX\Météor explose 2_10C4C929.wem</Path>
+						</File>
+						<File Id="883196822" Language="SFX">
+							<ShortName>Météore explose.wav</ShortName>
+							<Path>SFX\Météore explose_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1750194078" Name="Play_Meteor_Next" ObjectPath="\Events\Attacks\Mage_Attack\Meteor\Play_Meteor_Next" GUID="{8EB504F4-C38D-4038-872C-C5A7B25CF494}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<IncludedMemoryFiles>
+						<File Id="248129248" Language="SFX">
+							<ShortName>Tomber.wav</ShortName>
+							<Path>SFX\Tomber_145E448F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1941593483" Name="Play_Meteor_Start" ObjectPath="\Events\Attacks\Mage_Attack\Meteor\Play_Meteor_Start" GUID="{FFB53568-17E6-4B88-AFAB-89B9EC46267A}" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<IncludedMemoryFiles>
+						<File Id="269545587" Language="SFX">
+							<ShortName>Zoom.wav</ShortName>
+							<Path>SFX\Zoom_F8CB2E48.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4203347085" Name="Play_PalierX" ObjectPath="\Events\Musique\Combat\Play_PalierX" GUID="{CD326427-BC73-49B0-9C49-74FEDB19B5C1}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="145803855" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="369212898" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_03_10C4C929.wem</Path>
+						</File>
+						<File Id="480739447" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_02_10C4C929.wem</Path>
+						</File>
+						<File Id="525166548" Language="SFX">
+							<ShortName>PalierX_HorsCombat_60bpm_6-8_L32m_P2b.wav</ShortName>
+							<Path>SFX\PalierX_HorsCombat_60bpm_6-8_L32m_P2b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="633285840" Language="SFX">
+							<ShortName>PalierX_EnCombat_60bpm_6-8_L32m_P2b.wav</ShortName>
+							<Path>SFX\PalierX_EnCombat_60bpm_6-8_L32m_P2b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="656755848" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_01_10C4C929.wem</Path>
+						</File>
+						<File Id="854881892" Language="SFX">
+							<ShortName>SFX_Ambiance_DistantWind.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_DistantWind_A19FB2AD.wem</Path>
+						</File>
+						<File Id="875091084" Language="SFX">
+							<ShortName>SFX_Ambiance_FirefliesCrickets.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_FirefliesCrickets_4DDC98ED.wem</Path>
+						</File>
+						<File Id="917576729" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="921749889" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_03_10C4C929.wem</Path>
+						</File>
+						<File Id="925186303" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_02_10C4C929.wem</Path>
+						</File>
+						<File Id="961944750" Language="SFX">
+							<ShortName>Stinger_CombatOn.wav</ShortName>
+							<Path>SFX\Stinger_CombatOn_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1063228526" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{162B43C7-C3B6-4FFA-A61C-1EA0E2594086}">
+							<Media>
+								<File Id="961944750"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2175711460" Name="Play_Player_Dash" ObjectPath="\Events\Envoie_Fin\Locomotion\Play_Player_Dash" GUID="{D0E0CC38-3396-42F0-9C50-5C743EA03954}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.602936" DurationMax="0.829037">
+					<IncludedMemoryFiles>
+						<File Id="148164599" Language="SFX">
+							<ShortName>Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928.wav</ShortName>
+							<Path>SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_A6198A0F.wem</Path>
+						</File>
+						<File Id="374884546" Language="SFX">
+							<ShortName>Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928.wav</ShortName>
+							<Path>SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_8AEB9269.wem</Path>
+						</File>
+						<File Id="576714091" Language="SFX">
+							<ShortName>Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928.wav</ShortName>
+							<Path>SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_335E0164.wem</Path>
+						</File>
+						<File Id="1011365405" Language="SFX">
+							<ShortName>Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928.wav</ShortName>
+							<Path>SFX\Soundly Audio\Swooshes, Swish, Airy, Stick, Quick SND11928_4634AB40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4078825894" Name="Play_Player_FT" ObjectPath="\Events\Envoie_Fin\Locomotion\Play_Player_FT" GUID="{4981F421-AA23-4BFB-BB5A-CE00CE803CC3}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.484683" DurationMax="0.605859">
+					<IncludedMemoryFiles>
+						<File Id="88513637" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_C04E3639.wem</Path>
+						</File>
+						<File Id="531210525" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_6B71E345.wem</Path>
+						</File>
+						<File Id="620514979" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_43165780.wem</Path>
+						</File>
+						<File Id="705914848" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_8D8D1AAE.wem</Path>
+						</File>
+						<File Id="776622706" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_96677610.wem</Path>
+						</File>
+						<File Id="959169172" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirt, Female, Heels, Walk SND11503_AB510BC0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{E8E71DB5-9720-4980-8D7C-9B3E6D72A783}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E8E71DB5-9720-4980-8D7C-9B3E6D72A783}">
+							<Media>
+								<File Id="88513637"/>
+								<File Id="531210525"/>
+								<File Id="620514979"/>
+								<File Id="705914848"/>
+								<File Id="776622706"/>
+								<File Id="959169172"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="562256996" Name="Play_Player_Jump" ObjectPath="\Events\Envoie_Fin\Locomotion\Play_Player_Jump" GUID="{5A8E10D1-6B92-4A91-9700-F7DE9BEA313B}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.610013" DurationMax="1.04061">
+					<IncludedMemoryFiles>
+						<File Id="47904609" Language="SFX">
+							<ShortName>Jump Sound by D-Ryro Id-674341.wav</ShortName>
+							<Path>SFX\Jump Sound by D-Ryro Id-674341_49882907.wem</Path>
+						</File>
+						<File Id="608969313" Language="SFX">
+							<ShortName>Jump Sound by D-Ryro Id-674341.wav</ShortName>
+							<Path>SFX\Jump Sound by D-Ryro Id-674341_AF823976.wem</Path>
+						</File>
+						<File Id="718868573" Language="SFX">
+							<ShortName>Jump Sound by D-Ryro Id-674341.wav</ShortName>
+							<Path>SFX\Jump Sound by D-Ryro Id-674341_AA7D3AB3.wem</Path>
+						</File>
+						<File Id="966584507" Language="SFX">
+							<ShortName>Jump Sound by D-Ryro Id-674341.wav</ShortName>
+							<Path>SFX\Jump Sound by D-Ryro Id-674341_7ECF79E3.wem</Path>
+						</File>
+						<File Id="969950720" Language="SFX">
+							<ShortName>Jump Sound by D-Ryro Id-674341.wav</ShortName>
+							<Path>SFX\Jump Sound by D-Ryro Id-674341_17F7030D.wem</Path>
+						</File>
+						<File Id="1039871522" Language="SFX">
+							<ShortName>Jump Sound by D-Ryro Id-674341.wav</ShortName>
+							<Path>SFX\Jump Sound by D-Ryro Id-674341_35F9D367.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="725346841" Name="Play_Player_Landing" ObjectPath="\Events\Envoie_Fin\Locomotion\Play_Player_Landing" GUID="{9F2A70C3-B10E-4BBD-B6F1-BC6C2654F23B}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.331937" DurationMax="1.010864">
+					<IncludedMemoryFiles>
+						<File Id="86690362" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_A47E437A.wem</Path>
+						</File>
+						<File Id="220813998" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_E58F8A4D.wem</Path>
+						</File>
+						<File Id="417638323" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_003C0CBE.wem</Path>
+						</File>
+						<File Id="467115090" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_2CAA0983.wem</Path>
+						</File>
+						<File Id="468400268" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_1FEA1149.wem</Path>
+						</File>
+						<File Id="531723863" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_52C81716.wem</Path>
+						</File>
+						<File Id="541999452" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080 1_2DCEC344.wem</Path>
+						</File>
+						<File Id="595408644" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_37606069.wem</Path>
+						</File>
+						<File Id="632036096" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794_10E9C2E8.wem</Path>
+						</File>
+						<File Id="758584481" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794_B4BFCAE9.wem</Path>
+						</File>
+						<File Id="764058558" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_9DABA680.wem</Path>
+						</File>
+						<File Id="825201278" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077 1_0BCA2EC4.wem</Path>
+						</File>
+						<File Id="920100180" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Wood, Sneakers, Jump, Light Landing SND85794_6D982629.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{F3170586-D4D3-46CC-AA14-A4315A08F566}">
+							<Media>
+								<File Id="632036096"/>
+								<File Id="758584481"/>
+								<File Id="920100180"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AC4C65B5-DD11-49E2-9DC2-736B9923C860}">
+							<Media>
+								<File Id="86690362"/>
+								<File Id="220813998"/>
+								<File Id="417638323"/>
+								<File Id="467115090"/>
+								<File Id="541999452"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{393C88D4-8B59-4F5C-A62B-32B6656B0154}">
+							<Media>
+								<File Id="468400268"/>
+								<File Id="531723863"/>
+								<File Id="595408644"/>
+								<File Id="764058558"/>
+								<File Id="825201278"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="279637842" Name="Play_Player_Roulade" ObjectPath="\Events\Envoie_Fin\Locomotion\Play_Player_Roulade" GUID="{2F2A5864-1EBC-48F8-B294-41165A3DA2AE}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.869161" DurationMax="0.926901">
+					<IncludedMemoryFiles>
+						<File Id="112793645" Language="SFX">
+							<ShortName>Soundly Audio\Vs Short Whoosh 8 by Vilkas_Sound Id-460473.wav</ShortName>
+							<Path>SFX\Soundly Audio\Vs Short Whoosh 8 by Vilkas_Sound Id-460473_7DB42E4C.wem</Path>
+						</File>
+						<File Id="287902415" Language="SFX">
+							<ShortName>Soundly Audio\Vs Short Whoosh 7 by Vilkas_Sound Id-460474.wav</ShortName>
+							<Path>SFX\Soundly Audio\Vs Short Whoosh 7 by Vilkas_Sound Id-460474_94913BE6.wem</Path>
+						</File>
+						<File Id="289316355" Language="SFX">
+							<ShortName>Soundly Audio\Vs Short Whoosh 6 by Vilkas_Sound Id-460475.wav</ShortName>
+							<Path>SFX\Soundly Audio\Vs Short Whoosh 6 by Vilkas_Sound Id-460475_C770D416.wem</Path>
+						</File>
+						<File Id="501035616" Language="SFX">
+							<ShortName>Soundly Audio\Whoosh Short 4 by Mellau Id-530444.wav</ShortName>
+							<Path>SFX\Soundly Audio\Whoosh Short 4 by Mellau Id-530444_60F41376.wem</Path>
+						</File>
+						<File Id="919893879" Language="SFX">
+							<ShortName>Soundly Audio\Vs Short Whoosh 5 by Vilkas_Sound Id-460476.wav</ShortName>
+							<Path>SFX\Soundly Audio\Vs Short Whoosh 5 by Vilkas_Sound Id-460476_B8F2EAC1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3307629843" Name="Play_Potion" ObjectPath="\Events\Items\Play_Potion" GUID="{A2956168-F25C-48A5-9A99-A0DF08D97215}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.754667" DurationMax="0.754667">
+					<IncludedMemoryFiles>
+						<File Id="229941993" Language="SFX">
+							<ShortName>Potion.WAV</ShortName>
+							<Path>SFX\Potion_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="440068038" Name="play_Safe_Zone" ObjectPath="\Events\Musique\SafeZone\play_Safe_Zone" GUID="{0DBE2768-0A4B-4108-AA07-9E51FBA6CF54}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="145803855" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_02_10C4C929.wem</Path>
+						</File>
+						<File Id="155051694" Language="SFX">
+							<ShortName>Safe_Zone_Intro_60bpm_4-4_L5m_P2b.wav</ShortName>
+							<Path>SFX\Safe_Zone_Intro_60bpm_4-4_L5m_P2b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="369212898" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_03_10C4C929.wem</Path>
+						</File>
+						<File Id="480739447" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_02_10C4C929.wem</Path>
+						</File>
+						<File Id="656755848" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_01_10C4C929.wem</Path>
+						</File>
+						<File Id="669800244" Language="SFX">
+							<ShortName>Safe_Zone_Loop_60bpm_4-4_L54m_P1b.wav</ShortName>
+							<Path>SFX\Safe_Zone_Loop_60bpm_4-4_L54m_P1b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="854881892" Language="SFX">
+							<ShortName>SFX_Ambiance_DistantWind.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_DistantWind_A19FB2AD.wem</Path>
+						</File>
+						<File Id="875091084" Language="SFX">
+							<ShortName>SFX_Ambiance_FirefliesCrickets.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_FirefliesCrickets_4DDC98ED.wem</Path>
+						</File>
+						<File Id="917576729" Language="SFX">
+							<ShortName>SFX_Ambiance_Howl_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Howl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="921749889" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_03.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_03_10C4C929.wem</Path>
+						</File>
+						<File Id="925186303" Language="SFX">
+							<ShortName>SFX_Ambiance_Wolf_02.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Wolf_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063228526" Language="SFX">
+							<ShortName>SFX_Ambiance_Crows_01.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Crows_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2591243923" Name="Play_Stinger_GameStart" ObjectPath="\Events\Musique\Stingers\Play_Stinger_GameStart" GUID="{A2E1022D-0970-461A-9B81-3B58F06D0CE7}" DurationType="OneShot" DurationMin="12.5" DurationMax="12.5">
+					<IncludedMemoryFiles>
+						<File Id="876611882" Language="SFX">
+							<ShortName>Stinger_GameStart.wav</ShortName>
+							<Path>SFX\Stinger_GameStart_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1006719420" Name="Play_Stinger_Items_rare" ObjectPath="\Events\Musique\Stingers\Play_Stinger_Items_rare" GUID="{C180DBCE-CEF3-40E8-A52B-F84ED80B4C55}" DurationType="OneShot" DurationMin="4.285708" DurationMax="4.285708">
+					<IncludedMemoryFiles>
+						<File Id="418643340" Language="SFX">
+							<ShortName>Efhoris_Stinger_Items-rare.wav</ShortName>
+							<Path>SFX\Efhoris_Stinger_Items-rare_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3189272198" Name="Play_Stinger_Reanimation" ObjectPath="\Events\Musique\Stingers\Play_Stinger_Reanimation" GUID="{A1DEF556-EE39-4FD0-8F17-78C5E753FC00}" DurationType="OneShot" DurationMin="4.285708" DurationMax="4.285708">
+					<IncludedMemoryFiles>
+						<File Id="383234521" Language="SFX">
+							<ShortName>Efhoris_Stinger_Reanimation.wav</ShortName>
+							<Path>SFX\Efhoris_Stinger_Reanimation_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="805714832" Name="Play_Stingers_Character_Death" ObjectPath="\Events\Musique\Stingers\Play_Stingers_Character_Death" GUID="{135A09F8-7F98-4AD3-94A1-730DD644E64A}" DurationType="OneShot" DurationMin="11.1" DurationMax="11.1">
+					<IncludedMemoryFiles>
+						<File Id="599132453" Language="SFX">
+							<ShortName>SFX\character_death_100bpm_3-4_L5m_P2b.wav</ShortName>
+							<Path>SFX\SFX\character_death_100bpm_3-4_L5m_P2b_F0FE0487.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2507877674" Name="Play_Stingers_Item_Rare" ObjectPath="\Events\Musique\Stingers\Play_Stingers_Item_Rare" GUID="{5854FB4B-DBE6-4C19-ADD2-E28B4D5FABA4}" DurationType="OneShot" DurationMin="10.2" DurationMax="10.2">
+					<IncludedMemoryFiles>
+						<File Id="255832515" Language="SFX">
+							<ShortName>SFX\item_rare_100bpm_3-4_L6m_P2b.wav</ShortName>
+							<Path>SFX\SFX\item_rare_100bpm_3-4_L6m_P2b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="565958473" Name="Play_Tank_BasicAttack" ObjectPath="\Events\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_BasicAttack" GUID="{AC8BA958-A09E-4A53-AD3B-94F27907A369}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.696263" DurationMax="1.032767">
+					<IncludedMemoryFiles>
+						<File Id="51789691" Language="SFX">
+							<ShortName>SFX_Tank_BasicAttack1.wav</ShortName>
+							<Path>SFX\SFX_Tank_BasicAttack1_10C4C929.wem</Path>
+						</File>
+						<File Id="802773422" Language="SFX">
+							<ShortName>SFX_Tank_BasicAttack2.wav</ShortName>
+							<Path>SFX\SFX_Tank_BasicAttack2_25821782.wem</Path>
+						</File>
+						<File Id="918169900" Language="SFX">
+							<ShortName>SFX_Tank_BasicAttack3.wav</ShortName>
+							<Path>SFX\SFX_Tank_BasicAttack3_2AEC8286.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="701695053" Name="Play_Tank_BlocageHit" ObjectPath="\Events\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_BlocageHit" GUID="{292FDB0E-17CD-4000-9E6A-A423754614A1}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.925529" DurationMax="1.570661">
+					<IncludedMemoryFiles>
+						<File Id="29391920" Language="SFX">
+							<ShortName>SFX_Shield_Hit2.wav</ShortName>
+							<Path>SFX\SFX_Shield_Hit2_10C4C929.wem</Path>
+						</File>
+						<File Id="283936304" Language="SFX">
+							<ShortName>SFX_Shield_Hit3.wav</ShortName>
+							<Path>SFX\SFX_Shield_Hit3_10C4C929.wem</Path>
+						</File>
+						<File Id="635209948" Language="SFX">
+							<ShortName>SFX_Shield_Hit.wav</ShortName>
+							<Path>SFX\SFX_Shield_Hit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1209698245" Name="Play_Tank_Jump" ObjectPath="\Events\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_Jump" GUID="{A2838C62-C6C3-4186-854E-09328105E2D1}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.95872" DurationMax="1.471932">
+					<IncludedMemoryFiles>
+						<File Id="614914779" Language="SFX">
+							<ShortName>SFX_Tank_AttackJump2.wav</ShortName>
+							<Path>SFX\SFX_Tank_AttackJump2_EA21CE16.wem</Path>
+						</File>
+						<File Id="783186476" Language="SFX">
+							<ShortName>SFX_Tank_AttackJump1.wav</ShortName>
+							<Path>SFX\SFX_Tank_AttackJump1_22FD19C3.wem</Path>
+						</File>
+						<File Id="920851754" Language="SFX">
+							<ShortName>SFX_Tank_AttackJump3.wav</ShortName>
+							<Path>SFX\SFX_Tank_AttackJump3_4D548091.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="329707398" Name="Play_Tank_JumpLand" ObjectPath="\Events\NPCs\NPC_Ennemi\Melee_Tank\Play_Tank_JumpLand" GUID="{13A7B3B6-00B0-46F9-BB83-348A279D6C16}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.126759" DurationMax="1.735738">
+					<IncludedMemoryFiles>
+						<File Id="546035076" Language="SFX">
+							<ShortName>SFX_Tank_AttackLanding2.wav</ShortName>
+							<Path>SFX\SFX_Tank_AttackLanding2_3F2411AB.wem</Path>
+						</File>
+						<File Id="979271916" Language="SFX">
+							<ShortName>SFX_Tank_AttackLanding1.wav</ShortName>
+							<Path>SFX\SFX_Tank_AttackLanding1_580C732B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="114389895" Name="Play_UI_Coins" ObjectPath="\Events\UI\Play_UI_Coins" GUID="{6EBC8122-B340-4F4F-BA92-7C33AF4382E1}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="880201260" Language="SFX">
+							<ShortName>SFX\UI_coins.wav</ShortName>
+							<Path>SFX\SFX\UI_coins_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1332854418" Name="Play_UI_Parchemin" ObjectPath="\Events\UI\Play_UI_Parchemin" GUID="{C9DFE9B0-6F72-40EA-BFE2-77C6C82F438F}" DurationType="OneShot" DurationMin="1.374989" DurationMax="1.374989">
+					<IncludedMemoryFiles>
+						<File Id="134127617" Language="SFX">
+							<ShortName>SFX\UI_parchemin.wav</ShortName>
+							<Path>SFX\SFX\UI_parchemin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2171745078" Name="Play_Wings" ObjectPath="\Events\NPCs\NPC_Ennemi\Dragon\Play_Wings" GUID="{58515FF5-C956-4937-948F-61FB5CC7C135}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="4." DurationMax="4.">
+					<IncludedMemoryFiles>
+						<File Id="567854672" Language="SFX">
+							<ShortName>SFX\Wing_04.wav</ShortName>
+							<Path>SFX\SFX\Wing_04_10C4C929.wem</Path>
+						</File>
+						<File Id="580331884" Language="SFX">
+							<ShortName>SFX\Wing_03.wav</ShortName>
+							<Path>SFX\SFX\Wing_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2881357147" Name="Play_Wolf_Bark" ObjectPath="\Events\NPCs\Wolf\Play_Wolf_Bark" GUID="{54699A42-2F12-45FD-AD57-08DD97E2E4C6}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="1.445329" DurationMax="1.445329">
+					<IncludedMemoryFiles>
+						<File Id="626235721" Language="SFX">
+							<ShortName>wolf_bark.wav</ShortName>
+							<Path>SFX\wolf_bark_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2326356109" Name="Play_Wolf_Die" ObjectPath="\Events\NPCs\Wolf\Play_Wolf_Die" GUID="{B7CE6BA9-1458-46FD-805C-9D87A6330A18}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0.705306" DurationMax="0.705306">
+					<IncludedMemoryFiles>
+						<File Id="34931800" Language="SFX">
+							<ShortName>wolf_die.wav</ShortName>
+							<Path>SFX\wolf_die_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1081698960" Name="Play_Wolf_Growl" ObjectPath="\Events\NPCs\Wolf\Play_Wolf_Growl" GUID="{1F7F1CC1-15D2-4106-8B4C-FD119B05748A}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="2.4" DurationMax="2.4">
+					<IncludedMemoryFiles>
+						<File Id="231843068" Language="SFX">
+							<ShortName>wolf_growl.wav</ShortName>
+							<Path>SFX\wolf_growl_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1439102064" Name="STINGER_Boss_Defeated" ObjectPath="\Events\Musique\Stingers\STINGER_Boss_Defeated" GUID="{E8C81020-5254-41F1-9FC9-0B0293B1C1C6}" DurationType="OneShot" DurationMin="9." DurationMax="9.">
+					<IncludedMemoryFiles>
+						<File Id="587634813" Language="SFX">
+							<ShortName>STINGER_Dragon_Death.wav</ShortName>
+							<Path>SFX\STINGER_Dragon_Death_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="848698739" Name="STINGER_Dungeon_Cleared" ObjectPath="\Events\Musique\Stingers\STINGER_Dungeon_Cleared" GUID="{EE3B95A2-3CE3-4E32-AC47-61191AA93279}" DurationType="OneShot" DurationMin="9.333333" DurationMax="9.333333">
+					<IncludedMemoryFiles>
+						<File Id="103401035" Language="SFX">
+							<ShortName>STINGER_Dungeon_Cleared.wav</ShortName>
+							<Path>SFX\STINGER_Dungeon_Cleared_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4108717446" Name="Stop_Efhoris_Menu" ObjectPath="\Events\Musique\Menu\Stop_Efhoris_Menu" GUID="{FEC6A0E2-6BB5-4161-9DEC-83493E31D19D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2858266821" Name="UI_Confirmation" ObjectPath="\Events\UI\UI_Confirmation" GUID="{659B168E-64B9-436D-B439-953CC1535A4B}" DurationType="OneShot" DurationMin="0.20625" DurationMax="0.20625">
+					<IncludedMemoryFiles>
+						<File Id="100379725" Language="SFX">
+							<ShortName>UI Confirmation.wav</ShortName>
+							<Path>SFX\UI Confirmation_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3967693624" Name="UI_Selection" ObjectPath="\Events\UI\UI_Selection" GUID="{0D6CC0A4-2232-4D28-8258-7341A21F3BBD}" DurationType="OneShot" DurationMin="0.229167" DurationMax="0.229167">
+					<IncludedMemoryFiles>
+						<File Id="843756894" Language="SFX">
+							<ShortName>UI selection.wav</ShortName>
+							<Path>SFX\UI selection_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="783488552" Name="PalierX" ObjectPath="\States\JD_States\PalierX" GUID="{7CF98A18-2250-441D-B57A-1CAF0F149272}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\JD_States\PalierX\None" GUID="{E3B5DFF9-DE7F-48E3-84EB-5A6DB4BCE0EF}"/>
+						<State Id="3050905843" Name="En_Combat" ObjectPath="\States\JD_States\PalierX\En_Combat" GUID="{162B43C7-C3B6-4FFA-A61C-1EA0E2594086}"/>
+						<State Id="3476902982" Name="Hors_Combat" ObjectPath="\States\JD_States\PalierX\Hors_Combat" GUID="{68EBC4B4-DD89-46DD-B757-2260EF12D030}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2889334948" Name="SWG_Player_Locomotion_01" ObjectPath="\Switches\Default Work Unit\SWG_Player_Locomotion_01" GUID="{061530DC-15B8-4FBB-BA21-C6B62E38E3E8}">
+					<Switches>
+						<Switch Id="2984325045" Name="Player_FT_Dirt" ObjectPath="\Switches\Default Work Unit\SWG_Player_Locomotion_01\Player_FT_Dirt" GUID="{AC4C65B5-DD11-49E2-9DC2-736B9923C860}"/>
+						<Switch Id="4218450728" Name="Player_FT_Grass" ObjectPath="\Switches\Default Work Unit\SWG_Player_Locomotion_01\Player_FT_Grass" GUID="{393C88D4-8B59-4F5C-A62B-32B6656B0154}"/>
+						<Switch Id="1617257345" Name="Player_FT_Wood" ObjectPath="\Switches\Default Work Unit\SWG_Player_Locomotion_01\Player_FT_Wood" GUID="{F3170586-D4D3-46CC-AA14-A4315A08F566}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3552239958" Name="SWG_Player_Locomotion" ObjectPath="\Switches\AHSW_Player_Locomotion\SWG_Player_Locomotion" GUID="{D2CF3FB5-0549-40C7-A961-D19854A057A8}">
+					<Switches>
+						<Switch Id="2984325045" Name="Player_FT_Dirt" ObjectPath="\Switches\AHSW_Player_Locomotion\SWG_Player_Locomotion\Player_FT_Dirt" GUID="{E8E71DB5-9720-4980-8D7C-9B3E6D72A783}"/>
+						<Switch Id="4218450728" Name="Player_FT_Grass" ObjectPath="\Switches\AHSW_Player_Locomotion\SWG_Player_Locomotion\Player_FT_Grass" GUID="{2BBB8B2C-DDDA-4722-979B-202046209EA0}"/>
+						<Switch Id="1617257345" Name="Player_FT_Wood" ObjectPath="\Switches\AHSW_Player_Locomotion\SWG_Player_Locomotion\Player_FT_Wood" GUID="{9A17F58B-D06E-4764-BB9B-AD48EDE779D7}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4249273531" Name="SWG_Archer_Attack_Hit_Material" ObjectPath="SWG_Archer_Attack_Hit_Material" GUID="{89B8833F-3C98-4C97-B20E-17C3E57E74B0}">
+					<Switches>
+						<Switch Id="1153642577" Name="Flesh" ObjectPath="SWG_Archer_Attack_Hit_Material\Flesh" GUID="{0984B24F-E751-402B-AD0C-F70C6D38C593}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="SWG_Archer_Attack_Hit_Material\Wood" GUID="{8D47766E-66D7-4A45-9BF0-02879240C1EE}"/>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="SWG_Archer_Attack_Hit_Material\Rock" GUID="{BC8D012A-D0B6-48E9-B0E9-40912EA9B50D}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

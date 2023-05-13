@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81A4AFC9-7216-4216-B249-D8F5FADFA119}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Envoie_Fin" ID="{81A4AFC9-7216-4216-B249-D8F5FADFA119}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Locomotion" ID="{0C14E2EF-89E5-4B9C-932C-41B4DFCE9915}" ShortID="1054248477">
+					<ChildrenList>
+						<Event Name="Play_Player_FT" ID="{4981F421-AA23-4BFB-BB5A-CE00CE803CC3}">
+							<ChildrenList>
+								<Action Name="" ID="{40C9CAA7-7B2E-4BD2-8842-5D74F9F5342A}" ShortID="439695669">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SW_Player_FT" ID="{6D43B883-841F-4E2E-923B-8321F2111E19}" WorkUnitID="{2FEFA1EC-DBCD-40A7-AC30-4CC3ED8DFD18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Landing" ID="{9F2A70C3-B10E-4BBD-B6F1-BC6C2654F23B}">
+							<ChildrenList>
+								<Action Name="" ID="{7222EF37-4EE2-43A1-8E56-F2C75937F615}" ShortID="646883931">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SW_Player_Landing" ID="{385BE01B-D32A-4435-855A-51454BACC5E5}" WorkUnitID="{2FEFA1EC-DBCD-40A7-AC30-4CC3ED8DFD18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Jump" ID="{5A8E10D1-6B92-4A91-9700-F7DE9BEA313B}">
+							<ChildrenList>
+								<Action Name="" ID="{A00405B2-E5A9-4B31-875A-F2AA19FAEB8B}" ShortID="856654140">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Player_Jump" ID="{351E6319-47FC-4DAC-9D70-368531ECD43B}" WorkUnitID="{2FEFA1EC-DBCD-40A7-AC30-4CC3ED8DFD18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Dash" ID="{D0E0CC38-3396-42F0-9C50-5C743EA03954}">
+							<ChildrenList>
+								<Action Name="" ID="{46ACC34C-35F9-4ACF-B778-03CBA924E41A}" ShortID="775097509">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Player_Dash" ID="{68164237-B29B-47CE-8262-2D661F2D07D1}" WorkUnitID="{2FEFA1EC-DBCD-40A7-AC30-4CC3ED8DFD18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Roulade" ID="{2F2A5864-1EBC-48F8-B294-41165A3DA2AE}">
+							<ChildrenList>
+								<Action Name="" ID="{350FB7C9-8A2F-4320-A335-985AE9F6A4A1}" ShortID="581658788">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SQ_Player_Roulade" ID="{DAE5A301-DFCE-43F4-B506-5C72FA911074}" WorkUnitID="{2FEFA1EC-DBCD-40A7-AC30-4CC3ED8DFD18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

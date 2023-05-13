@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{383B2AE2-F6D0-47EB-9E7D-AD1066313E1E}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="MBMusic" ID="{383B2AE2-F6D0-47EB-9E7D-AD1066313E1E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<MusicPlaylistContainer Name="MPC_BossFight" ID="{1BA4B61C-4835-4224-839B-888137F350AD}" ShortID="703359780">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Tempo" Type="Real64" Value="180"/>
+						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89116A12-2791-441E-BC1E-85B36A2E6F6A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="MBMusic_BossFight_Phases" ID="{5C402699-8719-4FFE-BA36-BB577D506BD5}" ShortID="902201728">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="330000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89116A12-2791-441E-BC1E-85B36A2E6F6A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Boss_Fight_03_Phase1_180bpm_3-4_P1m" ID="{64E4178F-068D-415B-B2BC-348F3D4BF702}" ShortID="876445255">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_Fight_03_Phase1_180bpm_3-4_P1m" ID="{6C825B27-F480-4528-941A-013650CF6203}">
+											<Language>SFX</Language>
+											<AudioFile>Phases\Boss_Fight_03_Phase1_180bpm_3-4_P1m.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92265441"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="SG_BossFight" ID="{99F1CB69-87AC-4C2B-A436-A1135A1E797A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Phase_03" ID="{229EFD0D-B5C9-42BE-B910-6EF52568098C}"/>
+												<CustomState Name="" ID="{521BE6BD-FE82-4CBE-A998-2E4966D7A7F7}" ShortID="199643521">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Phase_02" ID="{601FE287-E558-4A49-8C70-2FEAA43E0C0F}"/>
+												<CustomState Name="" ID="{8BBD2D03-17A8-419A-B5CE-6FB68AF5ED9F}" ShortID="382755363">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Phase_01" ID="{6C8370C5-6617-4C22-8DBB-E6994EBD1517}"/>
+												<CustomState Name="" ID="{1F9C4A26-D15B-4234-9379-B2A0E9D27D54}" ShortID="423063194"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A9E9539E-6D9D-4667-B6A7-52C081590A54}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D0CE4AB8-6C8F-48B8-93AB-39F050AFF2A0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Boss_Fight_03_Phase1_180bpm_3-4_P1m" ID="{76F44F1C-F584-4625-ACB9-66E47D29712D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="165000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Boss_Fight_03_Phase1_180bpm_3-4_P1m" ID="{6C825B27-F480-4528-941A-013650CF6203}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Boss_Fight_03_Phase2_180bpm_3-4_P1m" ID="{E23021A9-1230-406F-9584-FC2FFB589E25}" ShortID="407121930">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_Fight_03_Phase2_180bpm_3-4_P1m" ID="{5217A406-FF8B-441F-B0CD-BE7CDA1D1C45}">
+											<Language>SFX</Language>
+											<AudioFile>Phases\Boss_Fight_03_Phase2_180bpm_3-4_P1m.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="432313066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="SG_BossFight" ID="{99F1CB69-87AC-4C2B-A436-A1135A1E797A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Phase_03" ID="{229EFD0D-B5C9-42BE-B910-6EF52568098C}"/>
+												<CustomState Name="" ID="{E09EF0A6-533E-4B27-BA3F-4D97B5A5F064}" ShortID="338451761">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Phase_02" ID="{601FE287-E558-4A49-8C70-2FEAA43E0C0F}"/>
+												<CustomState Name="" ID="{534B1D7D-F762-460C-96D7-DF1CFA1DD695}" ShortID="881165801"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Phase_01" ID="{6C8370C5-6617-4C22-8DBB-E6994EBD1517}"/>
+												<CustomState Name="" ID="{B810CBE6-3A41-43CF-881F-9B7A8869404D}" ShortID="49843445">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{61ABC3AE-B9B0-402D-B509-2E36CBF3C3EB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A8466AAB-C628-403B-806D-E5A617CF810A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Boss_Fight_03_Phase2_180bpm_3-4_P1m" ID="{67E89727-D4A3-4E57-99BB-C64E05B258E0}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="165000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Boss_Fight_03_Phase2_180bpm_3-4_P1m" ID="{5217A406-FF8B-441F-B0CD-BE7CDA1D1C45}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Boss_Fight_03_Phase3_180bpm_3-4_P1m" ID="{506F0700-65CF-44E7-BBEA-C62E70EFF0C8}" ShortID="170864881">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_Fight_03_Phase3_180bpm_3-4_P1m" ID="{33C4EF81-296F-40F3-AA82-8885225E303C}">
+											<Language>SFX</Language>
+											<AudioFile>Phases\Boss_Fight_03_Phase3_180bpm_3-4_P1m.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="67537724"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="SG_BossFight" ID="{99F1CB69-87AC-4C2B-A436-A1135A1E797A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Phase_03" ID="{229EFD0D-B5C9-42BE-B910-6EF52568098C}"/>
+												<CustomState Name="" ID="{CE82AEB1-A651-4EE0-B4DF-6A14382C4879}" ShortID="99380425"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Phase_02" ID="{601FE287-E558-4A49-8C70-2FEAA43E0C0F}"/>
+												<CustomState Name="" ID="{273EF0A4-3E23-43E9-8FCC-9018A0B1AA6F}" ShortID="826127886">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Phase_01" ID="{6C8370C5-6617-4C22-8DBB-E6994EBD1517}"/>
+												<CustomState Name="" ID="{B4530DAC-A971-43A4-943A-1D3BD2D62509}" ShortID="921411822">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{05EB7EC9-219B-4EDB-86F2-8D8E15796C17}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9E4D1A8D-5859-4E31-B6AA-67391DCD66A5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Boss_Fight_03_Phase3_180bpm_3-4_P1m" ID="{C84699C9-0972-415E-A297-EA297A364344}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="165000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Boss_Fight_03_Phase3_180bpm_3-4_P1m" ID="{33C4EF81-296F-40F3-AA82-8885225E303C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{47724494-8B25-44C6-92C3-6032F637947C}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{DEE34F72-72FB-4018-B1FF-65DFF5A27E0A}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="155000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="MBMusic_BossFight_INTRO" ID="{84F8A8F0-6D09-4775-AA91-C3CF07448666}" ShortID="289646936">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="50000"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89116A12-2791-441E-BC1E-85B36A2E6F6A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Boss_Fight_03_INTRO_120bpm_4-4_P2b" ID="{0E35CAED-71BA-4DFD-9BB3-7E02F914B7E9}" ShortID="779748580">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_Fight_03_INTRO_120bpm_4-4_P2b" ID="{25BC6B89-D763-4F0B-8A41-1BEBED35D606}">
+											<Language>SFX</Language>
+											<AudioFile>INTRO\Boss_Fight_03_INTRO_120bpm_4-4_P2b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335862184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{669BC2B3-E8B6-4B15-AEE9-574C16C82BBD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0BE0D459-430A-439C-A209-F92F87658648}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Boss_Fight_03_INTRO_120bpm_4-4_P2b" ID="{FF48F97F-CEAF-4241-ACDE-0624DA11C56F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="25000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Boss_Fight_03_INTRO_120bpm_4-4_P2b" ID="{25BC6B89-D763-4F0B-8A41-1BEBED35D606}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{81FD5E23-C039-4C57-AA48-D5F996CEF220}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{243B0096-DF81-409A-B0D6-026D9451610F}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="21000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="MBMusic_BossFight_Victory" ID="{9D81EB1B-D246-4F7F-BD6B-6E5E83D62C6B}" ShortID="1033633372">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="40000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89116A12-2791-441E-BC1E-85B36A2E6F6A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Boss_Fight_03_VICTORY_180bpm_3-4_P3b" ID="{58D34306-CF3C-473A-BE3B-E8E4D22DE0EB}" ShortID="355953848">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{94E5BA8D-17B8-4F75-82D9-C1B66C4D5562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_Fight_03_VICTORY_180bpm_3-4_P3b" ID="{0A7E41B9-12EB-4D0B-A5BC-21C95A69AAE8}">
+											<Language>SFX</Language>
+											<AudioFile>VICTORY\Boss_Fight_03_VICTORY_180bpm_3-4_P3b.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="44387928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D562215A-0FA7-47DE-B2AE-BD4ECC5DD9AB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{21D87DFF-EFD6-41B5-AB1B-693BDA753C7C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Boss_Fight_03_VICTORY_180bpm_3-4_P3b" ID="{DEAA680C-0673-4B19-966D-318332C44CDC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Boss_Fight_03_VICTORY_180bpm_3-4_P3b" ID="{0A7E41B9-12EB-4D0B-A5BC-21C95A69AAE8}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{27766AAD-62DA-4DE4-A449-E330CF95EE2B}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{59CB6749-3163-43AD-BF25-3AA90BE64F0B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{368E7E10-A8B0-4DCC-B9F2-9C330ABAFD5D}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{E4EDF322-021D-4056-AAF5-892B94CBCA09}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{C512B134-1C95-4E1F-A946-A01FED7AAB8E}" ShortID="712493278">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{D6E08BCA-9C7D-4A86-94E6-2974A92AB50F}" ShortID="202589833">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MBMusic_BossFight_INTRO" ID="{84F8A8F0-6D09-4775-AA91-C3CF07448666}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{D3DA2C6C-3019-468C-A461-434AD30267AB}" ShortID="58434186">
+									<PropertyList>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+									</PropertyList>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{7CA0D053-F130-41F7-BDD0-9365296E1F7D}" ShortID="1001971689">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MBMusic_BossFight_Phases" ID="{5C402699-8719-4FFE-BA36-BB577D506BD5}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

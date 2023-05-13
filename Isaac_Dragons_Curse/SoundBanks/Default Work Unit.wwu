@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{86AC6F46-4C04-412E-904A-32A7B395C136}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{86AC6F46-4C04-412E-904A-32A7B395C136}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank" ID="{6538416F-8014-4ED2-96C7-ABFA7454CA40}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Tank_BlocageHit" ID="{292FDB0E-17CD-4000-9E6A-A423754614A1}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Meteor_Next" ID="{8EB504F4-C38D-4038-872C-C5A7B25CF494}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Idle_Breath" ID="{C5DBCA76-85AC-4060-B3A8-B1BBAA34E749}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Item_Pickup_HeavyArmor" ID="{412F0F5D-CEB7-40B6-BD82-BA91089C033D}" WorkUnitID="{79CC3A4D-F33B-4D15-B288-5DE8CB3E4AE2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stinger_Items_rare" ID="{C180DBCE-CEF3-40E8-A52B-F84ED80B4C55}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Parchemin" ID="{C9DFE9B0-6F72-40EA-BFE2-77C6C82F438F}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_Safe_Zone" ID="{0DBE2768-0A4B-4108-AA07-9E51FBA6CF54}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BasicSpell_Throw" ID="{2EDB3E60-A181-4108-8E46-B2AB4D544DAF}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Swipe" ID="{1B5A0706-86F2-412C-BBDA-0011E15AA044}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Efhoris_Menu" ID="{FEC6A0E2-6BB5-4161-9DEC-83493E31D19D}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chevalier_BasicAttack2" ID="{48EE8FBF-911C-416A-BD9F-CD375E9A43BF}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chest_Gargling" ID="{73E0E762-826D-4172-8138-6D2FC796C84D}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tank_Jump" ID="{A2838C62-C6C3-4186-854E-09328105E2D1}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BasicSpell_Hit" ID="{D77B6A5A-2B80-418B-9E5F-8B110A38B13F}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Archer_Attack_Bump" ID="{138422FD-26D2-418D-9B92-A13D5A6DE3F0}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Efhoris_Menu" ID="{620EF47B-2CC2-4199-93D4-BC59C1F9BF56}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Idle_Roar" ID="{E0E19A72-7214-41AB-8C7A-3CBE9AD21E65}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Fireball" ID="{0AB8F274-EB32-41CC-ABBA-9BAC0EDFA846}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="STINGER_Boss_Defeated" ID="{E8C81020-5254-41F1-9FC9-0B0293B1C1C6}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Archer_Attack_BowStretch" ID="{0069179A-273D-4203-A945-8A3C38F9AC9D}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Death" ID="{304D46DC-0A50-4233-B4EF-73A383686E44}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BossFight_1erRencontre" ID="{81B30E6B-7A1C-4323-8134-3783DEE2DA44}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MeleeLight_Roulade" ID="{5F685E3E-3D54-436C-976F-6F884AB1A831}" WorkUnitID="{7FA276A3-44FD-42F4-9956-61A6017A9F05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Confirmation" ID="{659B168E-64B9-436D-B439-953CC1535A4B}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fire_Flight_Start" ID="{8D06EBEE-3BF0-4389-AFBA-D614D95CACA8}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ennemi_Stunned" ID="{984F5DD6-C121-4395-97E2-541EA963AFE0}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Tornado" ID="{AF486C16-9B86-43FC-A0CA-4C411451C08E}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BasicSpellThrow" ID="{D8F06454-65FD-442A-A0C8-B043E5AC8219}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambiance_Forge_Fire" ID="{D7D44EA1-05A5-444B-AA7B-5780BD49A4C5}" WorkUnitID="{3525AD47-E45D-49AC-84D8-4D8C62600B58}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Item_Pickup_LightArmor" ID="{9EC7DF06-2961-444F-B140-9D78FF7C726A}" WorkUnitID="{79CC3A4D-F33B-4D15-B288-5DE8CB3E4AE2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Archer_Attack_Arrow_Released" ID="{DBB1B661-11A4-445C-909A-473A6ABFDE30}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Meteor_End" ID="{581C2B23-006D-4481-BCC6-8E2524830F38}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Archer_Attack_Arrow_MultipleHit" ID="{667AEDE5-D8C6-4502-944E-B148F883D404}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuSelect" ID="{19F8F53F-5E2C-4569-924B-5AA2C39E73E5}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MeleeLight_Attack_Basic" ID="{99587472-BA5E-4569-940B-2C2521F74112}" WorkUnitID="{7FA276A3-44FD-42F4-9956-61A6017A9F05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Laser" ID="{28BEC49C-07D3-457A-AE1D-46B938732510}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_UI_Menu_Marchant_Open" ID="{FA2869CC-8CF5-458C-89BB-5814C7749E1E}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Assassin_Attack_Saut" ID="{93465763-7968-45BD-945A-9659B3D6292E}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fireball_Impact" ID="{E0F4E8D4-B1DA-45E1-9A0F-AACC327FCF33}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stinger_GameStart" ID="{A2E1022D-0970-461A-9B81-3B58F06D0CE7}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Item_Pickup_Common" ID="{DB486426-5748-462D-B590-FC8C2CB0E63D}" WorkUnitID="{79CC3A4D-F33B-4D15-B288-5DE8CB3E4AE2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BlackHole_End" ID="{811ABA38-57B4-4646-80AB-68868859288E}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_Ambiance_Dungeon" ID="{FFE7E47B-13AB-46B6-8146-EFD81A4442E2}" WorkUnitID="{3525AD47-E45D-49AC-84D8-4D8C62600B58}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tank_JumpLand" ID="{13A7B3B6-00B0-46F9-BB83-348A279D6C16}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Assassin_Attack_ComboSpell" ID="{77B9244E-EC6A-472D-B3AD-92EE3DC483D6}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_UI_Menu_Marchant_Purchase" ID="{D8E7A2D7-AD4C-4759-8502-2EA066FB8025}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chest_Moving_Tokens" ID="{8471E670-3794-4777-82D5-64BD82802F8F}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BasicSpellHit" ID="{C69D59B5-A2EC-47D8-A074-506139013C35}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ennemi_StunnedEnd" ID="{66177E14-5D19-4814-8A3A-DE3BDAB3CF1F}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Foot" ID="{EF53463C-6947-4818-8190-248A4013378D}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chest_Open" ID="{DDF341EC-9907-487C-9CFF-D9D30A389AD3}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Assassin_Attack_Basic" ID="{8B18BDBC-F5CB-487C-8BBC-B1C17B33C29B}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chevalier_Taunt" ID="{54C9C130-B0A6-48A2-8CA5-DA00E673DDCD}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Assassin_Attack_Dash" ID="{4C2FB921-23E5-48A8-B950-0CA34A1F8281}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Archer_Attack_Arrow_Hit" ID="{ADE56103-E351-4901-B3CF-22B95F9E2F90}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wings" ID="{58515FF5-C956-4937-948F-61FB5CC7C135}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BlackHole_Next" ID="{B3F4BEC1-1E43-493D-B319-69121428707D}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chest_Close" ID="{59DB3983-72F4-4994-AF2B-6015B00E5F76}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PalierX" ID="{CD326427-BC73-49B0-9C49-74FEDB19B5C1}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chest_Close_End" ID="{2BED3E8C-CCA7-49BF-8A7D-BD713451B8D7}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BossFight_VICTORY" ID="{9EA53566-DB8E-49D3-8A8E-12BFFD2EC9F4}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_Equip_LightArmor" ID="{67C400E4-3AF9-49D6-9AAC-76AB1449838F}" WorkUnitID="{74D714E5-3675-4E18-A39F-60505F45C105}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Item_Pickup_MidArmor" ID="{A0DE8BC1-D757-4A47-8187-906DE61A0D8B}" WorkUnitID="{79CC3A4D-F33B-4D15-B288-5DE8CB3E4AE2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EndLaser" ID="{63EEFAB7-08B2-4A52-95CB-B97601554DB0}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tank_BasicAttack" ID="{AC8BA958-A09E-4A53-AD3B-94F27907A369}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chevalier_SwirlAttack" ID="{7837956C-6542-4A59-9FB8-8270D3C4EB5D}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_Equip_MidArmor" ID="{2F72B053-7C89-4A6B-8E17-1A8B021212C3}" WorkUnitID="{74D714E5-3675-4E18-A39F-60505F45C105}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Assassin_Attack_Combo" ID="{A99BE36B-B168-4A85-8D5E-72E4AA55CC0F}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stingers_Character_Death" ID="{135A09F8-7F98-4AD3-94A1-730DD644E64A}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_UI_Menu_MainTitle_Start" ID="{75AE8CBB-EE11-4B87-9C4D-A7DEC41AACE0}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Meteor_Start" ID="{FFB53568-17E6-4B88-AFAB-89B9EC46267A}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Combat_HorsCombat_Pallier1" ID="{86A55E9C-3ECE-4B9B-9C01-4EF251CE7067}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Equip_Chevalier" ID="{A9EC6E48-8809-4BAE-B057-9B7472AC308C}" WorkUnitID="{74D714E5-3675-4E18-A39F-60505F45C105}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stingers_Item_Rare" ID="{5854FB4B-DBE6-4C19-ADD2-E28B4D5FABA4}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EndCombat" ID="{B8BA65DB-F8BC-4C1E-8B04-CCDD47517110}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_fire_flight_end" ID="{8B9A45BB-54A3-4C40-8195-070B43F27C28}" WorkUnitID="{49C18A5B-9CDC-4B7A-86CC-4F0C5FB7C376}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BossFight3" ID="{4C95BC99-7B20-4C59-90E7-C99E6A989968}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnterCombat" ID="{91B04073-B098-4CC4-A13D-D19F28801CCE}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_Equip_HeavyArmor" ID="{5EBA6956-05D5-4CF6-AA01-598B79B502E1}" WorkUnitID="{74D714E5-3675-4E18-A39F-60505F45C105}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BlackHole_Start" ID="{673CCF78-9317-4D14-9AC8-189C1A6805F4}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Selection" ID="{0D6CC0A4-2232-4D28-8258-7341A21F3BBD}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EV_Equip_Bow" ID="{0D9CEC8F-C10F-4D81-B0F9-C9A66775EDC8}" WorkUnitID="{74D714E5-3675-4E18-A39F-60505F45C105}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chest_Moving_Loop" ID="{DD7C4A5E-8044-4D8F-A3F4-D3D2995A4BD3}" WorkUnitID="{07DA5367-B42E-43B6-9996-76A564DA674F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Archer_Attack_Arrow_RainHit" ID="{88743891-B3E9-4DC5-B33D-E6B16C3CFAF9}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="STINGER_Dungeon_Cleared" ID="{EE3B95A2-3CE3-4E32-AC47-61191AA93279}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chevalier_BlocageHit" ID="{3F68D7B2-089E-4E40-920E-8E1C79F5E057}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuScroll" ID="{6B8F33AE-C5A0-4E40-9D43-4507FD744851}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MeleeLight_Dash" ID="{C8C56F6D-29A9-4E45-B137-54BDB8F5B56D}" WorkUnitID="{7FA276A3-44FD-42F4-9956-61A6017A9F05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chevalier_BasicAttack1" ID="{6543D530-7353-4E73-9424-D8242EEBDC8D}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chevalier_Blocage" ID="{6F44D2A2-1D49-4E9E-BE17-5FDD2ACFDCB9}" WorkUnitID="{78CD897E-8D40-40E0-85AA-E9B7AE98A1F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cinematique1" ID="{3E4B27C1-4216-4F39-AFEC-00D6007E1F38}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Coins" ID="{6EBC8122-B340-4F4F-BA92-7C33AF4382E1}" WorkUnitID="{540E7624-B627-40A2-97ED-9F5811C5D186}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BossFight_START" ID="{99D22866-0B1E-4F68-B3A3-3EA8814DA918}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stinger_Reanimation" ID="{A1DEF556-EE39-4FD0-8F17-78C5E753FC00}" WorkUnitID="{35140029-BF28-4083-8D6A-3DE50F354556}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

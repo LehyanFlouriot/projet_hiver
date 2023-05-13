@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68D377FA-BE4D-4B50-813D-B7E9992F5202}" SchemaVersion="103">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{68D377FA-BE4D-4B50-813D-B7E9992F5202}" PersistMode="Standalone">
+			<ChildrenList>
+				<Attenuation Name="Chest_Attenuation" ID="{58DA232F-58D0-421F-8602-777FC580ECAD}" ShortID="159308053">
+					<PropertyList>
+						<Property Name="ConeInnerAngle" Type="int32" Value="95"/>
+						<Property Name="ConeLowPassFilterValue" Type="int32">
+							<ValueList>
+								<Value>29</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ConeUse" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{4E8D4B79-7AFC-4B3D-AACC-FC3FBA5DEAEE}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>659.26893</XPos>
+											<YPos>-1.13535</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>796.34465</XPos>
+											<YPos>-4.94858</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>1063.96867</XPos>
+											<YPos>-7.95387</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>1390.33943</XPos>
+											<YPos>-11.01059</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>1990.86162</XPos>
+											<YPos>-15.71822</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>5000</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+			</ChildrenList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{930FA1C4-329A-471D-82E1-E1119019BACA}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="MB_Archer_Hit_Surface" ID="{930FA1C4-329A-471D-82E1-E1119019BACA}" OwnerID="{00000000-0000-0000-0000-000000000000}" PersistMode="Nested"/>
+	</States>
+</WwiseDocument>

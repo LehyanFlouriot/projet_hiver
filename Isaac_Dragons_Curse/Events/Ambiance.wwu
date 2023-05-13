@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3525AD47-E45D-49AC-84D8-4D8C62600B58}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Ambiance" ID="{3525AD47-E45D-49AC-84D8-4D8C62600B58}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Ambiance_Forge_Fire" ID="{D7D44EA1-05A5-444B-AA7B-5780BD49A4C5}">
+					<ChildrenList>
+						<Action Name="" ID="{C99B8FD8-7C4D-460E-87A8-3DA055FF85C8}" ShortID="266083284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Ambiance_Forge_Fire" ID="{292780A0-1381-45BD-ABCD-CBB92F1BC105}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Ambiance_Dungeon" ID="{FFE7E47B-13AB-46B6-8146-EFD81A4442E2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{62D5CDC0-CBFF-41C3-A703-C5D55773ADA9}" ShortID="162049306">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BL_Ambiance_Donjon" ID="{A41B5B8A-5C36-4A39-9723-187F7A45FE90}" WorkUnitID="{28A9F879-80FA-4CA6-B98C-D0A6C7DF8000}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
